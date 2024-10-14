@@ -102,32 +102,40 @@ const Header = () => {
         </div>
       </div>
 
-      <label>
-        <div
-          className="w-9 h-10 cursor-pointer flex flex-col items-center justify-center"
-          onClick={() => setLargeMenuOpen(!isLargeMenuOpen)}
-        >
-          <input className="hidden peer" type="checkbox" />
-          <div className="w-[50%] h-[2px] bg-black rounded-sm transition-all duration-300 origin-left translate-y-[0.45rem] peer-checked:rotate-[-45deg]"></div>
-          <div className="w-[50%] h-[2px] bg-black rounded-md transition-all duration-300 origin-center peer-checked:hidden"></div>
-          <div className="w-[50%] h-[2px] bg-black rounded-md transition-all duration-300 origin-left -translate-y-[0.45rem] peer-checked:rotate-[45deg]"></div>
-        </div>
-      </label>
+      <button className="md:hidden btn btn-square btn-ghost" onClick={() => setMenuOpen(!isMenuOpen)}>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          className="inline-block h-5 w-5 stroke-current">
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
 
-      {isLargeMenuOpen && (
-        <div className="absolute top-16 right-0 w-full bg-white shadow-md py-4 flex flex-col items-center space-y-4 md:hidden">
-          <a href="#" className="text-black font-bold hover:text-red-600">
-            Buy YouTube Views
-          </a>
-          <a href="#" className="text-black font-bold hover:text-red-600">
-            Buy YouTube Subscribers
-          </a>
-          <a href="#" className="text-black font-bold hover:text-red-600">
-            Buy YouTube Likes
-          </a>
-          <a href="#" className="text-black font-bold hover:text-red-600">
-            Buy Instagram Followers
-          </a>
+      <button className="hidden md:inline btn btn-square btn-ghost" onClick={() => setLargeMenuOpen(!isLargeMenuOpen)}>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          className="inline-block h-5 w-5 stroke-current">
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+
+      {isMenuOpen && (
+        <div className="absolute top-20 right-0 w-full bg-white shadow-md py-4 flex flex-col items-center space-y-4 md:hidden">
+          <a href="#" className="text-black font-bold hover:text-red-600">Buy YouTube Views</a>
+          <a href="#" className="text-black font-bold hover:text-red-600">Buy YouTube Subscribers</a>
+          <a href="#" className="text-black font-bold hover:text-red-600">Buy YouTube Likes</a>
+          <a href="#" className="text-black font-bold hover:text-red-600">Buy Instagram Followers</a>
           <div className="relative group">
             <button className="text-black font-bold focus:outline-none flex items-center group-hover:text-red-600">
               Tools
@@ -170,6 +178,7 @@ const Header = () => {
               </ul>
             </div>
           </div>
+
           <div className="relative group">
             <button className="text-black font-bold focus:outline-none flex items-center group-hover:text-red-600">
               Bots
@@ -194,6 +203,14 @@ const Header = () => {
               </ul>
             </div>
           </div>
+          <a href="#" className="text-black font-bold hover:text-red-600">Blog</a>
+          <a href="#" className="text-black font-bold hover:text-red-600">Contact</a>
+          <a href="#" className="text-black font-bold hover:text-red-600">Order Track</a>
+        </div>
+      )}
+
+      {isLargeMenuOpen && (
+        <div className="absolute top-20 right-52 w-60 rounded-2xl bg-white shadow-md my-3 py-4 px-2 flex flex-col items-start space-y-4 hidden md:flex">
           <a href="#" className="text-black font-bold hover:text-red-600">Blog</a>
           <a href="#" className="text-black font-bold hover:text-red-600">Contact</a>
           <a href="#" className="text-black font-bold hover:text-red-600">Order Track</a>
