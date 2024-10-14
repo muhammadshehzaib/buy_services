@@ -1,78 +1,206 @@
-import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-const navigation = [
-  { name: 'Dashboard', href: '#', current: true },
-  { name: 'Team', href: '#', current: false },
-  { name: 'Projects', href: '#', current: false },
-  { name: 'Calendar', href: '#', current: false },
-]
+"use client";
+import { useState } from "react";
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
-}
+const Header = () => {
+  const [isMenuOpen, setMenuOpen] = useState(false);
+  const [isLargeMenuOpen, setLargeMenuOpen] = useState(false);
 
-export default function Example() {
   return (
-    <Disclosure as="nav" className="bg-white">
-      <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-        <div className="relative flex h-16 items-center justify-between">
-          {/* Logo on the left */}
-          <div className="flex items-center">
-            <img
-              alt="Your Company"
-              src="https://views4you.com/wp-content/uploads/2022/08/logo@2x.png.webp"
-              className="h-8 w-auto"
-            />
-          </div>
+    <header className="flex items-center justify-center px-10 py-10 bg-white shadow-md mt-10 relative">
+      <div className="flex items-center">
+        <a href="#">
+          <img
+            src="https://views4you.com/wp-content/uploads/2022/08/logo@2x.png.webp"
+            alt="Logo"
+            className="w-56 h-10"
+          />
+        </a>
+      </div>
 
-          {/* Navigation links for larger screens */}
-          <div className="hidden sm:ml-6 lg:block">
-            <div className="flex space-x-4">
-              {navigation.map((item) => (
-                <a
-                  key={item.name}
-                  href={item.href}
-                  aria-current={item.current ? 'page' : undefined}
-                  className={classNames(
-                    item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                    'rounded-md px-3 py-2 text-sm font-medium',
-                  )}
-                >
-                  {item.name}
-                </a>
-              ))}
-            </div>
-          </div>
+      <nav className="hidden md:flex space-x-4 bg-red-100 py-1 px-1 rounded-full">
+        <a href="#" className="text-black font-bold hover:bg-red-600 rounded-full py-2 px-1 hover:text-white">
+          Buy YouTube Views
+        </a>
+        <a href="#" className="text-black font-bold hover:bg-red-600 rounded-full py-2 px-1 hover:text-white">
+          Buy YouTube Subscribers
+        </a>
+        <a href="#" className="text-black font-bold hover:bg-red-600 rounded-full py-2 px-1 hover:text-white">
+          Buy YouTube Likes
+        </a>
+        <a href="#" className="text-black font-bold hover:bg-red-600 rounded-full py-2 px-1 hover:text-white">
+          Buy Instagram Followers
+        </a>
+      </nav>
 
-          {/* Hamburger menu on the right for mobile view */}
-          <div className="absolute inset-y-0 right-0 flex items-center lg:hidden">
-            <DisclosureButton className="group relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white bg-black">
-              <span className="sr-only">Open main menu</span>
-              <Bars3Icon className="block h-6 w-6 group-data-[open]:hidden" aria-hidden="true" />
-              <XMarkIcon className="hidden h-6 w-6 group-data-[open]:block" aria-hidden="true" />
-            </DisclosureButton>
+      <div className="hidden md:flex items-center py-1 px-1 space-x-8">
+        <div className="relative group">
+          <button className="text-black font-bold focus:outline-none flex items-center pl-4 group-hover:text-red-600">
+            Tools
+            <svg
+              className="-mr-1 h-5 w-5 text-black"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                fillRule="evenodd"
+                d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+                clipRule="evenodd"
+              />
+            </svg>
+          </button>
+          <div className="absolute top-full mt-2 w-64 bg-white border border-gray-200 rounded-lg shadow-lg hidden group-hover:block">
+            <ul className="py-2">
+              <li>
+                <a href="#" className="block px-4 py-2 hover:text-red-600">Instagram Story Viewer</a>
+              </li>
+              <li>
+                <a href="#" className="block px-4 py-2 hover:text-red-600">YouTube Money Calculator</a>
+              </li>
+              <li>
+                <a href="#" className="block px-4 py-2 hover:text-red-600">YouTube Title Generator</a>
+              </li>
+              <li>
+                <a href="#" className="block px-4 py-2 hover:text-red-600">Best Time to Post on YouTube</a>
+              </li>
+              <li>
+                <a href="#" className="block px-4 py-2 hover:text-red-600">YouTube Video Analytics</a>
+              </li>
+              <li>
+                <a href="#" className="block px-4 py-2 hover:text-red-600">YouTube Rank Tracker</a>
+              </li>
+              <li>
+                <a href="#" className="block px-4 py-2 hover:text-red-600">See All Tools</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="relative group">
+          <button className="text-black font-bold focus:outline-none flex items-center group-hover:text-red-600">
+            Bots
+            <svg
+              className="-mr-1 h-5 w-5 text-black"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                fillRule="evenodd"
+                d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+                clipRule="evenodd"
+              />
+            </svg>
+          </button>
+          <div className="absolute top-full mt-2 w-64 bg-white border border-gray-200 rounded-lg shadow-lg hidden group-hover:block">
+            <ul className="py-2">
+              <li>
+                <a href="#" className="block px-4 py-2 hover:text-red-600">Instagram Bot</a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
 
-      <DisclosurePanel className="lg:hidden">
-        <div className="space-y-1 px-2 pb-3 pt-2">
-          {navigation.map((item) => (
-            <DisclosureButton
-              key={item.name}
-              as="a"
-              href={item.href}
-              aria-current={item.current ? 'page' : undefined}
-              className={classNames(
-                item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                'block rounded-md px-3 py-2 text-base font-medium',
-              )}
-            >
-              {item.name}
-            </DisclosureButton>
-          ))}
+      <label>
+        <div
+          className="w-9 h-10 cursor-pointer flex flex-col items-center justify-center"
+          onClick={() => setLargeMenuOpen(!isLargeMenuOpen)}
+        >
+          <input className="hidden peer" type="checkbox" />
+          <div className="w-[50%] h-[2px] bg-black rounded-sm transition-all duration-300 origin-left translate-y-[0.45rem] peer-checked:rotate-[-45deg]"></div>
+          <div className="w-[50%] h-[2px] bg-black rounded-md transition-all duration-300 origin-center peer-checked:hidden"></div>
+          <div className="w-[50%] h-[2px] bg-black rounded-md transition-all duration-300 origin-left -translate-y-[0.45rem] peer-checked:rotate-[45deg]"></div>
         </div>
-      </DisclosurePanel>
-    </Disclosure>
-  )
-}
+      </label>
+
+      {isLargeMenuOpen && (
+        <div className="absolute top-16 right-0 w-full bg-white shadow-md py-4 flex flex-col items-center space-y-4 md:hidden">
+          <a href="#" className="text-black font-bold hover:text-red-600">
+            Buy YouTube Views
+          </a>
+          <a href="#" className="text-black font-bold hover:text-red-600">
+            Buy YouTube Subscribers
+          </a>
+          <a href="#" className="text-black font-bold hover:text-red-600">
+            Buy YouTube Likes
+          </a>
+          <a href="#" className="text-black font-bold hover:text-red-600">
+            Buy Instagram Followers
+          </a>
+          <div className="relative group">
+            <button className="text-black font-bold focus:outline-none flex items-center group-hover:text-red-600">
+              Tools
+              <svg
+                className="-mr-1 h-5 w-5 text-black"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+                  clipRule="evenodd"
+                />
+              </svg>
+            </button>
+            <div className="absolute top-full mt-2 w-64 bg-white border border-gray-200 rounded-lg shadow-lg hidden group-hover:block">
+              <ul className="py-2">
+                <li>
+                  <a href="#" className="block px-4 py-2 hover:text-red-600">Instagram Story Viewer</a>
+                </li>
+                <li>
+                  <a href="#" className="block px-4 py-2 hover:text-red-600">YouTube Money Calculator</a>
+                </li>
+                <li>
+                  <a href="#" className="block px-4 py-2 hover:text-red-600">YouTube Title Generator</a>
+                </li>
+                <li>
+                  <a href="#" className="block px-4 py-2 hover:text-red-600">Best Time to Post on YouTube</a>
+                </li>
+                <li>
+                  <a href="#" className="block px-4 py-2 hover:text-red-600">YouTube Video Analytics</a>
+                </li>
+                <li>
+                  <a href="#" className="block px-4 py-2 hover:text-red-600">YouTube Rank Tracker</a>
+                </li>
+                <li>
+                  <a href="#" className="block px-4 py-2 hover:text-red-600">See All Tools</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="relative group">
+            <button className="text-black font-bold focus:outline-none flex items-center group-hover:text-red-600">
+              Bots
+              <svg
+                className="-mr-1 h-5 w-5 text-black"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+                  clipRule="evenodd"
+                />
+              </svg>
+            </button>
+            <div className="absolute top-full mt-2 w-64 bg-white border border-gray-200 rounded-lg shadow-lg hidden group-hover:block">
+              <ul className="py-2">
+                <li>
+                  <a href="#" className="block px-4 py-2 hover:text-red-600">Instagram Bot</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <a href="#" className="text-black font-bold hover:text-red-600">Blog</a>
+          <a href="#" className="text-black font-bold hover:text-red-600">Contact</a>
+          <a href="#" className="text-black font-bold hover:text-red-600">Order Track</a>
+        </div>
+      )}
+    </header>
+  );
+};
+
+export default Header;
