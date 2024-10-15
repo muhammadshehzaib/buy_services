@@ -7,7 +7,7 @@ function Card() {
         Buy YouTube Views, Subscribers, And Likes
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto max-w-6xl">
-        {/* YouTube Views Card */}
+        
         <div className="bg-white border rounded-lg shadow-lg p-6 flex flex-col mx-auto max-w-xs sm:max-w-sm lg:max-w-md">
           <h3 className="flex items-center text-xl font-bold text-gray-800 mb-4">
             <img
@@ -21,7 +21,9 @@ function Card() {
             It's the views that will help you boost your YouTube channel. They'll give your videos significant recognition in the YouTube algorithm, leading you to more organic views soon, and this steady growth for your channel will be a long run. Unlike many other YouTube growth agencies, we have one genuine package.
           </p>
           <button className="flex items-center justify-center bg-red-600 text-white font-bold py-2 px-4 rounded mb-2">
-            Buy YouTube views
+          <img src="https://views4you.com/wp-content/themes/views4you_theme/img/icon-youtube-white.svg" alt="" />
+
+<span className="ml-2">Buy YouTube Views</span>
           </button>
           <div className="flex justify-between items-center">
             <p className="text-gray-600">
@@ -51,7 +53,9 @@ function Card() {
             When YouTube visitors see that your videos have a lot of likes, they will be more likely to watch them. Video views are the most valued ads revenue, so the likes will help you to grow your channel quicker. At Views4You, we offer the best prices and the highest quality YouTube Likes service in the industry.
           </p>
           <button className="flex items-center justify-center bg-red-600 text-white font-bold py-2 px-4 rounded mb-2">
-            Buy YouTube Likes
+          <img src="https://views4you.com/wp-content/themes/views4you_theme/img/icon-youtube-white.svg" alt="" />
+
+<span className="ml-2">Buy YouTube Likes</span>
           </button>
           <div className="flex justify-between items-center">
             <p className="text-gray-600">
@@ -67,7 +71,6 @@ function Card() {
           </div>
         </div>
 
-        {/* YouTube Subscribers Card */}
         <div className="bg-white border rounded-lg shadow-lg p-6 flex flex-col mx-auto max-w-xs sm:max-w-sm lg:max-w-md col-span-1 sm:col-span-2 lg:col-span-1">
           <h3 className="flex items-center text-xl font-bold text-gray-800 mb-4">
             <img
@@ -81,7 +84,9 @@ function Card() {
             Subscribers are the main drivers of YouTube's algorithm. Once you have a good number of YouTube subscribers, it means you're someone whose video contents are worth following. The best part about this service is that it is affordable and organically provided by real users.
           </p>
           <button className="flex items-center justify-center bg-red-600 text-white font-bold py-2 px-4 rounded mb-2">
-            Buy YouTube Subscribers
+            <img src="https://views4you.com/wp-content/themes/views4you_theme/img/icon-youtube-white.svg" alt="" />
+
+            <span className="ml-2">Buy YouTube Subscribers</span>
           </button>
           <div className="flex justify-between items-center">
             <p className="text-gray-600">
