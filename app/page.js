@@ -1,3 +1,4 @@
+import HeroSection from "@/components/HeroSection";
 import Header from "../components/Header"
 import Slider from "@/components/Slider";
 
@@ -6,6 +7,7 @@ export default function Home() {
     <div className="">
         <Header/>
         <Slider />
+        < HeroSection/>
     </div>
   );
 }
