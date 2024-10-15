@@ -7,7 +7,7 @@ const Header = () => {
 
   return (
     <header className="flex items-center justify-center px-10 py-10 bg-white shadow-md mt-10 relative">
-      <div className="flex items-center">
+      <div className="flex items-center mr-2">
         <a href="#">
           <img
             src="https://views4you.com/wp-content/uploads/2022/08/logo@2x.png.webp"
@@ -17,7 +17,7 @@ const Header = () => {
         </a>
       </div>
 
-      <nav className="hidden md:flex space-x-4 bg-red-100 py-1 px-1 rounded-full">
+      <nav className="hidden md:flex space-x-4 bg-red-200 py-1 px-1 rounded-full menu-outer">
         <a
           href="#"
           className="text-black font-bold hover:bg-red-600 rounded-full py-2 px-1 hover:text-white"
@@ -44,7 +44,7 @@ const Header = () => {
         </a>
       </nav>
 
-      <div className="hidden md:flex items-center py-1 px-1 space-x-8">
+      <div className="hidden md:flex items-center py-1 px-1 space-x-8 menu-outer">
         <div className="relative group">
           <button className="text-black font-bold focus:outline-none flex items-center pl-4 group-hover:text-red-600">
             Tools
@@ -169,7 +169,7 @@ const Header = () => {
       </button>
 
       {isMenuOpen && (
-        <div className="absolute top-20 right-0 w-full bg-white shadow-md py-4 flex flex-col items-center space-y-4 md:hidden">
+        <div className="absolute top-20 right-0 w-full bg-white shadow-md py-4 flex flex-col items-center space-y-4 md:hidden menu-outer">
           <a href="#" className="text-black font-bold hover:text-red-600">
             Buy YouTube Views
           </a>
@@ -238,10 +238,26 @@ const Header = () => {
               </ul>
             </div>
           </div>
+        </div>
+      )}
 
+      {isLargeMenuOpen && (
+        <div className="absolute top-20 right-0 w-full bg-white shadow-md py-4 flex flex-col items-center space-y-4 md:flex menu-outer">
+          <a href="#" className="text-black font-bold hover:text-red-600">
+            Buy YouTube Views
+          </a>
+          <a href="#" className="text-black font-bold hover:text-red-600">
+            Buy YouTube Subscribers
+          </a>
+          <a href="#" className="text-black font-bold hover:text-red-600">
+            Buy YouTube Likes
+          </a>
+          <a href="#" className="text-black font-bold hover:text-red-600">
+            Buy Instagram Followers
+          </a>
           <div className="relative group">
             <button className="text-black font-bold focus:outline-none flex items-center group-hover:text-red-600">
-              Bots
+              Tools
               <svg
                 className="-mr-1 h-5 w-5 text-black"
                 viewBox="0 0 20 20"
@@ -259,35 +275,42 @@ const Header = () => {
               <ul className="py-2">
                 <li>
                   <a href="#" className="block px-4 py-2 hover:text-red-600">
-                    Instagram Bot
+                    Instagram Story Viewer
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="block px-4 py-2 hover:text-red-600">
+                    YouTube Money Calculator
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="block px-4 py-2 hover:text-red-600">
+                    YouTube Title Generator
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="block px-4 py-2 hover:text-red-600">
+                    Best Time to Post on YouTube
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="block px-4 py-2 hover:text-red-600">
+                    YouTube Video Analytics
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="block px-4 py-2 hover:text-red-600">
+                    YouTube Rank Tracker
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="block px-4 py-2 hover:text-red-600">
+                    See All Tools
                   </a>
                 </li>
               </ul>
             </div>
           </div>
-          <a href="#" className="text-black font-bold hover:text-red-600">
-            Blog
-          </a>
-          <a href="#" className="text-black font-bold hover:text-red-600">
-            Contact
-          </a>
-          <a href="#" className="text-black font-bold hover:text-red-600">
-            Order Track
-          </a>
-        </div>
-      )}
-
-      {isLargeMenuOpen && (
-        <div className="absolute top-20 right-52 w-60 rounded-2xl bg-white shadow-md my-3 py-4 px-2 flex flex-col items-start space-y-4 hidden md:flex">
-          <a href="#" className="text-black font-bold hover:text-red-600">
-            Blog
-          </a>
-          <a href="#" className="text-black font-bold hover:text-red-600">
-            Contact
-          </a>
-          <a href="#" className="text-black font-bold hover:text-red-600">
-            Order Track
-          </a>
         </div>
       )}
     </header>
