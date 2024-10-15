@@ -31,7 +31,7 @@ function HeroSection() {
                 alt="Trustpilot"
                 width={128}
                 height={32}
-                className="h-32 mr-2 ml-10"
+                className="h-32"
               />
             </a>
           </div>

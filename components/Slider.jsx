@@ -1,6 +1,3 @@
-
-
-
 function Slider() {
   return (
     <div>Slider is from admin</div>

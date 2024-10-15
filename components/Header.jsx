@@ -6,13 +6,13 @@ const Header = () => {
   const [isLargeMenuOpen, setLargeMenuOpen] = useState(false);
 
   return (
-    <header className="flex items-center justify-center px-10 py-10 bg-white shadow-md mt-10 relative">
-      <div className="flex items-center mr-2">
-        <a href="#">
+    <header className="flex items-center justify-around py-10 relative">
+      <div className="flex items-center">
+        <a href="#" className="w-3/5">
           <img
             src="https://views4you.com/wp-content/uploads/2022/08/logo@2x.png.webp"
             alt="Logo"
-            className="w-56 h-10"
+            className=""
           />
         </a>
       </div>
@@ -131,7 +131,7 @@ const Header = () => {
       </div>
 
       <button
-        className="md:hidden btn btn-square btn-ghost"
+        className="md:hidden btn btn-square btn-ghost text-[#ED2024]"
         onClick={() => setMenuOpen(!isMenuOpen)}
       >
         <svg
