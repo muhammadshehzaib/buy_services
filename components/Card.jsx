@@ -29,7 +29,7 @@ function Card() {
             <p className="text-gray-600">
               Starting at <span className="font-bold text-red-600">$4.80</span>
             </p>
-            <div className="flex">
+            <div className="flex text-2xl">
               <span className="text-red-500">★</span>
               <span className="text-red-500">★</span>
               <span className="text-red-500">★</span>
@@ -61,7 +61,7 @@ function Card() {
             <p className="text-gray-600">
               Starting at <span className="font-bold text-red-600">$3.50</span>
             </p>
-            <div className="flex">
+            <div className="flex text-2xl">
               <span className="text-red-500">★</span>
               <span className="text-red-500">★</span>
               <span className="text-red-500">★</span>
@@ -92,7 +92,7 @@ function Card() {
             <p className="text-gray-600">
               Starting at <span className="font-bold text-red-600">$3.90</span>
             </p>
-            <div className="flex">
+            <div className="flex text-2xl">
               <span className="text-red-500">★</span>
               <span className="text-red-500">★</span>
               <span className="text-red-500">★</span>
