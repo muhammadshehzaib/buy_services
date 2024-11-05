@@ -6,8 +6,8 @@ const Header = () => {
 
   return (
     
-    <header className="flex items-center lg:pt-20 mx-auto relative w-full lg:flex-wrap xl:flex-nowrap">
-   
+    <header>
+   <div className="flex items-center lg:pt-20 mx-auto relative w-full lg:hidden xl:block xl:flex">
    <div className="flex items-center lg:w-3/12 sm:ml-7">
         <a href="#" className="w-3/5">
           <img
@@ -49,11 +49,11 @@ const Header = () => {
     Buy Instagram Followers
   </a>
 </div>
- 
+</nav>
 
 
     
-
+    <div className="w-4/12 justify-center flex">
       <div className="hidden lg:flex items-center py-1 px-1 space-x-8 menu-outer">
         <div className="relative group">
           <button className="text-black font-bold focus:outline-none flex items-center pl-4 group-hover:text-red-600">
@@ -332,7 +332,240 @@ const Header = () => {
           </div>
         </div>
       )}
-        </nav>
+       </div>
+       </div>
+       {/* md-menu  */}
+
+
+       <div className="lg:mx-7 lg:block lg:flex-wrap xl:hidden">
+       <div className="flex items-center lg:w-full lg:justify-between">
+        <a href="#" className="w-2/5">
+          <img
+            src="https://views4you.com/wp-content/uploads/2022/08/logo@2x.png.webp"
+            alt="Logo"
+            className="sm:hidden lg:block w-3/5"
+          />
+        </a>
+        <div className="hidden lg:flex items-center py-1 px-1 space-x-8 menu-outer">
+        <div className="relative group">
+          <button className="text-black font-bold focus:outline-none flex items-center pl-4 group-hover:text-red-600">
+          <a href="#">
+        <span class="inline-block hover:transition-transform duration-300 ease-in-out delay-100 transform group-hover:translate-y-1">T</span>
+        <span class="inline-block hover:transition-transform duration-300 ease-in-out delay-200 transform group-hover:translate-y-1">o</span>
+        <span class="inline-block hover:transition-transform duration-300 ease-in-out delay-300 transform group-hover:translate-y-1">o</span>
+        <span class="inline-block hover:transition-transform duration-300 ease-in-out delay-400 transform group-hover:translate-y-1">l</span>
+        <span class="inline-block hover:transition-transform duration-300 ease-in-out delay-400 transform group-hover:translate-y-1">s</span>
+      </a>
+            <svg
+              className="-mr-1 h-5 w-5 text-black"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                fillRule="evenodd"
+                d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+                clipRule="evenodd"
+              />
+            </svg>
+          </button>
+          <div className="absolute top-full mt-2 w-64 bg-white border border-gray-200 rounded-lg shadow-lg hidden group-hover:block">
+            <ul className="py-2">
+              <li>
+                <a href="#" className="block px-4 py-2 hover:text-red-600">
+                  Instagram Story Viewer
+                </a>
+              </li>
+              <li>
+                <a href="#" className="block px-4 py-2 hover:text-red-600">
+                  YouTube Money Calculator
+                </a>
+              </li>
+              <li>
+                <a href="#" className="block px-4 py-2 hover:text-red-600">
+                  YouTube Title Generator
+                </a>
+              </li>
+              <li>
+                <a href="#" className="block px-4 py-2 hover:text-red-600">
+                  Best Time to Post on YouTube
+                </a>
+              </li>
+              <li>
+                <a href="#" className="block px-4 py-2 hover:text-red-600">
+                  YouTube Video Analytics
+                </a>
+              </li>
+              <li>
+                <a href="#" className="block px-4 py-2 hover:text-red-600">
+                  YouTube Rank Tracker
+                </a>
+              </li>
+              <li>
+                <a href="#" className="block px-4 py-2 hover:text-red-600">
+                  See All Tools
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="relative group">
+          <button className="text-black font-bold focus:outline-none flex items-center group-hover:text-red-600">
+          <a href="#">
+        <span class="inline-block hover:transition-transform duration-300 ease-in-out delay-100 transform group-hover:translate-y-1">B</span>
+        <span class="inline-block hover:transition-transform duration-300 ease-in-out delay-200 transform group-hover:translate-y-1">o</span>
+        <span class="inline-block hover:transition-transform duration-300 ease-in-out delay-300 transform group-hover:translate-y-1">t</span>
+        <span class="inline-block hover:transition-transform duration-300 ease-in-out delay-400 transform group-hover:translate-y-1">s</span>
+      </a>
+            <svg
+              className="-mr-1  h-5 w-5 text-black"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                fillRule="evenodd"
+                d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+                clipRule="evenodd"
+              />
+            </svg>
+          </button>
+          <div className="absolute top-full mt-2 w-64 bg-white border border-gray-200 rounded-lg shadow-lg hidden group-hover:block">
+            <ul className="py-2">
+              <li>
+                <a href="#" className="block px-4 py-2 hover:text-red-600">
+                  Instagram Bot
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <button
+        className="hidden lg:inline btn btn-square btn-ghost"
+        onClick={() => setLargeMenuOpen(!isLargeMenuOpen)}
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          className="inline-block h-11 w-11 ml-2.5	rounded-lg stroke-current bg-neutral-100	p-2.5"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            d="M4 6h16M4 12h16M4 18h16"
+          ></path>
+        </svg>
+      </button> 
+      {isLargeMenuOpen && (
+        <div className="absolute top-14 right-12 lg:w-2/5 bg-white lg:block shadow-md py-4 lg:flex flex-col items-center space-y-4 md:flex menu-outer">
+          <a href="#" className="text-black font-bold hover:text-red-600">
+            Buy YouTube Views
+          </a>
+          <a href="#" className="text-black font-bold hover:text-red-600">
+            Buy YouTube Subscribers
+          </a>
+          <a href="#" className="text-black font-bold hover:text-red-600">
+            Buy YouTube Likes
+          </a>
+          <a href="#" className="text-black font-bold hover:text-red-600">
+            Buy Instagram Followers
+          </a>
+          <div className="relative group">
+            <button className="text-black font-bold focus:outline-none flex items-center group-hover:text-red-600">
+              Tools
+              <svg
+                className="-mr-1 h-5 w-5 text-black"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+                  clipRule="evenodd"
+                />
+              </svg>
+            </button>
+            <div className="absolute top-full mt-2 w-64 bg-white border border-gray-200 rounded-lg shadow-lg hidden group-hover:block">
+              <ul className="py-2">
+                <li>
+                  <a href="#" className="block px-4 py-2 hover:text-red-600">
+                    Instagram Story Viewer
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="block px-4 py-2 hover:text-red-600">
+                    YouTube Money Calculator
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="block px-4 py-2 hover:text-red-600">
+                    YouTube Title Generator
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="block px-4 py-2 hover:text-red-600">
+                    Best Time to Post on YouTube
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="block px-4 py-2 hover:text-red-600">
+                    YouTube Video Analytics
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="block px-4 py-2 hover:text-red-600">
+                    YouTube Rank Tracker
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="block px-4 py-2 hover:text-red-600">
+                    See All Tools
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      )}
+      </div>
+       </div>
+       <nav className="w-full	lg:block lg:justify-between mr-7 lg:mt-1.5 xl:mt-0">
+      <div className="hidden lg:flex bg-red-200 py-1 px-1 rounded-full menu-outer">
+  <a
+    href="#"
+    className="text-black text-base font-bold hover:bg-red-600 rounded-full py-2.5 px-3 hover:text-white"
+    style={{ marginLeft: 0, marginRight: 0 }}
+  >
+    Buy YouTube Views
+  </a>
+  <a
+    href="#"
+    className="text-black text-base font-bold hover:bg-red-600 rounded-full py-2.5 px-3 hover:text-white"
+    style={{ marginLeft: 0, marginRight: 0 }}
+  >
+    Buy YouTube Subscribers
+  </a>
+  <a
+    href="#"
+    className="text-black text-base font-bold hover:bg-red-600 rounded-full py-2.5 px-3 hover:text-white"
+    style={{ marginLeft: 0, marginRight: 0 }}
+  >
+    Buy YouTube Likes
+  </a>
+  <a
+    href="#"
+    className="text-black text-base font-bold hover:bg-red-600 rounded-full py-2.5 px-3 hover:text-white"
+    style={{ marginLeft: 0, marginRight: 0 }}
+  >
+    Buy Instagram Followers
+  </a>
+</div>
+</nav>
+       </div>
     </header>
   );
 };
