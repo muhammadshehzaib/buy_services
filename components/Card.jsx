@@ -2,13 +2,13 @@ import React from "react";
 
 function Card() {
   return (
-    <div className="bg-white py-10">
-      <h2 className="text-3xl font-bold text-center mb-8">
+    <div className="bg-white py-10 mx-5">
+      <h2 className="text-3xl min-[320px]:text-xl sm:text-3xl  font-bold text-center mb-8">
         Buy YouTube Views, Subscribers, And Likes
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-9/12 mx-auto">
+      <div className="grid grid-cols-3 min-[320px]:grid-cols-1 justify-center flex sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full mx-auto">
         
-        <div className="bg-white border rounded-lg shadow-lg p-8 flex flex-col mx-auto max-w-xs sm:w-full lg:max-w-md relative before:absolute before:content-[''] before:bg-red-500 before:h-2 before:w-1/3 before:rotate-[25deg] before:opacity-30 before:right-[40px] before:-top-[0] ">
+        <div className="bg-white border rounded-lg shadow-lg p-8 flex flex-col mx-auto max-w-xs sm:w-full lg:max-w-xl relative before:absolute before:content-[''] before:bg-red-500 before:h-2 before:w-1/3 before:rotate-[25deg] before:opacity-30 before:right-[40px] before:-top-[0] ">
           <h3 className="flex items-center text-xl font-bold text-gray-800 mb-4">
             <img
               src="https://views4you.com/wp-content/uploads/2022/08/icon-eye-red.svg"
@@ -40,7 +40,7 @@ function Card() {
         </div>
 
         {/* YouTube Likes Card */}
-        <div className="bg-white border rounded-lg shadow-lg p-8 flex flex-col mx-auto max-w-xs sm:w-full lg:max-w-md relative before:absolute before:content-[''] before:bg-red-500 before:h-2 before:w-1/3 before:rotate-[25deg] before:opacity-30 before:right-[40px] before:-top-[0]">
+        <div className="bg-white border rounded-lg shadow-lg p-8 flex flex-col mx-auto max-w-xs sm:w-full lg:max-w-xl relative before:absolute before:content-[''] before:bg-red-500 before:h-2 before:w-1/3 before:rotate-[25deg] before:opacity-30 before:right-[40px] before:-top-[0]">
           <h3 className="flex items-center text-xl font-bold text-gray-800 mb-4">
             <img
               src="https://views4you.com/wp-content/uploads/2022/08/icon-like-red.svg"
@@ -71,7 +71,7 @@ function Card() {
           </div>
         </div>
 
-        <div className="bg-white border rounded-lg shadow-lg p-8 flex flex-col mx-auto max-w-xs sm:w-full lg:max-w-md relative before:absolute before:content-[''] before:bg-red-500 before:h-2 before:w-1/3 before:rotate-[25deg] before:opacity-30 before:right-[40px] before:-top-[0]">
+        <div className="bg-white border rounded-lg shadow-lg p-8 flex flex-col mx-auto max-w-xs sm:w-full lg:max-w-xl relative before:absolute before:content-[''] before:bg-red-500 before:h-2 before:w-1/3 before:rotate-[25deg] before:opacity-30 before:right-[40px] before:-top-[0]">
           <h3 className="flex items-center text-xl font-bold text-gray-800 mb-4">
             <img
               src="https://views4you.com/wp-content/uploads/2022/08/icon-user-red.svg"

@@ -2,13 +2,12 @@ import Image from "next/image";
 
 function HeroSection() {
   return (
-    <div>
       <div className="flex flex-col md:flex-row justify-between px-8 py-16 w-full">
-        <div className="w-2/4  mb-8 md:mb-0 mr-11 sm:w-full lg:w-2/4">
-          <h1 className="font-montserrat text-6xl font-bold text-gray-800 mb-4">
-            Organic YouTube <br /> Growth Service
+        <div className="w-full mb-8 md:mb-0 mr-11 sm:w-full ">
+          <h1 className="font-montserrat min-[320px]:text-[30px] 2xl:w-4/12 text-6xl sm:text-4xl md:text-6xl font-bold text-gray-800 mb-4">
+            Organic YouTube Growth Service
           </h1>
-          <span className="font-montserrat font-bold bg-[#ed2024] text-white text-[1.75rem] leading-[2rem] inline-block px-5 py-3 rounded-[.75rem]">
+          <span className="font-montserrat font-bold bg-[#ed2024] text-white sm:text-[1.25rem] md:text-[1.75rem] leading-[2rem] inline-block px-5 py-3 rounded-[.75rem]">
             Views4You
           </span>
           <p className="font-montserrat block my-5 mx-0 py-3 text-lg text-#050708">
@@ -35,7 +34,7 @@ function HeroSection() {
               />
             </a>
           </div>
-          <div className="flex flex-row items-center justify-start">
+          <div className="grid grid-cols-4 items-center w-7/12">
         <img
           src="https://views4you.com/wp-content/uploads/2023/01/3-WTKR-1.png.webp"
           alt="WTKR"
@@ -65,19 +64,7 @@ function HeroSection() {
         />
       </div>
         </div>
-
-        {/* <div className="w-2/4 md:w-1/2 relative">
-          <img
-            src="/path/to/phone_image.png" 
-            alt="YouTube growth service"
-            layout="responsive"
-            width={500}
-            height={500}
-            className="w-full object-cover"
-          />
-        </div> */}
       </div>
-    </div> 
   );
 }
 

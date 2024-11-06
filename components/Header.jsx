@@ -8,7 +8,7 @@ const Header = () => {
     
     <header>
    <div className="flex items-center lg:pt-20 mx-auto relative w-full lg:hidden xl:block xl:flex">
-   <div className="flex items-center lg:w-3/12 sm:ml-7">
+   <div className="flex items-center lg:w-3/12 sm:ml-7 min-[320px]:justify-center">
         <a href="#" className="w-3/5">
           <img
             src="https://views4you.com/wp-content/uploads/2022/08/logo@2x.png.webp"
@@ -343,7 +343,7 @@ const Header = () => {
           <img
             src="https://views4you.com/wp-content/uploads/2022/08/logo@2x.png.webp"
             alt="Logo"
-            className="sm:hidden lg:block w-3/5"
+            className="min-[320px]:hidden sm:hidden lg:block w-2/5"
           />
         </a>
         <div className="hidden lg:flex items-center py-1 px-1 space-x-8 menu-outer">
@@ -533,7 +533,7 @@ const Header = () => {
       )}
       </div>
        </div>
-       <nav className="w-full	lg:block lg:justify-between mr-7 lg:mt-1.5 xl:mt-0">
+       <nav className="w-full	lg:flex lg:block lg:justify-center mr-7 lg:mt-1.5 xl:mt-0">
       <div className="hidden lg:flex bg-red-200 py-1 px-1 rounded-full menu-outer">
   <a
     href="#"
