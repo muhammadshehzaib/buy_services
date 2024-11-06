@@ -343,7 +343,7 @@ const Header = () => {
           <img
             src="https://views4you.com/wp-content/uploads/2022/08/logo@2x.png.webp"
             alt="Logo"
-            className="min-[320px]:hidden sm:hidden lg:block w-2/5"
+            className="min-[1px]:hidden sm:hidden lg:block w-2/5"
           />
         </a>
         <div className="hidden lg:flex items-center py-1 px-1 space-x-8 menu-outer">
