@@ -33,3 +33,25 @@ p.paras:after {
     margin-right: calc(0.75rem * var(--tw-space-x-reverse));
     margin-left: 0px !important;
 }
+.testimonial-grid {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .testimonial-item {
+    width: 30%; /* Adjust as needed */
+    text-align: center;
+  }
+  
+  .testimonial-item img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+  }
+  
+  blockquote {
+    font-style: italic;
+    margin: 10px 0;
+  }
+  
