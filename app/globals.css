@@ -1,4 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+p.paras:before {
+    background: rgba(237, 32, 36, 0.1);
+    top: -1.1rem;
+    left: .7rem;
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 1.25rem;
+}
+p.paras:after {
+    background: rgba(237, 32, 36, 0.1);
+    top: -2.3rem;
+    left: 1.3rem;
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 1.25rem;
+}
+.space-x-3 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(0.75rem * var(--tw-space-x-reverse));
+    margin-left: 0px !important;
+}

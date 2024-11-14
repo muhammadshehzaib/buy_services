@@ -2,19 +2,19 @@ import Image from "next/image";
 
 function HeroSection() {
   return (
-      <div className="flex flex-col md:flex-row justify-between px-8 py-16 w-full">
-        <div className="w-full mb-8 md:mb-0 mr-11 sm:w-full ">
-          <h1 className="font-montserrat min-[320px]:text-[30px] 2xl:w-4/12 text-6xl sm:text-4xl md:text-6xl font-bold text-gray-800 mb-4">
+      <div className="flex flex-col max-w-[1390px] px-5 mx-auto  md:flex-row justify-center lg:py-16 md:pt-9 md:pb-0 sm:pt-8 sm:pb-0 min-[1px]:pb-0 min-[1px]:pt-8 max-[639px]:pb-0 max-[639px]:pt-8">
+        <div className="w-full  md:mb-0 sm:w-full ">
+          <h1 className="font-montserrat min-[320px]:text-[30px] 2xl:w-2/5 lg:text-6xl sm:text-4xl md:text-4xl font-bold text-gray-800 mb-4">
             Organic YouTube Growth Service
           </h1>
           <span className="font-montserrat font-bold bg-[#ed2024] text-white sm:text-[1.25rem] md:text-[1.75rem] leading-[2rem] inline-block px-5 py-3 rounded-[.75rem]">
             Views4You
           </span>
-          <p className="font-montserrat block my-5 mx-0 py-3 text-lg text-#050708">
-            Lights, camera, and action! You're live on the best social media <br />
-            channel for views—YouTube. But you may require some <br />
-            backup to quickly gain a huge amount of views in a short time. <br />
-            Of course, this is where the highly-recommended YouTube <br />
+          <p className="font-montserrat block md:my-5 mx-0 md:py-3 sm:my-0 min-[1px]:my-0 max-[639px]:my-0 lg:w-3/5 text-lg text-#050708">
+            Lights, camera, and action! You're live on the best social media 
+            channel for views—YouTube. But you may require some 
+            backup to quickly gain a huge amount of views in a short time.
+            Of course, this is where the highly-recommended YouTube
             growth service,Views4You, comes on the stage!
           </p>
           <div className="flex items-center">
@@ -26,7 +26,7 @@ function HeroSection() {
             </a>
             <a href="#">
               <img
-                src="/images/Trustpilot-Stars.svg."
+                src="https://views4you.com/wp-content/uploads/2022/08/Trustpilot-Stars.svg"
                 alt="Trustpilot"
                 width={128}
                 height={32}

@@ -6,10 +6,11 @@ const Header = () => {
 
   return (
     
-    <header>
-   <div className="flex items-center lg:pt-20 mx-auto relative w-full lg:hidden xl:block xl:flex">
-   <div className="flex items-center lg:w-3/12 sm:ml-7 min-[320px]:justify-center">
-        <a href="#" className="w-3/5">
+    <header className="flex sm:flex sm:items-start  lg:items-center justify-between ">
+      <div className="lg:max-w-[1390px] lg:px-5 mx-auto sm:w-full sm:pt-10 min-[1px]:w-full min-[1px]:pt-10">
+   <div className="items-center lg:pt-20 px-0 relative w-full lg:hidden block xl:flex sm:w-full sm:flex min-[1px]:flex  min-[1px]:px-4 max-[639px]:px-4">
+   <div className="flex lg:ml-0 items-center lg:w-3/12 sm:ml-7 min-[1px]:justify-center">
+        <a href="#" className="w-full">
           <img
             src="https://views4you.com/wp-content/uploads/2022/08/logo@2x.png.webp"
             alt="Logo"
@@ -18,42 +19,42 @@ const Header = () => {
         </a>
       </div>
       
-      <nav className="w-full	flex justify-end mr-7 lg:mt-1.5 xl:mt-0">
-      <div className="hidden lg:flex bg-red-200 py-1 px-1 rounded-full menu-outer">
-  <a
-    href="#"
-    className="text-black text-base font-bold hover:bg-red-600 rounded-full py-2.5 px-3 hover:text-white"
-    style={{ marginLeft: 0, marginRight: 0 }}
-  >
-    Buy YouTube Views
-  </a>
-  <a
-    href="#"
-    className="text-black text-base font-bold hover:bg-red-600 rounded-full py-2.5 px-3 hover:text-white"
-    style={{ marginLeft: 0, marginRight: 0 }}
-  >
-    Buy YouTube Subscribers
-  </a>
-  <a
-    href="#"
-    className="text-black text-base font-bold hover:bg-red-600 rounded-full py-2.5 px-3 hover:text-white"
-    style={{ marginLeft: 0, marginRight: 0 }}
-  >
-    Buy YouTube Likes
-  </a>
-  <a
-    href="#"
-    className="text-black text-base font-bold hover:bg-red-600 rounded-full py-2.5 px-3 hover:text-white"
-    style={{ marginLeft: 0, marginRight: 0 }}
-  >
-    Buy Instagram Followers
-  </a>
+      <nav className="w-full	flex justify-end lg:mt-1.5 xl:mt-0">
+      <div className="hidden hover:bg-[#ffffff] lg:flex bg-red-200 py-1 px-1 rounded-full menu-outer">
+      <a
+  href="#"
+  className="text-black text-[.90rem] 2xl:text-[1rem] font-bold hover:bg-red-600 rounded-full py-2.5 px-3 hover:text-white"
+  style={{ marginLeft: 0, marginRight: 0, transition: 'all 0.3s ease-in-out' }}
+>
+  Buy YouTube Views
+</a>
+<a
+  href="#"
+  className="text-black text-[.90rem] 2xl:text-[1rem] font-bold hover:bg-red-600 rounded-full py-2.5 px-3 hover:text-white"
+  style={{ marginLeft: 0, marginRight: 0, transition: 'all 0.3s ease-in-out' }}
+>
+Buy YouTube Subscribers
+</a>
+<a
+  href="#"
+  className="text-black text-[.90rem] 2xl:text-[1rem] font-bold hover:bg-red-600 rounded-full py-2.5 px-3 hover:text-white"
+  style={{ marginLeft: 0, marginRight: 0, transition: 'all 0.3s ease-in-out' }}
+>
+  Buy YouTube Likes
+</a>
+<a
+  href="#"
+  className="text-black text-[.90rem] 2xl:text-[1rem] font-bold hover:bg-red-600 rounded-full py-2.5 px-3 hover:text-white"
+  style={{ marginLeft: 0, marginRight: 0, transition: 'all 0.3s ease-in-out' }}
+>
+Buy Instagram Followers
+</a>
 </div>
 </nav>
 
 
     
-    <div className="w-4/12 justify-center flex">
+    <div className="w-4/12 justify-end flex">
       <div className="hidden lg:flex items-center py-1 px-1 space-x-8 menu-outer">
         <div className="relative group">
           <button className="text-black font-bold focus:outline-none flex items-center pl-4 group-hover:text-red-600">
@@ -189,7 +190,7 @@ const Header = () => {
         </svg>
       </button> 
         {isMenuOpen && (
-          <div className="absolute top-32 right-12 w-5/12 bg-white shadow-md py-4 flex flex-col items-center space-y-4 md:flex menu-outer">
+          <div className="absolute top-24 z-10 w-10/12 bg-white shadow-md py-4 flex flex-col items-center space-y-4 md:flex menu-outer">
           <a href="#" className="text-black font-bold hover:text-red-600">
             Buy YouTube Views
           </a>
@@ -565,6 +566,7 @@ const Header = () => {
   </a>
 </div>
 </nav>
+       </div>
        </div>
     </header>
   );
