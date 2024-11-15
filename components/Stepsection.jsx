@@ -4,7 +4,6 @@ import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import 'swiper/css/pagination'
-import 'swiper/css/navigation'
 import { Pagination, Navigation } from 'swiper/modules'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -13,18 +12,117 @@ const testimonials = {
   slides: [
     {
       testimonials: [
-        {
-          image: '/placeholder.svg?height=100&width=100',
-          name: 'John Doe',
-          followers: '10K',
-          quote: 'Great service! Highly recommended.',
+        {          
+          name: "Elizabeth",
+          followers: "840k",
+          quote: "Well, the site is terrific!!! I got my services in a moment! They gave me more confidence to work harder and monetize my channel.",
+          image: "https://views4you.com/wp-content/uploads/2022/08/31.png.webp",
         },
-        // Add more testimonials as needed
+        {
+          name: "Lucy",
+          followers: "100k",
+          quote: "One of my friends sent the link to a video on YouTube about this site cause it has been just 1 month since I started my page. It was difficult at first but now with all these helpful videos, making them is easy!",
+          image: "https://views4you.com/wp-content/uploads/2022/08/photo-3.png.webp",
+        },
+        {
+          name: "John",
+          followers: "560k",
+          quote: "Wow! What a service. I’ve been following them for a while and was thinking if they are fake, I mean, they could be lost. But they didn’t! Thank you.",
+          image: "https://views4you.com/wp-content/uploads/2022/08/photo-16.png.webp",
+        },
       ],
     },
-    // Add more slides as needed
+    {
+      testimonials: [
+        {          
+          name: "Elizabeth",
+          followers: "840k",
+          quote: "Well, the site is terrific!!! I got my services in a moment! They gave me more confidence to work harder and monetize my channel.",
+          image: "https://views4you.com/wp-content/uploads/2022/08/31.png.webp",
+        },
+        {
+          name: "Lucy",
+          followers: "100k",
+          quote: "One of my friends sent the link to a video on YouTube about this site cause it has been just 1 month since I started my page. It was difficult at first but now with all these helpful videos, making them is easy!",
+          image: "https://views4you.com/wp-content/uploads/2022/08/photo-3.png.webp",
+        },
+        {
+          name: "John",
+          followers: "560k",
+          quote: "Wow! What a service. I’ve been following them for a while and was thinking if they are fake, I mean, they could be lost. But they didn’t! Thank you.",
+          image: "https://views4you.com/wp-content/uploads/2022/08/photo-16.png.webp",
+        },
+      ],
+    },
+    {
+      testimonials: [
+        {          
+          name: "Elizabeth",
+          followers: "840k",
+          quote: "Well, the site is terrific!!! I got my services in a moment! They gave me more confidence to work harder and monetize my channel.",
+          image: "https://views4you.com/wp-content/uploads/2022/08/31.png.webp",
+        },
+        {
+          name: "Lucy",
+          followers: "100k",
+          quote: "One of my friends sent the link to a video on YouTube about this site cause it has been just 1 month since I started my page. It was difficult at first but now with all these helpful videos, making them is easy!",
+          image: "https://views4you.com/wp-content/uploads/2022/08/photo-3.png.webp",
+        },
+        {
+          name: "John",
+          followers: "560k",
+          quote: "Wow! What a service. I’ve been following them for a while and was thinking if they are fake, I mean, they could be lost. But they didn’t! Thank you.",
+          image: "https://views4you.com/wp-content/uploads/2022/08/photo-16.png.webp",
+        },
+      ],
+    },
+    {
+      testimonials: [
+        {          
+          name: "Elizabeth",
+          followers: "840k",
+          quote: "Well, the site is terrific!!! I got my services in a moment! They gave me more confidence to work harder and monetize my channel.",
+          image: "https://views4you.com/wp-content/uploads/2022/08/31.png.webp",
+        },
+        {
+          name: "Lucy",
+          followers: "100k",
+          quote: "One of my friends sent the link to a video on YouTube about this site cause it has been just 1 month since I started my page. It was difficult at first but now with all these helpful videos, making them is easy!",
+          image: "https://views4you.com/wp-content/uploads/2022/08/photo-3.png.webp",
+        },
+        {
+          name: "John",
+          followers: "560k",
+          quote: "Wow! What a service. I’ve been following them for a while and was thinking if they are fake, I mean, they could be lost. But they didn’t! Thank you.",
+          image: "https://views4you.com/wp-content/uploads/2022/08/photo-16.png.webp",
+        },
+      ],
+    },
+    {
+      testimonials: [
+        {          
+          name: "Elizabeth",
+          followers: "840k",
+          quote: "Well, the site is terrific!!! I got my services in a moment! They gave me more confidence to work harder and monetize my channel.",
+          image: "https://views4you.com/wp-content/uploads/2022/08/31.png.webp",
+        },
+        {
+          name: "Lucy",
+          followers: "100k",
+          quote: "One of my friends sent the link to a video on YouTube about this site cause it has been just 1 month since I started my page. It was difficult at first but now with all these helpful videos, making them is easy!",
+          image: "https://views4you.com/wp-content/uploads/2022/08/photo-3.png.webp",
+        },
+        {
+          name: "John",
+          followers: "560k",
+          quote: "Wow! What a service. I’ve been following them for a while and was thinking if they are fake, I mean, they could be lost. But they didn’t! Thank you.",
+          image: "https://views4you.com/wp-content/uploads/2022/08/photo-16.png.webp",
+        },
+      ],
+    },
   ],
-}
+};
+
 
 export default function Stepsection() {
   return (
@@ -51,7 +149,7 @@ export default function Stepsection() {
                   Step 1
                 </p>
               </div>
-              <div className="three flex min-[1px]:justify-center xl:justify-end sm:mb-16 md:mb-0">
+              <div className="three flex min-[1px]:justify-center xl:justify-end sm:mb-16 min-[1px]:mb-16 md:mb-0">
                 <p
                   className="paras-two bg-[#ED2024] rounded-md ml-10 mt-12 h-[.6rem] w-[9.25rem]"
                   style={{ transform: 'matrix(1, .58, 0, .89, 0, 0)' }}
@@ -174,15 +272,15 @@ export default function Stepsection() {
             },
           ].map((post, index) => (
             <div key={index} className="post">
-              {/* <Image src={post.image} alt="" width={400} height={225} className="sm:w-full min-[1px]:w-4/5" /> */}
+              <img src={post.image} alt="" width={400} height={225} className="sm:w-full min-[1px]:w-4/5" />
               <div className="flex img-box">
-                {/* <Image
+                <img
                   src="https://views4you.com/wp-content/uploads/2022/08/beatriz.jpg.webp"
                   alt=""
                   width={24}
                   height={24}
                   className="rounded-full"
-                /> */}
+                />
                 <p className="text-[18px] font-bold ml-2">Beatriz Sirena</p>
               </div>
               <h3 className="md:text-2xl sm:text-[20px] min-[1px]:text-[18px] font-bold mt-10 mb-16">{post.title}</h3>
@@ -218,22 +316,35 @@ export default function Stepsection() {
         </div>
 
         {/* Reviews Slider */}
+        <div>
+          <h2 className='font-bold text-[32px] mb-16'>
+          Reviews
+          </h2>
+        </div>
         <Swiper
           spaceBetween={50}
           slidesPerView={1}
           pagination={{ clickable: true }}
-          navigation
-          modules={[Pagination, Navigation]}
+          Pagination
+          modules={[Pagination]}
         >
+        
           {testimonials.slides.map((slide, index) => (
             <SwiperSlide key={index}>
-              <div className="testimonial-grid">
+              <div className="grid lg:grid-cols-3 sm:grid-cols-2 gap-12 w-full">
                 {slide.testimonials.map((testimonial, idx) => (
-                  <div key={idx} className="testimonial-item">
-                    {/* <Image src={testimonial.image} alt={testimonial.name} width={100} height={100} /> */}
-                    <h3>{testimonial.name}</h3>
-                    <p>{testimonial.followers} followers</p>
-                    <blockquote>{testimonial.quote}</blockquote>
+                  <div key={idx} className="testimonial-item mb-5  xl:pr-12 sm:pr-7 border-r-2">
+                    <blockquote className='text-left  xl:text-xl font-bold sm:h-4/6 sm:mb-0 min-[1px]:mb-12 w-auto'>{testimonial.quote}</blockquote>
+                    <div className='flex items-center gap-8'>
+                    <img
+                  src={testimonial.image}
+                  alt={testimonial.name}
+                />
+                   <div className='text-left text-[18px]'>
+                   <h3 className='font-bold'>{testimonial.name}</h3>
+                   <p>{testimonial.followers} followers</p>
+                   </div>
+                    </div>
                   </div>
                 ))}
               </div>

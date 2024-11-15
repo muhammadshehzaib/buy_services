@@ -32,17 +32,7 @@ p.paras:after {
     --tw-space-x-reverse: 0;
     margin-right: calc(0.75rem * var(--tw-space-x-reverse));
     margin-left: 0px !important;
-}
-.testimonial-grid {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .testimonial-item {
-    width: 30%; /* Adjust as needed */
-    text-align: center;
-  }
-  
+}  
   .testimonial-item img {
     border-radius: 50%;
     width: 80px;
@@ -54,4 +44,33 @@ p.paras:after {
     font-style: italic;
     margin: 10px 0;
   }
-  
+  .swiper-wrapper {
+    padding-bottom: 100px;
+}
+  /* Style for inactive bullets */
+.swiper-pagination-bullet {
+  width: 1.1rem !important;
+  height: 1.1rem !important;
+  background-color: #ddd; 
+  border-radius: 50%; 
+  opacity: 1; 
+  border: none; 
+}
+.swiper-pagination-bullet:hover{
+  background-color: red;
+  opacity: 100%;
+}
+/* Style for the active bullet */
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  width: 2rem !important;
+  height: 2rem !important;
+  background-color: transparent; 
+  border: 2px solid red;
+  border-radius: 50%; 
+}
+.swiper-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
