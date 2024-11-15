@@ -5,13 +5,13 @@ const List = () => {
   return (
   <div className='lg:mb-24 min-[1px]:mb-11'>
        <div className="items-center justify-between">
-     <div class="max-w-[1390px] px-5 sm:w-full min-[1px]:w-full mx-auto lg:py-8">
-    <div class="w-full lg:flex content sm:block min-[1px]:block">
+     <div class="max-w-[1390px] px-5 sm:w-full min-[1px]:w-full mx-auto lg:pt-24">
+    <div class="w-full lg:flex content lg:mb-20  sm:block min-[1px]:block">
     <div className="w-full headings">
     <h1 class="text-4xl w-11/12 font-bold mb-8 uppercase text-black">
           Why Views4You Is The Best  Of The Best?
         </h1>
-        <h2 class="text-3xl font-bold text-red-500 mt-2">
+        <h2 class="text-3xl sm:mb-6 lg:mb-0 font-bold text-red-500 mt-2">
           24 reasons to choose Views4You
         </h2>
     </div>
@@ -117,7 +117,7 @@ const List = () => {
           </li>
         </ul>
     </div>
-    <div className='lg:flex mt-16'>
+    <div className='lg:flex lg:mt-16 sm:mt-28'>
     <div className="lg:w-1/2 para sm:mb-12 min-[1px]:mb-12 lg:mb-0">
     <div className='sm:flex sm:justify-center min-[1px]:justify-center xl:justify-start'><p className="para-text bg-[#ED202433] rounded-3xl h-[8.9rem] w-[14.4rem]" style={{ transform: "matrix(1, .58, 0, .89, 0, 0)" }} ></p></div>
     <div className='sm:flex sm:justify-center min-[1px]:justify-center xl:justify-start'><p className='paras-one-text bg-[#ED2024] h-[.150rem] w-[11.4rem] bottom-8 left-20 relative' style={{ transform: "matrix(1, .58, 0, .89, 0, 0)" }}></p></div>

@@ -7,8 +7,8 @@ const Header = () => {
   return (
     
     <header className="flex sm:flex sm:items-start  lg:items-center justify-between ">
-      <div className="lg:max-w-[1390px] lg:px-5 mx-auto sm:w-full sm:pt-10 min-[1px]:w-full min-[1px]:pt-10">
-   <div className="items-center lg:pt-20 px-0 relative w-full lg:hidden block xl:flex sm:w-full sm:flex min-[1px]:flex  min-[1px]:px-4 max-[639px]:px-4">
+      <div className="lg:max-w-[1390px] xl:pt-20 sm:pt-14 min-[1px]:pt-10 lg:px-5 mx-auto sm:w-full  min-[1px]:w-full">
+   <div className="items-center  relative w-full lg:hidden block xl:flex sm:w-full sm:flex min-[1px]:flex  min-[1px]:px-4 max-[639px]:px-4">
    <div className="flex lg:ml-0 items-center lg:w-3/12 sm:ml-7 min-[1px]:justify-center">
         <a href="#" className="w-full">
           <img
@@ -78,40 +78,40 @@ Buy Instagram Followers
               />
             </svg>
           </button>
-          <div className="absolute top-full mt-2 w-64 bg-white border border-gray-200 rounded-lg shadow-lg hidden group-hover:block">
+          <div className="absolute sm:top-9 sm:right-10 sm:z-10 w-80 mt-2 bg-white border border-gray-200 rounded-lg shadow-lg hidden group-hover:block">
             <ul className="py-2">
               <li>
-                <a href="#" className="block px-4 py-2 hover:text-red-600">
+                <a href="#" className="block px-4 py-2 hover:text-red-600 font-bold">
                   Instagram Story Viewer
                 </a>
               </li>
               <li>
-                <a href="#" className="block px-4 py-2 hover:text-red-600">
+                <a href="#" className="block px-4 py-2 hover:text-red-600 font-bold">
                   YouTube Money Calculator
                 </a>
               </li>
               <li>
-                <a href="#" className="block px-4 py-2 hover:text-red-600">
+                <a href="#" className="block px-4 py-2 hover:text-red-600 font-bold">
                   YouTube Title Generator
                 </a>
               </li>
               <li>
-                <a href="#" className="block px-4 py-2 hover:text-red-600">
+                <a href="#" className="block px-4 py-2 hover:text-red-600 font-bold">
                   Best Time to Post on YouTube
                 </a>
               </li>
               <li>
-                <a href="#" className="block px-4 py-2 hover:text-red-600">
+                <a href="#" className="block px-4 py-2 hover:text-red-600 font-bold">
                   YouTube Video Analytics
                 </a>
               </li>
               <li>
-                <a href="#" className="block px-4 py-2 hover:text-red-600">
+                <a href="#" className="block px-4 py-2 hover:text-red-600 font-bold">
                   YouTube Rank Tracker
                 </a>
               </li>
               <li>
-                <a href="#" className="block px-4 py-2 hover:text-red-600">
+                <a href="#" className="block px-4 py-2 hover:text-red-600 font-bold">
                   See All Tools
                 </a>
               </li>
@@ -140,7 +140,7 @@ Buy Instagram Followers
               />
             </svg>
           </button>
-          <div className="absolute top-full mt-2 w-64 bg-white border border-gray-200 rounded-lg shadow-lg hidden group-hover:block">
+          <div className="absolute top-9 right-10 z-10 w-80 mt-2  bg-white border border-gray-200 rounded-lg shadow-lg hidden group-hover:block">
             <ul className="py-2">
               <li>
                 <a href="#" className="block px-4 py-2 hover:text-red-600">
@@ -190,7 +190,7 @@ Buy Instagram Followers
         </svg>
       </button> 
         {isMenuOpen && (
-          <div className="absolute top-24 z-10 w-10/12 bg-white shadow-md py-4 flex flex-col items-center space-y-4 md:flex menu-outer">
+          <div className="absolute sm:w-2/5 z-10 top-14 min-[1px]:w-10/12 rounded-3xl bg-white shadow-md py-4 flex flex-col items-center space-y-4 md:flex menu-outer">
           <a href="#" className="text-black font-bold hover:text-red-600">
             Buy YouTube Views
           </a>
@@ -219,7 +219,7 @@ Buy Instagram Followers
                 />
               </svg>
             </button>
-            <div className="absolute top-full mt-2 w-64 bg-white border border-gray-200 rounded-lg shadow-lg hidden group-hover:block">
+            <div className="absolute top-9 right-10 z-10 w-80 bg-white border border-gray-200 rounded-lg shadow-lg hidden group-hover:block">
               <ul className="py-2">
                 <li>
                   <a href="#" className="block px-4 py-2 hover:text-red-600">
@@ -262,7 +262,7 @@ Buy Instagram Followers
         </div>
         )}
         {isLargeMenuOpen && (
-        <div className="absolute top-32 right-12 w-1/5 bg-white shadow-md py-4 flex flex-col items-center space-y-4 md:flex menu-outer">
+        <div className="absolute sm:top-20 sm:rounded-3xl right-12 w-2/5 z-10 bg-white shadow-md py-4 flex flex-col items-center space-y-4 md:flex menu-outer">
           <a href="#" className="text-black font-bold hover:text-red-600">
             Buy YouTube Views
           </a>
@@ -291,7 +291,7 @@ Buy Instagram Followers
                 />
               </svg>
             </button>
-            <div className="absolute top-full mt-2 w-64 bg-white border border-gray-200 rounded-lg shadow-lg hidden group-hover:block">
+            <div className="absolute top-9 right-10 z-10 w-80 bg-white border border-gray-200 rounded-lg shadow-lg hidden group-hover:block">
               <ul className="py-2">
                 <li>
                   <a href="#" className="block px-4 py-2 hover:text-red-600">
@@ -370,7 +370,7 @@ Buy Instagram Followers
               />
             </svg>
           </button>
-          <div className="absolute top-full mt-2 w-64 bg-white border border-gray-200 rounded-lg shadow-lg hidden group-hover:block">
+          <div className="absolute top-9 right-10 z-10 w-80 bg-white border border-gray-200 rounded-lg shadow-lg hidden group-hover:block">
             <ul className="py-2">
               <li>
                 <a href="#" className="block px-4 py-2 hover:text-red-600">
@@ -432,7 +432,7 @@ Buy Instagram Followers
               />
             </svg>
           </button>
-          <div className="absolute top-full mt-2 w-64 bg-white border border-gray-200 rounded-lg shadow-lg hidden group-hover:block">
+          <div className="absolute top-9 right-10 z-10 w-80 bg-white border border-gray-200 rounded-lg shadow-lg hidden group-hover:block">
             <ul className="py-2">
               <li>
                 <a href="#" className="block px-4 py-2 hover:text-red-600">
@@ -461,7 +461,7 @@ Buy Instagram Followers
         </svg>
       </button> 
       {isLargeMenuOpen && (
-        <div className="absolute top-14 right-12 lg:w-2/5 bg-white lg:block shadow-md py-4 lg:flex flex-col items-center space-y-4 md:flex menu-outer">
+        <div className="absolute top-28 right-20 z-10 rounded-3xl lg:w-2/5 bg-white x shadow-md py-4 lg:flex flex-col items-center space-y-4 md:flex menu-outer">
           <a href="#" className="text-black font-bold hover:text-red-600">
             Buy YouTube Views
           </a>
@@ -490,7 +490,7 @@ Buy Instagram Followers
                 />
               </svg>
             </button>
-            <div className="absolute top-full mt-2 w-64 bg-white border border-gray-200 rounded-lg shadow-lg hidden group-hover:block">
+            <div className="absolute top-9 right-10 z-10 w-80 bg-white border border-gray-200 rounded-lg shadow-lg hidden group-hover:block">
               <ul className="py-2">
                 <li>
                   <a href="#" className="block px-4 py-2 hover:text-red-600">
@@ -534,7 +534,7 @@ Buy Instagram Followers
       )}
       </div>
        </div>
-       <nav className="w-full	lg:flex lg:block lg:justify-center mr-7 lg:mt-1.5 xl:mt-0">
+       <nav className="w-full	lg:flex lg:justify-center mr-7 lg:mt-1.5 xl:mt-0">
       <div className="hidden lg:flex bg-red-200 py-1 px-1 rounded-full menu-outer">
   <a
     href="#"

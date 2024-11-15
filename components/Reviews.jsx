@@ -3,7 +3,7 @@ import React from "react";
 const Reviews = () => {
   return (
     <div className="flex items-center justify-center">
-  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 max-w-[1390px] px-5 sm:w-full min-[1px]:w-full mx-auto items-center py-10 gap-8">
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 max-w-[1390px] px-5 sm:w-full min-[1px]:w-full mx-auto items-center sm:py-24 min-[1px]:py-16 gap-8">
     <div className="w-full px-8">
       <div className="text-center">
         <div className="number text-6xl xl:text-6xl lg:text-4xl font-bold text-red-500" data-number="100">

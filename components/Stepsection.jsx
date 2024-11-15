@@ -127,11 +127,11 @@ const testimonials = {
 export default function Stepsection() {
   return (
     <div className="items-center justify-between">
-      <div className="mx-auto max-w-[1390px] px-5 pb-8">
-        <div className="mb-[6.8rem] w-full">
+      <div className="mx-auto max-w-[1390px] lg:pt-28 sm:pt-20 min-[1px]:pt-8 px-5 pb-8">
+        <div className="mb-[6.8rem]  w-full">
           <h1 className="text-center text-[2rem] font-[750]">How Views4You Work?</h1>
         </div>
-        <div className="step-sec">
+        <div className="step-sec lg:pb-32 sm:pb-16">
           {/* Step One */}
           <div className="step-one md:flex w-full">
             <div className="img-sec md:w-2/4 md:mr-[7.8%]">
@@ -175,7 +175,7 @@ export default function Stepsection() {
           </div>
 
           {/* Step Two */}
-          <div className="step-two w-full md:mt-32 sm:mt-24 min-[1px]:mt-24 sm:flex-col-reverse md:flex-row flex">
+          <div className="step-two w-full md:mt-32 sm:mt-24 min-[1px]:mt-24 sm:flex-col-reverse min-[1px]:flex-col-reverse md:flex-row flex">
             <div className="text-sec md:w-2/4">
               <h3 className="text-[1.5rem] pb-4 font-[550]">Hint Your Targeted Followers for Growth Services</h3>
               <p className="text-[18px] leading-9 text-black">
@@ -202,7 +202,7 @@ export default function Stepsection() {
                   Step 2
                 </p>
               </div>
-              <div className="one flex justify-center sm:mb-16 md:mb-0">
+              <div className="one flex justify-center sm:mb-16 min-[1px]:mb-16 md:mb-0">
                 <p
                   className="paras-one mt-8 bg-[#ED2024] h-[.150rem] w-[11.4rem]"
                   style={{ transform: 'matrix(1, .58, 0, .89, 0, 0)' }}
@@ -212,7 +212,7 @@ export default function Stepsection() {
           </div>
 
           {/* Step Three */}
-          <div className="step-two w-full mt-32 sm:mt-24 min-[1px]:mt-24 lg:mb-32 min-[1px]:mb-16 md:flex">
+          <div className="step-two w-full mt-32 sm:mt-24 min-[1px]:mt-24 sm:mb-16 lg:mb-32 min-[1px]:mb-16 md:flex">
             <div className="img-sec md:w-2/4 md:mr-[7.8%] justify-end">
               <div className="one flex md:justify-start sm:justify-center min-[1px]:justify-center">
                 <p
@@ -247,7 +247,14 @@ export default function Stepsection() {
         </div>
 
         {/* Article Section */}
+        <div>
+        <div>
+              <h2 className="sm:text-[48px] min-[320px]:text-[3rem]  font-bold text-center mb-14">
+              Latest articles
+      </h2>
+              </div>
         <div className="grid lg:grid-cols-3 gap-12 md:grid-cols-2 sm:grid-cols-2 min-[1px]:grid-cols-1 lg:mb-24">
+          
           {[
             {
               image: 'https://views4you.com/wp-content/uploads/2024/11/cant-follow-users-on-Instagram.png.webp',
@@ -271,8 +278,10 @@ export default function Stepsection() {
               tag: 'News',
             },
           ].map((post, index) => (
+          
             <div key={index} className="post">
               <img src={post.image} alt="" width={400} height={225} className="sm:w-full min-[1px]:w-4/5" />
+              
               <div className="flex img-box">
                 <img
                   src="https://views4you.com/wp-content/uploads/2022/08/beatriz.jpg.webp"
@@ -314,9 +323,10 @@ export default function Stepsection() {
             </div>
           ))}
         </div>
+        </div>
 
         {/* Reviews Slider */}
-        <div>
+        <div className='pt-16'>
           <h2 className='font-bold text-[32px] mb-16'>
           Reviews
           </h2>
@@ -352,7 +362,7 @@ export default function Stepsection() {
           ))}
         </Swiper>
           {/* footer-sec / */}
-          <footer>
+          <footer className='lg:pt-40 sm:pt-28 min-[1px]:pt-24px '>
             <div className='flex justify-center'>
               <img src="https://views4you.com/wp-content/uploads/2022/08/logo@2x.png.webp" alt="" className='lg:w-[20%] w-[30%] sm:w-[30%] min-[1px]:w-[30%] my-10' />
             </div>
@@ -398,7 +408,7 @@ export default function Stepsection() {
                 </div>
                 <div>
                <div className='min-[1px]:flex sm:mt-10 lg:mt-0 min-[1px]:justify-center lg:block '>
-               <button class="bg-black text-white min-[1px]:mt-10 font-bold py-5 px-12 rounded-full hover:bg-gray-800 transition">
+               <button class="bg-black text-white font-bold py-5 px-12 rounded-full hover:bg-gray-800 transition">
                 Buy YouTube Subscribers
                 </button>
                </div>

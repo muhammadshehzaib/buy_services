@@ -3,8 +3,8 @@ import React from "react";
 function Card() {
   return (
   <div className="flex items-center justify-between">
-    <div className="bg-white md:py-10 sm:pb-0 sm:pt-1 max-w-[1390px] px-5 sm:w-full min-[1px]:w-full  mx-auto min-[1px]:pb-0 min-[1px]:pt-1 ">
-      <h2 className="text-3xl min-[320px]:text-xl sm:text-3xl  font-bold text-center mb-8">
+    <div className="bg-white sm:pt-10 lg:py-16 sm:pb-0 max-w-[1390px] px-5 sm:w-full min-[1px]:w-full  mx-auto min-[1px]:pb-0 ">
+      <h2 className="text-3xl min-[320px]:text-[2rem] sm:text-3xl  font-bold text-center mb-8">
         Buy YouTube Views, Subscribers, And Likes
       </h2>
       <div className="grid grid-cols-3 min-[320px]:grid-cols-1 justify-center sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full mx-auto">
