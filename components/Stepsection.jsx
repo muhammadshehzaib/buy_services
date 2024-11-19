@@ -6,13 +6,14 @@ import 'swiper/css'
 import 'swiper/css/pagination'
 import { Pagination, Navigation } from 'swiper/modules'
 import Image from 'next/image'
+import Image1 from 'next/image'
 import Link from 'next/link'
 
 const testimonials = {
   slides: [
     {
       testimonials: [
-        {          
+        { image1:"Stepsection../public/images/double-quotes.png",     
           name: "Elizabeth",
           followers: "840k",
           quote: "Well, the site is terrific!!! I got my services in a moment! They gave me more confidence to work harder and monetize my channel.",
@@ -344,6 +345,10 @@ export default function Stepsection() {
               <div className="grid lg:grid-cols-3 sm:grid-cols-2 gap-12 w-full">
                 {slide.testimonials.map((testimonial, idx) => (
                   <div key={idx} className="testimonial-item mb-5  xl:pr-12 sm:pr-7 border-r-2">
+                 <img
+                  src={testimonial.image1}
+                  alt=""
+                />
                     <blockquote className='text-left  xl:text-xl font-bold sm:h-4/6 sm:mb-0 min-[1px]:mb-12 w-auto'>{testimonial.quote}</blockquote>
                     <div className='flex items-center gap-8'>
                     <img

@@ -16,9 +16,12 @@
     "react": "^18",
     "react-countup": "^6.5.3",
     "react-dom": "^18",
+    "react-router-dom": "^6.28.0",
     "swiper": "^11.1.14"
   },
   "devDependencies": {
+    "@types/node": "22.9.1",
+    "@types/react": "18.3.12",
     "eslint": "^8",
     "eslint-config-next": "14.2.14",
     "postcss": "^8",
