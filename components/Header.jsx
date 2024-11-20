@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 const Header = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
   const [isLargeMenuOpen, setLargeMenuOpen] = useState(false);
@@ -11,7 +11,7 @@ const Header = () => {
       <div className="lg:max-w-[1390px] xl:pt-20 sm:pt-14 min-[1px]:pt-10 lg:px-5 mx-auto sm:w-full  min-[1px]:w-full">
    <div className="items-center  relative w-full lg:hidden block xl:flex sm:w-full sm:flex min-[1px]:flex  min-[1px]:px-4 max-[639px]:px-4">
    <div className="flex lg:ml-0 items-center lg:w-3/12 sm:ml-7 min-[1px]:justify-center">
-        <a href="#" className="w-full">
+        <a href="" className="w-full">
           <img
             src="https://views4you.com/wp-content/uploads/2022/08/logo@2x.png.webp"
             alt="Logo"
@@ -22,13 +22,13 @@ const Header = () => {
       
       <nav className="w-full	flex justify-end lg:mt-1.5 xl:mt-0">
       <div className="hidden hover:bg-[#ffffff] lg:flex bg-red-200 py-1 px-1 rounded-full menu-outer">
-      <a
-  href="#"
+      <Link
+  href="/Views"
   className="text-black text-[.90rem] 2xl:text-[1rem] font-bold hover:bg-red-600 rounded-full py-2.5 px-3 hover:text-white"
   style={{ marginLeft: 0, marginRight: 0, transition: 'all 0.3s ease-in-out' }}
 >
   Buy YouTube Views
-</a>
+</Link>
 <a
   href="#"
   className="text-black text-[.90rem] 2xl:text-[1rem] font-bold hover:bg-red-600 rounded-full py-2.5 px-3 hover:text-white"
@@ -60,11 +60,11 @@ Buy Instagram Followers
         <div className="relative group">
           <button className="text-black font-bold focus:outline-none flex items-center pl-4 group-hover:text-red-600">
           <a href="#">
-        <span class="inline-block hover:transition-transform duration-300 ease-in-out delay-100 transform group-hover:translate-y-1">T</span>
-        <span class="inline-block hover:transition-transform duration-300 ease-in-out delay-200 transform group-hover:translate-y-1">o</span>
-        <span class="inline-block hover:transition-transform duration-300 ease-in-out delay-300 transform group-hover:translate-y-1">o</span>
-        <span class="inline-block hover:transition-transform duration-300 ease-in-out delay-400 transform group-hover:translate-y-1">l</span>
-        <span class="inline-block hover:transition-transform duration-300 ease-in-out delay-400 transform group-hover:translate-y-1">s</span>
+        <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-100 transform group-hover:translate-y-1">T</span>
+        <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-200 transform group-hover:translate-y-1">o</span>
+        <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-300 transform group-hover:translate-y-1">o</span>
+        <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-400 transform group-hover:translate-y-1">l</span>
+        <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-400 transform group-hover:translate-y-1">s</span>
       </a>
             <svg
               className="-mr-1 h-5 w-5 text-black"
@@ -123,10 +123,10 @@ Buy Instagram Followers
         <div className="relative group">
           <button className="text-black font-bold focus:outline-none flex items-center group-hover:text-red-600">
           <a href="#">
-        <span class="inline-block hover:transition-transform duration-300 ease-in-out delay-100 transform group-hover:translate-y-1">B</span>
-        <span class="inline-block hover:transition-transform duration-300 ease-in-out delay-200 transform group-hover:translate-y-1">o</span>
-        <span class="inline-block hover:transition-transform duration-300 ease-in-out delay-300 transform group-hover:translate-y-1">t</span>
-        <span class="inline-block hover:transition-transform duration-300 ease-in-out delay-400 transform group-hover:translate-y-1">s</span>
+        <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-100 transform group-hover:translate-y-1">B</span>
+        <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-200 transform group-hover:translate-y-1">o</span>
+        <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-300 transform group-hover:translate-y-1">t</span>
+        <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-400 transform group-hover:translate-y-1">s</span>
       </a>
             <svg
               className="-mr-1  h-5 w-5 text-black"
@@ -352,11 +352,11 @@ Buy Instagram Followers
         <div className="relative group">
           <button className="text-black font-bold focus:outline-none flex items-center pl-4 group-hover:text-red-600">
           <a href="#">
-        <span class="inline-block hover:transition-transform duration-300 ease-in-out delay-100 transform group-hover:translate-y-1">T</span>
-        <span class="inline-block hover:transition-transform duration-300 ease-in-out delay-200 transform group-hover:translate-y-1">o</span>
-        <span class="inline-block hover:transition-transform duration-300 ease-in-out delay-300 transform group-hover:translate-y-1">o</span>
-        <span class="inline-block hover:transition-transform duration-300 ease-in-out delay-400 transform group-hover:translate-y-1">l</span>
-        <span class="inline-block hover:transition-transform duration-300 ease-in-out delay-400 transform group-hover:translate-y-1">s</span>
+        <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-100 transform group-hover:translate-y-1">T</span>
+        <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-200 transform group-hover:translate-y-1">o</span>
+        <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-300 transform group-hover:translate-y-1">o</span>
+        <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-400 transform group-hover:translate-y-1">l</span>
+        <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-400 transform group-hover:translate-y-1">s</span>
       </a>
             <svg
               className="-mr-1 h-5 w-5 text-black"
@@ -415,10 +415,10 @@ Buy Instagram Followers
         <div className="relative group">
           <button className="text-black font-bold focus:outline-none flex items-center group-hover:text-red-600">
           <a href="#">
-        <span class="inline-block hover:transition-transform duration-300 ease-in-out delay-100 transform group-hover:translate-y-1">B</span>
-        <span class="inline-block hover:transition-transform duration-300 ease-in-out delay-200 transform group-hover:translate-y-1">o</span>
-        <span class="inline-block hover:transition-transform duration-300 ease-in-out delay-300 transform group-hover:translate-y-1">t</span>
-        <span class="inline-block hover:transition-transform duration-300 ease-in-out delay-400 transform group-hover:translate-y-1">s</span>
+        <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-100 transform group-hover:translate-y-1">B</span>
+        <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-200 transform group-hover:translate-y-1">o</span>
+        <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-300 transform group-hover:translate-y-1">t</span>
+        <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-400 transform group-hover:translate-y-1">s</span>
       </a>
             <svg
               className="-mr-1  h-5 w-5 text-black"
