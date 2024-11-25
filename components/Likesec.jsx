@@ -125,23 +125,23 @@ const testimonials = {
 };
 
 
-export default function Herosectiontwo() {
+export default function Likesec() {
   return (
     <div className='items-center justify-between max-w-[1390px] px-5 mx-auto'>
    
-             {/* views page  */}
+             {/* Like page  */}
 
-         {/* views-sec-tabs  */}
+         {/* Like-sec-tabs  */}
          <div className="flex flex-col max-w-[1390px] px-5 mx-auto  md:flex-row justify-center lg:pt-16 lg:pb-20 md:pt-9 md:pb-9 sm:pt-10 sm:pb-10 min-[1px]:pb-10 min-[1px]:pt-8 max-[639px]:pb-0 max-[639px]:pt-8">
     <div className="w-full  md:mb-0 ">
       <h1 className="font-montserrat min-[320px]:text-[30px] 2xl:w-full lg:text-6xl sm:text-4xl md:text-[2.75rem] font-bold text-gray-800 mb-4">
-      Buy YouTube Views
+      Buy YouTube Likes
       </h1>
       <span className="font-montserrat sm:mb-4 min-[1px]:mb-4 md:mb-0 font-bold bg-[#ed2024] text-white sm:text-[1.25rem] md:text-[1.75rem] leading-[2rem] inline-block px-5 py-3 rounded-[.75rem]">
-      Instantly
+      Now
       </span>
       <p className="font-montserrat block md:my-5 mx-0 md:py-3 sm:my-0 min-[1px]:my-0 max-[639px]:my-0 lg:w-full text-lg text-#050708">
-      Views4You is the safest way to buy YouTube Views with delivery in just a few minutes. We offer multiple packages with real users for all different needs - choose wisely!
+      Give wings to your YouTube videos with high quality YouTube likes that no YouTube algorithm can suspect. Because, they are from real people! Experience the doping effect of the right audience with a reasonable price. with Views4You. Read what is written about us in the press.
       </p>
      
     </div>
@@ -162,7 +162,7 @@ export default function Herosectiontwo() {
     <div className='w-full sm:mt-20 lg:mt-28 rounded-3xl Campaign-sec lg:flex sm:py-28 min-[1px]:pt-16 pb-36  bg-[#F4F6F8]'>
     <div className='w-full min-[1px]:px-10 sm:px-20 lg:pl-20'>
     <h1 className="font-montserrat min-[320px]:text-[30px] 2xl:w-full lg:text-[32px] sm:text-4xl md:text-[2.75rem] font-bold text-gray-800 mb-4">
-    All In One YouTube Views Campaign
+    All In One YouTube Likes Campaign
       </h1>
       <div className='xl:flex font-montserrat'>
       <span className="font-montserrat text-[1.75rem] text-white sm:mb-4 min-[1px]:mb-4 md:mb-0 font-bold bg-[#ed2024] px-5 py-3 rounded-[.75rem] flex items-center w-36">
@@ -171,17 +171,17 @@ export default function Herosectiontwo() {
       <button className='py-6 px-24 bg-black rounded-full text-white font-bold text-[18px] sm:mt-5 xl:mt-0 xl:ml-10'>Buy Now</button>
       </div>
       <p className="font-montserrat block sm:my-5 mx-0  min-[1px]:my-5 max-[639px]:my-0 lg:w-full text-lg text-#050708">
-      With Views4You’s all-inclusive package, <span className='text-[#ed2024] font-bold'>you can buy YouTube subscribers, </span>and views simultaneously. Moreover, you may order <span className='text-[#ed2024] font-bold'>YouTube likes</span> service and add it to the package for the best price.
+      Buy YouTube likes from Views4You, the best site to buy quality likes! There are no fake likes, only real account engagement to make your videos rank higher on search results. To create effective content marketing strategies on YouTube, all you need is to try our campaign combined by<span className='text-[#ed2024] font-bold'>buying YouTube views </span>and <span className='text-[#ed2024] font-bold'> YouTube subscribers </span> to get them all at once!
       </p>
     </div>
     <div className='w-full min-[1px]:px-10 sm:pl-20 sm:pr-40 flex flex-col lg:justify-center xl:justify-end'> 
     <div className='flex justify-between mb-5'>
       <p><span className='text-[32px] font-bold text-[#ed2024]'>5000</span> <br /> Views for <br /> chosen video</p>
-      <p><span className='text-[32px] font-bold text-[#ed2024]'>1000</span> <br /> Likes for <br /> chosen video</p>
+      <p><span className='text-[32px] font-bold text-[#ed2024]'>000</span> <br />Likes for <br /> chosen video</p>
     </div>
     <div className='flex justify-between'>
-      <p><span className='text-[32px] font-bold text-[#ed2024]'>100</span> <br /> Views for <br /> chosen video</p>
-      <p><span className='text-[32px] font-bold text-[#ed2024]'>24/7</span> <br /> Likes for <br /> chosen video</p>
+      <p><span className='text-[32px] font-bold text-[#ed2024]'>100</span> <br /> New active <br />subscribers at once</p>
+      <p><span className='text-[32px] font-bold text-[#ed2024]'>24/7</span> <br /> Customers <br /> Support</p>
     </div>
     </div>
     </div>
@@ -191,16 +191,15 @@ export default function Herosectiontwo() {
     <div className='sm:flex sm:justify-center xl:justify-start'><p className='paras-one-text bg-[#ED2024] h-[.150rem] sm:w-[11.4rem] min-[1px]:w-[7.4rem] left-20 relative' style={{ transform: "matrix(1, .58, 0, .89, 0, 0)" }}></p></div>
     <div className='sm:flex sm:justify-center  xl:justify-start'><p className='paras-two-text bg-[#ED2024] rounded-md ml-10 h-[1.6rem] sm:w-[9.25rem] bottom-40 right-20 min-[1px]:w-[6.25rem] relative' style={{ transform: "matrix(1, .58, 0, .89, 0, 0)" }}></p></div>
     </div>
-    {/* Views4You’s Guarantee  */}
+    
     <div className='md:flex gap-11'>
     <div className='main md:w-2/4'>
     <div className='xl:p-10 min-[1px]:p-5'>
     <h1 className="font-montserrat 2xl:w-full sm:text-[32px] min-[1px]:text-[23px] font-bold text-gray-800 mb-4">
-    Views4You’s Guarantee When You Buy YouTube Views
+    5 Reasons to Build Your YouTube Likes with Views4You?
       </h1>
       <p className='text-[18px]'>
-      We know that you put in a lot of hours to produce amazing content on YouTube. Views4You works to give your content the popularity you deserve. With our services, your superb content is crowned with the reward of hundreds of thousands of views, just select how many you want! <br />
-      To grow their YouTube subscribers and likes daily with Views4You, our customers buy YouTube views for every video they produce.
+      There are parameters needed for video content to be counted as successful on YouTube: likes, subscribers, and views. Views4You provides all of this high-quality engagement for you to enjoy a lifetime growth experience on YouTube, where you can even buy 4000 watch hours and skyrocket your channel. Maybe, you have already bought YouTube views and reached hundreds of thousands of viewers through your precious efforts, and benefited the incontrovertible help of Views4You. You’ve even buy YouTube subscribers you ever wanted. But now, it is time to get your well-deserved likes, too. Don’t you think so? There is one little question you may ask, where are the quality likes? On Views4You, you don’t have to think much about your YouTube performance, we’ll work on that for you. Check out these some reasons to benefit from our YouTube service provider:
       </p>
     </div>
     <div className='bg-[#F4F6F8] xl:p-10 min-[1px]:p-5 rounded-2xl'>
@@ -212,10 +211,10 @@ export default function Herosectiontwo() {
           className=" w-28 h-28 "
         />
   <h1 className="font-montserrat 2xl:w-full sm:text-[32px] min-[1px]:text-[23px] font-bold text-gray-800 mb-4">
-    Views4You’s Guarantee When You Buy YouTube Views
+  Best Quality YouTube Likes Among All Social Media Services
       </h1>
       <p className='text-[18px]'>
-      After selecting the number of views you want to buy, you will be asked to enter the link of your video. Our system will automatically check your channel and will suggest a suitable country for your channel on the next screen. In this way, you will get a boost in views from viewers that are in alignment with your target audience.
+      You now have what you’ve ever wanted. Look at those likes pumping up so fast! Behind this well-performed service, there is the splendid effort from the team Views4You that took months to organize evenly. We worked day and night to serve you better results by analyzing every single possible YouTube like you might purchase. This process helped us to ensure they’re completely safe and real. Through these analyses, we received customer satisfaction with the feedbacks from our loyal customers, and be sure we're doing it right. They claimed that they have excellent visibility on search engines and they appear frequently on recommended videos after they buy YouTube likes. They created their own YouTube community. Now it's your time to shine with the quality All you have to do is observe our quality’s peak.
       </p>
     </div>
     <div className='bg-[#F4F6F8] mt-8 xl:p-10 min-[1px]:p-5 rounded-2xl'>
@@ -227,10 +226,10 @@ export default function Herosectiontwo() {
           className=" w-28 h-28 "
         />
     <h1 className="font-montserrat 2xl:w-full sm:text-[32px] min-[1px]:text-[23px] font-bold text-gray-800 mb-4">
-    Views4You’s Guarantee When You Buy YouTube Views
+    24/7 Customer Service Available
       </h1>
       <p className='text-[18px]'>
-      One side of the world is day meanwhile the other side is night, but this does not affect our service. Our team is available 24/7 to answer your questions about our YouTube growth services, no matter what country you live in.
+      Views4You customer service is available online 24/7 to attend to your inquiries. What is more? We even assist you on your extensive network journey by giving social media marketing tips that no other customer support team could handle. We don’t just care about your real YouTube likes order, but we are also here to answer how many YouTube likes you should buy or what you should do after hitting millions of viewers. Okay, let's agree on something, Views4You is the perfect social media growth service. Right?Okay, let's agree on something, Views4You is the perfect social media growth service. Right?
       </p>
     </div>
     </div>
@@ -244,10 +243,10 @@ export default function Herosectiontwo() {
           className=" w-28 h-28 "
         />
     <h1 className="font-montserrat 2xl:w-full sm:text-[32px] min-[1px]:text-[23px] font-bold text-gray-800 mb-4">
-    Views4You’s Guarantee When You Buy YouTube Views
+    Purchase YouTube Likes with Fast Delivery
       </h1>
       <p className='text-[18px]'>
-      One side of the world is day meanwhile the other side is night, but this does not affect our service. Our team is available 24/7 to answer your questions about our YouTube growth services, no matter what country you live in.
+      Having quality and affordable services should take minutes. Who does want to wait for decades to have something normally "suspicious" and falls into the "fake engagement policy" on social media platforms? Once you buy likes from Views4You, just sit back. Our delivery time is very swift, and you can easily trace your orders with your verified email account. It's a transparent process, and you're welcome to ask anything to the great customer support of Views4You.
       </p>
     </div>
     <div className='bg-[#F4F6F8] mt-8 xl:p-10 min-[1px]:p-5 rounded-2xl'>
@@ -259,10 +258,10 @@ export default function Herosectiontwo() {
           className="  w-28 h-28 "
         />
  <h1 className="font-montserrat 2xl:w-full sm:text-[32px] min-[1px]:text-[23px] font-bold text-gray-800 mb-4">
-    Views4You’s Guarantee When You Buy YouTube Views
+ The Most Affordable Packages in the Market
       </h1>
       <p className='text-[18px]'>
-      One side of the world is day meanwhile the other side is night, but this does not affect our service. Our team is available 24/7 to answer your questions about our YouTube growth services, no matter what country you live in.
+      We’ve handed over millions of real likes packages to countless YouTubers. The reason behind this success is because we’re the most affordable, trustworthy service in the market. We do not provide likes from fake accounts or bots. Who wants them anyway? New clients often come to us fearful because of bad experiences they’ve had in the past when they bought fake packages elsewhere. After they enjoy the benefits of buying the cheapest but quality YouTube likes from Views4You, you’ll find them coming back to us over and over again!
       </p>
     </div>
     <div className='bg-[#F4F6F8] mt-8 xl:p-10 min-[1px]:p-5 rounded-2xl'>
@@ -272,10 +271,10 @@ export default function Herosectiontwo() {
           className=" w-28 h-28 "
         />
  <h1 className="font-montserrat 2xl:w-full sm:text-[32px] min-[1px]:text-[23px] font-bold text-gray-800 mb-4">
-    Views4You’s Guarantee When You Buy YouTube Views
+ Secure and Confidential Payment
       </h1>
       <p className='text-[18px]'>
-      One side of the world is day meanwhile the other side is night, but this does not affect our service. Our team is available 24/7 to answer your questions about our YouTube growth services, no matter what country you live in.
+      It's our duty to protect your security and not stole any single information from your YouTube account. All we need to know is the YouTube URLs or your email - to send your orders in control. When it comes to your credit card information, we have a 256-bit SSL coding in place that secures your payment details, too. We get it; you may also wonder when you buy YouTube likes services, is there be anyone who see it. No! Also, you may be wondering—what if someone detects your buying activity? What if YouTube itself spots it? No one ever wants that, we are too YouTube users who use our own services to promote our personal accounts. Pay attention to this: No one ever finds out about your purchase or where you get the YouTube likes, views, or subscribers. Your details are safe in the hand of professionals. Pay attention to this: No one ever finds out about your purchase or where you get the YouTube likes, views, or subscribers. Your details are safe in the hand of professionals. As for your credit card information, we have a 256-bit SSL coding in place that secures your payment details, too.
       </p>
     </div>
     </div>
@@ -283,10 +282,10 @@ export default function Herosectiontwo() {
       {/* video sec  */}
       <div className="">
       <div className='text-center flex min-[1px]:pt-20 sm:pt-24 lg:pt-36 items-center video-sec flex-col'>
-        <h2 className='text-[32px] font-bold lg:w-2/4 sm:3/4 mb-6'>The world's number one YouTube Views service!</h2>
-        <p className='text-[18px] w-3/4'>Why wait? Your views are sure to go up, but only if you start to buy YouTube views from us today. Increase your view count and watch them shoot up quickly and safely.</p>
+        <h2 className='text-[32px] font-bold lg:w-2/4 sm:3/4 mb-6'>Double Your Engagement with YouTube Likes!</h2>
+        <p className='text-[18px] w-3/4'>YouTube likes are, too, very important aspects of YouTube channel growth. Once you have them, they will work as a social proof for your real audience.</p>
         <p className='flex justify-center pt-5 w-full'>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/nC5bR-OCi90?si=4s_sU0oiqV7IfHH1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/rKkT5LAEC-4?si=nmCZBvDYuSqmiH8H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </p>
       </div>
       </div>
@@ -296,11 +295,11 @@ export default function Herosectiontwo() {
       <div className="step-two w-full md:mt-32 sm:mt-24 min-[1px]:mt-24 lg:flex">
   <div className="img-sec sm:w-full xl:w-2/4 flex justify-center items-center relative">
     <img
-      src="https://views4you.com/wp-content/uploads/2022/11/Youtube-views-growing-video-optimized.gif"
+      src="https://views4you.com/wp-content/uploads/2022/08/2.jpg"
       alt=""
-      className="mbl-img lg:w-[65%] sm:w-[45%] sm:top-[25px] min-[1px]:w-[55%] min-[1px]:top-[25px] h-auto relative rounded-xl 2xl:top-[7%] lg:top-[5%]"
+      className="mbl-img lg:w-[63%] sm:w-[40%] sm:top-[25px] min-[1px]:w-[55%] min-[1px]:top-[25px] h-auto relative rounded-xl 2xl:top-[4%] lg:top-[2%] xl:top-[5%]"
       style={{
-        transform: "matrix(1, -.6, 0, .89, 0, 0)",
+        transform: "matrix(1, -.58, 0, .89, 0, 0)"
       }}
     />
     <img
@@ -311,11 +310,10 @@ export default function Herosectiontwo() {
   </div>
   <div className="text-sec sm:w-full sm:mt-32 min-[1px]:mt-32 lg:mt-0 xl:w-2/4">
     <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550]">
-      Why Do You Need To Buy YouTube Views?
+    Why Do You Need More YouTube Likes?
     </h3>
     <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black">
-      True, YouTube views may not always be a good measure of video quality or engagement. But, they remain a vital factor in the success of your video’s performance. The number of people who have watched your videos depict a sense of importance about its popularity and level of interest to your visitors! <br />
-      The number of views a video has, for most visitors, automatically indicates that it is valuable and quality. Regardless of whether they eventually like the content or not, the number of views makes videos seem important, period! The more times a user watches your video, the higher your chances of engaging them and the more likely they are to consider what else you might have to offer them. If you continue to keep them interested, they’ll keep coming back, which means more subscribers and more views for your channel!
+    If you’re running an online business, you need to have a strong presence on the world’s second-largest search engine, YouTube. Reaching your target audience is not an easy feat. Making it look real is even more difficult. If you have lots of subscribers, you need likes on your content and also views! Otherwise, the subscriber count will look fake. It’s alright if you don’t know how to get them simultaneously. Here’s where Views4You offers you a solution. With this service, you will increase your channel’s visibility by growing your likes. You’re wrong if you think likes are not very important for growth. Read more about visibility tactics and being an influencer conditions on YouTube by visiting our YouTube Money Calculator tool, and other tools, including blog posts. The more likes your channel has, the more likely it is that new viewers will watch and engage with your content. YouTube’s algorithm favors channels with high-quality videos like engagement rates, as well. Likes are also very important for growth. The more likes your channel has, the more likely new viewers will watch and engage with your content. YouTube’s algorithm favors channels with high engagement rates, as well.
     </p>
   </div>
 </div>
@@ -325,57 +323,49 @@ export default function Herosectiontwo() {
           <div className="step-two w-full md:mt-36 sm:mb-32 sm:mt-24 min-[1px]:mt-24 lg:flex lg:flex-row min-[1px]:flex min-[1px]:flex-col-reverse">
   <div className="text-sec sm:w-full xl:w-2/4">
     <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550]">
-      Numbers, Engagement, and Reputation; Views4You
+    How Can I Buy YouTube Likes
     </h3>
     <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black">
-      What is your expectation? Do you just want numerical superiority? Do you want your videos to reach more viewers? Or do you want your company’s ad to look good online? What about making money from YouTube? Numbers are everything in today’s digital world. Buying views makes a quick and immediate contribution to your numerical superiority, making you seem like a legit channel for viewers to flock to. <br />
-      What number of views will satisfy you? Would 100,000 views look good on a video promoting your company? Views4You can provide this for you. Thanks to the quality views we send to your videos, we’re able to activate the YouTube algorithm and make the system work for you. <br />
-      With a little boost from our YouTube growth service, you naturally get the chance to reach more viewers. If you want to earn money from YouTube, Views4You gives you a chance to achieve that.
+    To get started, Views4You will need some basic information from you before you can buy YouTube likes. This includes your YouTube channel URL, your username, and your chosen package with affordable solutions. The next step is to sit back and let us do our thing. We’ll use our tried-and-true methods to help you organically grow your YouTube channel. One of the most important things about buying likes from Views4You is that we do not use your sensitive credit card information for suspicious activities. Rest assured that all the payments you make are secure. However, if you buy likes from any other place, they might steal your bank info to use later.
     </p>
   </div>
-  <div className="img-sec relative sm:w-full xl:w-2/4 flex justify-center items-center">
-  {/* First Image Inside the Second */}
-  <img
-    src="https://views4you.com/wp-content/uploads/2022/08/image-2.jpg"
-    alt="YouTube Content"
-    className="absolute left-[50%] w-[27%] 2xl:h-[80%] xl:h-[70%] min-[1px]:h-4/5 rounded-xl "
-    style={{ transform: "matrix(1, .6, 0, .89, 0, 0)" }}
-  />
-  {/* Second Image (Frame) */}
-  <img
-    src="https://views4you.com/wp-content/themes/views4you_theme/img/device-3.png"
-    alt="Device Frame"
-    className="relative w-[80%]"
-  />
-</div>
+  <div className="img-sec sm:w-full xl:w-2/4 flex justify-center items-center relative">
+    <img
+      src="https://views4you.com/wp-content/uploads/2022/08/11.jpg"
+      alt=""
+      className="mbl-img lg:w-[63%] sm:w-[40%] sm:top-[25px] min-[1px]:w-[55%] min-[1px]:top-[25px] h-auto relative rounded-xl 2xl:top-[4%] lg:top-[2%] xl:top-[5%]"
+      style={{
+        transform: "matrix(1, .58, 0, .89, 0, 0)"
+      }}
+    />
+   
+  </div>
 
 </div>
-
 
           {/* step three  */}
-          <div className="step-two w-full md:mt-36 sm:mt-24 min-[1px]:mt-24 lg:flex ">
-  <div className="img-sec relative sm:w-full xl:w-2/4 flex justify-center items-center">
+          <div className="step-two w-full  md:mt-36 sm:mt-24 min-[1px]:mt-24 lg:flex ">
+          <div className="img-sec relative sm:w-full xl:w-2/4 flex justify-center items-center">
   {/* First Image Inside the Second */}
   <img
-    src="https://views4you.com/wp-content/uploads/2022/08/youtube-logo-2.png"
+    src="https://views4you.com/wp-content/uploads/2022/08/women-is-shocked.jpg"
     alt="YouTube Content"
-    className="absolute left-[50%] w-[27%] 2xl:h-[80%] xl:h-[70%] min-[1px]:h-4/5 rounded-xl "
+    className="absolute left-[50%] w-[33%] 2xl:h-[78%] lg:h-2/5 object-cover xl:h-[70%] min-[1px]:h-4/5 rounded-xl "
     style={{ transform: "matrix(1, .6, 0, .89, 0, 0)" }}
   />
   {/* Second Image (Frame) */}
   <img
     src="https://views4you.com/wp-content/themes/views4you_theme/img/device-3.png"
     alt="Device Frame"
-    className="relative w-[80%]"
+    className="relative w-[100%]"
   />
 </div>
   <div className="text-sec sm:w-full xl:w-2/4">
     <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550]">
-     An Excellent Strategy To Uplift Your YouTube Channel
+    Gain Online Reputation and Money with Views4You
     </h3>
     <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black">
-    Organic views are great, but if you’re in need, it is possible to buy YouTube views and buy <span className='font-bold text-[#ed2024]'>YouTube watch hours</span> that will provide you with just as much influence in way shorter time. <br />
-    The majority of YouTube visitors never question where these numbers come from. They accept them as quality engagement without thinking too deeply about their origin or authenticity. This means the views you buy can serve as an effective support base for your channel, giving it the credibility visitors need to see to convince them to become subscribers. Whether you are trying to make the next video stand out against the large competition or want to grow your channel’s subscriber base, buying views on YouTube may be an excellent strategy.
+    What was your expectation when opening the YouTube account? If you want to get a reputation and gain more money, you are at the right social media service provider! If you have fewer subscribers, we are here for your YouTube journey. You can gain organic subscribers for your YouTube channels. Buy subscribers, as much as you wish! Don’t you want to get the reward for your efforts as soon as possible? Wouldn’t you like to announce your work to a broader subscriber base? Or do you want to earn more money? If your answer is yes to all of these questions, try Views4You, one of the YouTube subscriber packages. As a Youtube channel owners, you can be reach your targets. Creating an audience in digital media takes time. That’s why you can double or even triple your YouTube success with support from a trusted source, Views4You. You can choose one of the YouTube subscription packages and enjoy becoming famous quickly. Still uncertain? Views4You has been declared the top-rated platform for purchasing YouTube subscribers by a variety of prestigious publications, including Entrepreneur, Wtkr, and OrlandoWeekly. Don’t miss out on the opportunity to join the ranks of thousands of satisfied YouTubers who have already made the wise decision to choose Views4You. All you have to do is select the number of channel subscribers and click the buy now button!
     </p>
   </div>
 
@@ -429,36 +419,29 @@ export default function Herosectiontwo() {
     Frequently Asked Questions
     </h3>
     <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black">
-    Have questions about how to purchase YouTube views or do you want to know how to boost YouTube views on your YouTube channel? We’re here to answer all your questions, so let's get started!
+    We are here to answer all of your questions, so let's get started to improve your YouTube presence!
     </p>
   </div>
   <div className='accordian w-full'>
   <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
   <input type="radio" name="my-accordion-3" defaultChecked />
   <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-    Why buy YouTube views from Views4you?
+  How Long Will it Take for the YouTube Likes I Purchased to Appear on My Video?
   </div>
   <div className="collapse-content">
     <p className="text-[18px]">
-      Since the start of our company, we have always ensured that every one of your needs is met with unrivaled quality.
-      As a manual team who manually checks all products for authenticity before they are delivered to you – there’s no
-      better option than us! We are the only company that offers a complete package of products for publishers,
-      including high-quality views for YouTube ads and high retention views. Views4You care about our customer
-      satisfaction, so our customer support team provides solutions on the payment process a few hours after you make
-      the purchase. We also care about your pocket; our services come at rock-bottom prices so that you can afford them!
-      We offer a refill package money-back guarantee on all of our products, so there’s nothing you can lose when you
-      give us a try. Other packages we have include premium-quality views for 1000 views or less!
+    Views4You offers two different YouTube like services in terms of delivery speed. The daily delivery speed of Views4You fast likes option is 2,000. Therefore you may get maximum 2,000 likes a day. You may choose to have the likes in fast version if you have any concerns of not getting them in time. However, to clarify all the process, we provide “order track” service once you purchased any YouTube growth service from Views4You. Therefore, there is no such thing as not getting your orders. On the other hand, if you choose Views4You slow likes option while buying YouTube likes, this speed is limited to 45 likes per day. You may choose to have the likes in slow version if you have any concerns of getting them at once. Our customers can receive their likes at the speed as they need.
     </p>
   </div>
 </div>
 <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
   <input type="radio" name="my-accordion-3" defaultChecked />
   <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-  Do Views4You's YouTube views affect YouTube ranking?
+  Is it Legal to Buy Likes?
   </div>
   <div className="collapse-content">
     <p className="text-[18px]">
-    We know that many factors affect YouTube ranking. When these elements come together, YouTube automatically sends you more viewers. The title of your video, your video description, and the thumbnail pictures you use for your videos are some factors that directly affect your ranking. In addition to these factors, buying high-quality views can also be among the factors that affect your ranking positively.
+    Yes, of course buying likes is legal. There is no legal issue preventing this. However, we should inform you that these and similar services are against YouTube’s terms of policies. Still, there is nothing to worry about if you buy it from Views4You, the real YouTube growth service provider. Our team is constantly working to ensure that our services offer you with the best benefit.
     </p>
   </div>
 </div>
@@ -466,179 +449,164 @@ export default function Herosectiontwo() {
 <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
   <input type="radio" name="my-accordion-3" defaultChecked />
   <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-  Does it take a long time, and how do YouTube views increase?
+  Can YouTube Remove Likes /or Can YouTube Detect Fake Likes?
   </div>
   <div className="collapse-content">
     <p className="text-[18px]">
-    First, you go to our YouTube views service and send your video link to our system. Right after you buy views for your YouTube video, you can see the incoming views on the video statistics page within an average of 10 minutes! For slow viewings, the daily rate is around 2000 views on average, but for immediate viewings, this can be up to 10,000+ views per day. The reflection of the views just below your YouTube video may take up to three hours, depending on YouTube.
+    No bad news here, YouTube cannot remove likes or cause a drop in the likes you bought later. The reasons for this are simple: the likes you buy from third-party YouTube growth provider such as Views4You is a part of an organic process, therefore they are not fake or spam accounts. Also, through these purchasing, we are not connected to your account in any way, so, YouTube has no power over the top quality service Views4You. It means that since do all these in accordance with YouTube polices. There will no problem on secure delivery. Additionally, once the purchase is made and delivered, it’s permanent and can’t be reversed. That said, it’s important to note that buying likes and doing nothing on YouTube by yourself does not guarantee that you’re an excellent YouTuber in postion. You need to increase in engagement with your content, so consider other tactics such as creating engaging videos and promoting them on social media when looking to boost engagement by reading our blog posts. Ultimately, the success of your videos will depend on the quality of content you produce. In any way, we should also mark that our services are covered by a 30-day fall compensation or we offer money-back guarantee.
     </p>
   </div>
 </div>
 <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
   <input type="radio" name="my-accordion-3" defaultChecked />
   <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-  Is it legal to buy YouTube Views?
+  Are YouTube Likes Anonymous If You Buy Them from Views4You?
   </div>
   <div className="collapse-content">
     <p className="text-[18px]">
-    Yes, of course, buying YouTube views is legal in all countries. However, buying views are not in line with YouTube’s terms. YouTube works every day to make this and similar services impossible. Views4You, on the other hand, is trying to do the service it provides in line with YouTube’s terms to fulfill the demands of its customers. As long as you buy real video plays from real YouTube accounts, the number of views of your YouTube videos will continue to grow organically.
+    Of course they are from real YouTube users with real names and YouTube channels since they are directed to your account through suggested videos but, you definitely don’t know who they are. But, soon, you may become friends with your genuine subscribers. It’s all up to you.
     </p>
   </div>
 </div>
 <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
   <input type="radio" name="my-accordion-3" defaultChecked />
   <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-  Why do people need to buy real YouTube views?
+  Are YouTube Likes Private and Protect Your Privacy? 
   </div>
   <div className="collapse-content">
     <p className="text-[18px]">
-    Standing out from the crowd on YouTube is not easy, and it’s even more challenging to appear on the search results when you have a small following or no one. That’s why purchasing YouTube views increases your Social Media engagement; as a result, your YouTube video views impact your ranking on YouTube’s search engine.
+    We maintain your privacy throughout the process. Also never require you to give any information for more than what you need to give in order to get social media marketing services you ordered from Views4You. There is ssl encrypted payment gateway, too, to provide services with secure systems. We understand the importance of keeping your YouTube likes private and confidential so we make sure to maintain this privacy for all of our customers unlike any other social media platforms third party services. We want to make sure you can trust us with your content, and that’s why we never share any information concerning your orders or purchases with anyone else. With Views4you, you can be sure that all of your Likes will stay private so you can rest assured knowing your content is safe.
     </p>
   </div>
 </div>
 <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
   <input type="radio" name="my-accordion-3" defaultChecked />
   <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-  Can I choose the YouTube views location?
+  What Effect Will These Likes Have on Your Video?
   </div>
   <div className="collapse-content">
     <p className="text-[18px]">
-    Yes! Of course, you can. We currently send you views from the USA, England, Spain, Italy, Japan, Korea, Brazil, Indonesia, India, and Israel. We are adding new countries to this list depending on the demands of the target audience you want. After clicking the buy button, you will be directed to the page where you’ll enter your video link. After that, our system will automatically determine your video’s language and suggest that country to you. We offer many services at affordable prices to help you get more views for every video content you share. Similarly, you can buy YouTube subscribers, or YouTube likes and also, you can buy YouTube lives stream views in the same method but on different pages.
+    There are some algorithms that YouTube arranges for users to reach more viewers and encourage users to create YouTube content strategy which are the main reasons to prioritize watch time on the platform itself. As in daily life, if you have more YouTube likes, YouTube often recommends your videos to other users.
     </p>
   </div>
 </div>
 <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
   <input type="radio" name="my-accordion-3" defaultChecked />
   <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-  Are YouTube views real when people come from Views4you to watch my YouTube videos?
+  Does YouTube Likes Make Money /or Play a Part on Making Money on YouTube?
   </div>
   <div className="collapse-content">
     <p className="text-[18px]">
-    Yes! We guarantee that the views come from real people and regularly optimize our systems accordingly. You can confirm that the views you buy from us are real. How? Once the views start coming to your video, look at your statistics page and observe where the views are coming from. We have an efficient screening process through which we filter out any spam accounts that have yet to show the right amount of credibility and legitimacy on YouTube. Again, you can observe the authenticity of views yourself since you will also start to receive active subscribers automatically to your channel, not just views.
+    Yes, YouTube likes can be an important factor in making money on YouTube. While having more YouTube views is certainly a great way to increase revenue, the number of likes and subscribers also play a role in determining how much money someone can make from their YouTube videos. A higher like count on your video content demonstrates that you have an engaged fanbase and social media success which will attract brands looking for influencers. Additionally, having many YouTube subscribers, YouTube likes, or YouTube comments means that viewers are more likely to share your content with others, thereby increasing the reach and viewership of your channel. This increased viewership brings even more ad revenue to YouTube creators and helps to ensure their continued success. That is all YouTube Partner Program stands for, to make your YouTube engagement keep going. In conclusion, likes and subscriptions both play an important part in helping creators earn money through their YouTube ventures.
     </p>
   </div>
 </div>
 <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
   <input type="radio" name="my-accordion-3" defaultChecked />
   <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-  How to grow my brand with YouTube views?
+  How Many YouTube Likes You Need to Get Paid by YouTube?
   </div>
   <div className="collapse-content">
     <p className="text-[18px]">
-    Views4You will not only get you more views, but you’ll also be able to create other strategies that will lead to more exposure and brand awareness. Using our specific customized techniques on our YouTube growth services, you’ll learn how to ensure that your target audience watches your video content. We’re here to help you gain more exposure on the YouTube platform to grow your social media presence and become a leading influencer! Ready? Just read on, choose your package, and let’s get started!
+    This depends on a number of factors such as your content, type of audience and how much effort you put into promoting your videos. Generally speaking, the more likes you have on YouTube, the more your videos will be seen by potential viewers and advertisers. That said, it is estimated that 10,000 likes are needed to start making money from YouTube through ad revenue alone. However, if you can build up your fan base over time and get more YouTube video views for each video, then even lower numbers than that could be profitable for you. Each situation is unique though so there’s no one-size-fits-all answer here – just keep trying new things and focus on creating great content!
     </p>
   </div>
 </div>
 <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
   <input type="radio" name="my-accordion-3" defaultChecked />
   <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-  1 million YouTube views is how much in costs, if yes is it possible to buy it?
+  How to Increase YouTube Likes?
   </div>
   <div className="collapse-content">
     <p className="text-[18px]">
-    Views4you is the best place to get as many views as you like without any limits. We will help you increase your views to up to 1 million YouTube video views and more, if you like, with our service!
+    Increasing YouTube likes can be a difficult task if you don’t rather to buy high quality likes from Views4You. There are some steps you can take to make it easier, or read more to learn more about the ways to grow your YouTube channel on our blog section. <br />
+    <span className='font-bold'>1. Create Quality Content:</span>
+    To get more likes on your videos, the most important thing is to create content that people will like and share. Make sure your video has interesting subject matter, good visuals, and compelling audio. <br />
+    <span className='font-bold'>2. Promote Your Video:</span>
+You should promote your video as much as possible in order to get more views and thus more likes. Utilize social media platforms such as Facebook, Twitter, and Instagram to share your video with friends and followers. Additionally, post links to other websites or videos related to what you’ve created so viewers have an easy way of finding it. <br />
+<span className='font-bold'>3. Interact with Viewers:</span>
+Responding to comments and messages will make viewers feel like they have a personal connection with you, which can be a great way to get more likes on your videos. Additionally, liking other people’s videos or commenting on them is an easy way to network with others in the YouTube community. <br />
+<span className='font-bold'>4. Collaborate With Other YouTubers:</span>
+If you reach out to other creators who have similar interests as you do, you can collaborate on content or do small promotions for each other’s channels. This helps both parties by exposing their videos to different audiences, resulting in potentially more views and likes. <br />
+<span className='font-bold'>5. Follow Trends:</span>
+Staying up-to-date with the latest trends can help boost the views and likes of your videos. People are more likely to watch a video that is current or related to something they’re passionate about. It also helps if the title of your video accurately reflects the content you are providing. Following these steps can help get more likes on your YouTube videos, but remember it may take time before you start seeing results. <br />
+Remain consistent in producing quality content and engaging with viewers and other YouTubers, and eventually you will be able to reap the rewards.
     </p>
   </div>
 </div>
 <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
   <input type="radio" name="my-accordion-3" defaultChecked />
   <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-  Can YouTube views decrease after I make the purchase?
+  What Country Do the Likes Come From?
   </div>
   <div className="collapse-content">
     <p className="text-[18px]">
-    Purchased YouTube views will stay on your channel, but if it ever happens that YouTube views go down, we’ll make it up for free for 60 days!
+    The likes you buy from Views4You reach your videos from all over the world, mainly from the USA. It’s better to mention about best time to post on YouTube when we’re talking about the audience, we have a post about that concern if you like to read it. And you could be able to know your target audience’s activation time on YouTube to post your content “on time”.
     </p>
   </div>
 </div>
 <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
   <input type="radio" name="my-accordion-3" defaultChecked />
   <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-  How long will my videos be watched?
+  How Many YouTube Likes Can You Buy?
   </div>
   <div className="collapse-content">
     <p className="text-[18px]">
-    We cannot guarantee exactly, but it should be a minimum of 1 minute of watch time on average.
+    Although the maximum limit is set on Views4You’s likes sales page, you can have more likes by making more than one purchase. There is no upper limit.
     </p>
   </div>
 </div>
 <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
   <input type="radio" name="my-accordion-3" defaultChecked />
   <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-  There is a country restriction on my video. Does this affect your work? 
+  How Many Likes Should You Buy?
   </div>
   <div className="collapse-content">
     <p className="text-[18px]">
-    If your channel has a country restriction, unfortunately, we cannot offer you our YouTube views service. We recommend using other promotional strategies to get more views for your YouTube channel.
+    It’s all about how many views your video already has, and how more you want them to be. If you have 100,000 views, it will look more natural for this video to have 3,000 – 5,000 likes at least.
     </p>
   </div>
 </div>
 <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
   <input type="radio" name="my-accordion-3" defaultChecked />
   <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-  How many views should I buy?
+  Are These Likes Real?
   </div>
   <div className="collapse-content">
     <p className="text-[18px]">
-    Your YouTube promotion decision is totally up to you and what you want for your YouTube channel. But remember that the more views you buy, the higher your chances of getting the popularity you want on YouTube.
+    Certainly. Before you made your purchase, every YouTube like you buy from Views4You is regularly checked if they are consists of active, real Youtube accounts by our team of exper
     </p>
   </div>
 </div>
 <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
   <input type="radio" name="my-accordion-3" defaultChecked />
   <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-  What is the difference between your fast views and slow views service?
+  How to Hide YouTube Likes and Dislikes?
   </div>
   <div className="collapse-content">
     <p className="text-[18px]">
-    The difference between buying the Fast or Slow YouTube views service depends only on how quickly you want your video to get views.
+    The good news is that there are several ways to hide your likes and dislikes on YouTube. To start, the most obvious and secure way to do this is to switch your account to a private or unlisted profile. This allows you to control who can view your activity and restricts video discovery view from non-subscribers. If you have already made your account public, you can still make it private by heading over to the ‘Privacy Settings’ in the account menu. Another option is to manually delete any liked or disliked videos from your activity feed which can be done through the ‘My Activity’ tab on YouTube. After clicking on each activity entry, click on ‘Remove’ and then confirm the removal. Additionally, you can go to the ‘History’ section of YouTube and disable the ‘Private Results’ toggle which prevents anyone who is logged into your account from seeing your video history. Finally, you can also just opt-out of YouTube liking and disliking altogether by disabling the feature completely in the account settings menu. This will prevent any future likes or dislikes from appearing on your profile but it will not hide existing likes and dislikes that have already been documented. For a more secure approach, use a combination of these methods to make sure no one can see your activity on YouTube.
     </p>
   </div>
 </div>
 <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
   <input type="radio" name="my-accordion-3" defaultChecked />
   <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-  Are YouTube views fake an option to buy?
+  How to See /or Check YouTube Likes of Another YouTube Channel?
   </div>
   <div className="collapse-content">
     <p className="text-[18px]">
-    Yes. Of course, you can buy fake views for your YouTube videos. But if you can buy real YouTube views from Views4You, why would you need a fake one?
+    Unfortunately, YouTube does not reveal the likes of another channel or video to viewers. Likes are only visible to the channel owner and those with access to YouTube Studio. If you would like to see how many people have liked a video on someone else’s channel, there are two ways that you can do so: <br />
+
+1. Check out a third-party website such as SocialBlade, Vidooly, or Influencer Marketing Hub. These websites provide detailed analytics about content performance across social media platforms including YouTube. You can use these services to view the total number of likes for a specific YouTube video or even track monthly performance over time. <br />
+
+2. Ask the creator directly via comment, email, or private message if possible. Many creators are more than happy to share the likes on their videos.
+
+Regardless of which method you choose, remember that it’s important to respect a creator’s privacy and not to make any assumptions based on the numbers. Every viewer counts when it comes to YouTube SEO, regardless of whether they click “like” or not.
     </p>
   </div>
 </div>
-<div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
-  <input type="radio" name="my-accordion-3" defaultChecked />
-  <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-  Does buying YouTube views have an impact on visibility in search engines like Google?
-  </div>
-  <div className="collapse-content">
-    <p className="text-[18px]">
-    If you paid attention while searching on Google, you must have noticed that YouTube includes the most watched videos on the first pages. If the YouTube views you purchased have a high-quality source (Views4You gets its traffic from within YouTube), it will positively affect both YouTube SEO and search engines. Don’t forget that the YouTube views you receive from Views4You come from only real accounts bringing more YouTube views real and quickly to your network.
-    </p>
-  </div>
-</div>
-<div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
-  <input type="radio" name="my-accordion-3" defaultChecked />
-  <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-  Will others know that I bought views?
-  </div>
-  <div className="collapse-content">
-    <p className="text-[18px]">
-    The great thing about purchasing YouTube views from Views4You is that they make your video views look authentic. Our packages also work to bring more organic traffic since when users see popular content such as yours, it’s hard not to check in!
-    </p>
-  </div>
-</div>
-<div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
-  <input type="radio" name="my-accordion-3" defaultChecked />
-  <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-  How can I trust companies that sell YouTube views services, like Views4You offers?
-  </div>
-  <div className="collapse-content">
-    <p className="text-[18px]">
-    Anytime you are thinking about trusting a company with YouTube views services, you should ask yourself a few questions: How long has this company been in business? Do they have any positive reviews? What do other people say about their services? Once you have looked into these things, you can make an informed decision about whether or not you want to trust the company. In the case of Views4You, we have been in business for years and have countless satisfied customers. We also have a five-star rating on Trustpilot, so you can be confident that we are a company you can trust. When it comes to promoting your YouTube business or product, Views4You is a clear choice.
-    </p>
-  </div>
-</div>
+
   </div>
   </div>
  {/* reviews slider  */}

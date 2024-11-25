@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import Link from 'next/link'
 function HeroSection() {
   return (
       <div className="flex flex-col max-w-[1390px] px-5 mx-auto  md:flex-row justify-center lg:pt-16 lg:pb-20 md:pt-9 md:pb-9 sm:pt-10 sm:pb-10 min-[1px]:pb-10 min-[1px]:pt-8 max-[639px]:pb-0 max-[639px]:pt-8">
@@ -19,7 +19,7 @@ function HeroSection() {
           </p>
           <div className="flex min-[1px]:my-5 sm:my-0 items-center">
             <a
-              href="#"
+              href="#card-sec"
               className="font-montserrat bg-black text-white text-lg font-bold py-6 mr-10	 px-16 rounded-full hover:bg-gray-800 transition"
             >
               Offers

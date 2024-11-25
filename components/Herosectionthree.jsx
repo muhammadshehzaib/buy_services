@@ -125,21 +125,18 @@ const testimonials = {
 };
 
 
-export default function Herosectiontwo() {
+export default function Herosectionthree() {
   return (
     <div className='items-center justify-between max-w-[1390px] px-5 mx-auto'>
    
-             {/* views page  */}
+             {/* Subscriber page  */}
 
-         {/* views-sec-tabs  */}
+         {/* Subscriber-sec-tabs  */}
          <div className="flex flex-col max-w-[1390px] px-5 mx-auto  md:flex-row justify-center lg:pt-16 lg:pb-20 md:pt-9 md:pb-9 sm:pt-10 sm:pb-10 min-[1px]:pb-10 min-[1px]:pt-8 max-[639px]:pb-0 max-[639px]:pt-8">
     <div className="w-full  md:mb-0 ">
       <h1 className="font-montserrat min-[320px]:text-[30px] 2xl:w-full lg:text-6xl sm:text-4xl md:text-[2.75rem] font-bold text-gray-800 mb-4">
-      Buy YouTube Views
+      Buy YouTube Subscribers <span className='font-bold bg-[#ed2024] text-white p-3 rounded-2xl text-[36px]'>Fast</span>
       </h1>
-      <span className="font-montserrat sm:mb-4 min-[1px]:mb-4 md:mb-0 font-bold bg-[#ed2024] text-white sm:text-[1.25rem] md:text-[1.75rem] leading-[2rem] inline-block px-5 py-3 rounded-[.75rem]">
-      Instantly
-      </span>
       <p className="font-montserrat block md:my-5 mx-0 md:py-3 sm:my-0 min-[1px]:my-0 max-[639px]:my-0 lg:w-full text-lg text-#050708">
       Views4You is the safest way to buy YouTube Views with delivery in just a few minutes. We offer multiple packages with real users for all different needs - choose wisely!
       </p>
@@ -162,26 +159,26 @@ export default function Herosectiontwo() {
     <div className='w-full sm:mt-20 lg:mt-28 rounded-3xl Campaign-sec lg:flex sm:py-28 min-[1px]:pt-16 pb-36  bg-[#F4F6F8]'>
     <div className='w-full min-[1px]:px-10 sm:px-20 lg:pl-20'>
     <h1 className="font-montserrat min-[320px]:text-[30px] 2xl:w-full lg:text-[32px] sm:text-4xl md:text-[2.75rem] font-bold text-gray-800 mb-4">
-    All In One YouTube Views Campaign
+    All In One YouTube Subscribers Campaign
       </h1>
       <div className='xl:flex font-montserrat'>
       <span className="font-montserrat text-[1.75rem] text-white sm:mb-4 min-[1px]:mb-4 md:mb-0 font-bold bg-[#ed2024] px-5 py-3 rounded-[.75rem] flex items-center w-36">
-      $45.00
+      $68.00
       </span>
       <button className='py-6 px-24 bg-black rounded-full text-white font-bold text-[18px] sm:mt-5 xl:mt-0 xl:ml-10'>Buy Now</button>
       </div>
       <p className="font-montserrat block sm:my-5 mx-0  min-[1px]:my-5 max-[639px]:my-0 lg:w-full text-lg text-#050708">
-      With Views4You’s all-inclusive package, <span className='text-[#ed2024] font-bold'>you can buy YouTube subscribers, </span>and views simultaneously. Moreover, you may order <span className='text-[#ed2024] font-bold'>YouTube likes</span> service and add it to the package for the best price.
+      Buy real YouTube subscribers from Views4You with an exclusive package, including <span className='text-[#ed2024] font-bold'>buy YouTube Views </span>service to add more engagement to your videos. Also, you can <span className='text-[#ed2024] font-bold'>buy YouTube likes</span> service to increase your channel’s performance instantly. After your purchase, you can benefit from customer service at all hours of the day and night.
       </p>
     </div>
     <div className='w-full min-[1px]:px-10 sm:pl-20 sm:pr-40 flex flex-col lg:justify-center xl:justify-end'> 
     <div className='flex justify-between mb-5'>
-      <p><span className='text-[32px] font-bold text-[#ed2024]'>5000</span> <br /> Views for <br /> chosen video</p>
-      <p><span className='text-[32px] font-bold text-[#ed2024]'>1000</span> <br /> Likes for <br /> chosen video</p>
+      <p><span className='text-[32px] font-bold text-[#ed2024]'>1000</span> <br /> New active <br /> subscribers at once</p>
+      <p><span className='text-[32px] font-bold text-[#ed2024]'>5000</span> <br />Views for <br /> chosen video</p>
     </div>
     <div className='flex justify-between'>
-      <p><span className='text-[32px] font-bold text-[#ed2024]'>100</span> <br /> Views for <br /> chosen video</p>
-      <p><span className='text-[32px] font-bold text-[#ed2024]'>24/7</span> <br /> Likes for <br /> chosen video</p>
+      <p><span className='text-[32px] font-bold text-[#ed2024]'>500</span> <br /> Likes for <br /> chosen video</p>
+      <p><span className='text-[32px] font-bold text-[#ed2024]'>24/7</span> <br /> Customers <br /> Support</p>
     </div>
     </div>
     </div>
@@ -191,102 +188,14 @@ export default function Herosectiontwo() {
     <div className='sm:flex sm:justify-center xl:justify-start'><p className='paras-one-text bg-[#ED2024] h-[.150rem] sm:w-[11.4rem] min-[1px]:w-[7.4rem] left-20 relative' style={{ transform: "matrix(1, .58, 0, .89, 0, 0)" }}></p></div>
     <div className='sm:flex sm:justify-center  xl:justify-start'><p className='paras-two-text bg-[#ED2024] rounded-md ml-10 h-[1.6rem] sm:w-[9.25rem] bottom-40 right-20 min-[1px]:w-[6.25rem] relative' style={{ transform: "matrix(1, .58, 0, .89, 0, 0)" }}></p></div>
     </div>
-    {/* Views4You’s Guarantee  */}
-    <div className='md:flex gap-11'>
-    <div className='main md:w-2/4'>
-    <div className='xl:p-10 min-[1px]:p-5'>
-    <h1 className="font-montserrat 2xl:w-full sm:text-[32px] min-[1px]:text-[23px] font-bold text-gray-800 mb-4">
-    Views4You’s Guarantee When You Buy YouTube Views
-      </h1>
-      <p className='text-[18px]'>
-      We know that you put in a lot of hours to produce amazing content on YouTube. Views4You works to give your content the popularity you deserve. With our services, your superb content is crowned with the reward of hundreds of thousands of views, just select how many you want! <br />
-      To grow their YouTube subscribers and likes daily with Views4You, our customers buy YouTube views for every video they produce.
-      </p>
-    </div>
-    <div className='bg-[#F4F6F8] xl:p-10 min-[1px]:p-5 rounded-2xl'>
-    <img
-          src="https://views4you.com/wp-content/themes/views4you_theme/img/list-icon.svg"
-          alt="OK Logo"
-          width={100}
-          height={100}
-          className=" w-28 h-28 "
-        />
-  <h1 className="font-montserrat 2xl:w-full sm:text-[32px] min-[1px]:text-[23px] font-bold text-gray-800 mb-4">
-    Views4You’s Guarantee When You Buy YouTube Views
-      </h1>
-      <p className='text-[18px]'>
-      After selecting the number of views you want to buy, you will be asked to enter the link of your video. Our system will automatically check your channel and will suggest a suitable country for your channel on the next screen. In this way, you will get a boost in views from viewers that are in alignment with your target audience.
-      </p>
-    </div>
-    <div className='bg-[#F4F6F8] mt-8 xl:p-10 min-[1px]:p-5 rounded-2xl'>
-    <img
-          src="https://views4you.com/wp-content/themes/views4you_theme/img/list-icon.svg"
-          alt="OK Logo"
-          width={100}
-          height={100}
-          className=" w-28 h-28 "
-        />
-    <h1 className="font-montserrat 2xl:w-full sm:text-[32px] min-[1px]:text-[23px] font-bold text-gray-800 mb-4">
-    Views4You’s Guarantee When You Buy YouTube Views
-      </h1>
-      <p className='text-[18px]'>
-      One side of the world is day meanwhile the other side is night, but this does not affect our service. Our team is available 24/7 to answer your questions about our YouTube growth services, no matter what country you live in.
-      </p>
-    </div>
-    </div>
-    <div className='scnd-main md:w-2/4'>
-    <div className='bg-[#F4F6F8] sm:mt-8 md:mt-0 xl:p-10 min-[1px]:p-5 rounded-2xl'>
-    <img
-          src="https://views4you.com/wp-content/themes/views4you_theme/img/list-icon.svg"
-          alt="OK Logo"
-          width={100}
-          height={100}
-          className=" w-28 h-28 "
-        />
-    <h1 className="font-montserrat 2xl:w-full sm:text-[32px] min-[1px]:text-[23px] font-bold text-gray-800 mb-4">
-    Views4You’s Guarantee When You Buy YouTube Views
-      </h1>
-      <p className='text-[18px]'>
-      One side of the world is day meanwhile the other side is night, but this does not affect our service. Our team is available 24/7 to answer your questions about our YouTube growth services, no matter what country you live in.
-      </p>
-    </div>
-    <div className='bg-[#F4F6F8] mt-8 xl:p-10 min-[1px]:p-5 rounded-2xl'>
-    <img
-          src="https://views4you.com/wp-content/themes/views4you_theme/img/list-icon.svg"
-          alt="OK Logo"
-          width={100}
-          height={100}
-          className="  w-28 h-28 "
-        />
- <h1 className="font-montserrat 2xl:w-full sm:text-[32px] min-[1px]:text-[23px] font-bold text-gray-800 mb-4">
-    Views4You’s Guarantee When You Buy YouTube Views
-      </h1>
-      <p className='text-[18px]'>
-      One side of the world is day meanwhile the other side is night, but this does not affect our service. Our team is available 24/7 to answer your questions about our YouTube growth services, no matter what country you live in.
-      </p>
-    </div>
-    <div className='bg-[#F4F6F8] mt-8 xl:p-10 min-[1px]:p-5 rounded-2xl'>
-    <img
-          src="https://views4you.com/wp-content/themes/views4you_theme/img/list-icon.svg"
-          alt="OK Logo"
-          className=" w-28 h-28 "
-        />
- <h1 className="font-montserrat 2xl:w-full sm:text-[32px] min-[1px]:text-[23px] font-bold text-gray-800 mb-4">
-    Views4You’s Guarantee When You Buy YouTube Views
-      </h1>
-      <p className='text-[18px]'>
-      One side of the world is day meanwhile the other side is night, but this does not affect our service. Our team is available 24/7 to answer your questions about our YouTube growth services, no matter what country you live in.
-      </p>
-    </div>
-    </div>
-    </div>
+    
       {/* video sec  */}
       <div className="">
-      <div className='text-center flex min-[1px]:pt-20 sm:pt-24 lg:pt-36 items-center video-sec flex-col'>
-        <h2 className='text-[32px] font-bold lg:w-2/4 sm:3/4 mb-6'>The world's number one YouTube Views service!</h2>
-        <p className='text-[18px] w-3/4'>Why wait? Your views are sure to go up, but only if you start to buy YouTube views from us today. Increase your view count and watch them shoot up quickly and safely.</p>
+      <div className='text-center flex items-center video-sec flex-col'>
+        <h2 className='text-[32px] font-bold lg:w-2/4 sm:3/4 mb-6'>The Best YouTube Subscribers Service in the World!</h2>
+        <p className='text-[18px] w-3/4'>Just click to buy YouTube subscribers. If you start buying YouTube subscribers from us right now, your active users will surely increase. Once you get them, they will serve as social proof for your audience.</p>
         <p className='flex justify-center pt-5 w-full'>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/nC5bR-OCi90?si=4s_sU0oiqV7IfHH1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3bdcvn7NfhI?si=KsbLNGvy7oDdx1Ul" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </p>
       </div>
       </div>
@@ -296,7 +205,7 @@ export default function Herosectiontwo() {
       <div className="step-two w-full md:mt-32 sm:mt-24 min-[1px]:mt-24 lg:flex">
   <div className="img-sec sm:w-full xl:w-2/4 flex justify-center items-center relative">
     <img
-      src="https://views4you.com/wp-content/uploads/2022/11/Youtube-views-growing-video-optimized.gif"
+      src="https://views4you.com/wp-content/uploads/2023/01/views4you-live-stream-record.jpg"
       alt=""
       className="mbl-img lg:w-[65%] sm:w-[45%] sm:top-[25px] min-[1px]:w-[55%] min-[1px]:top-[25px] h-auto relative rounded-xl 2xl:top-[7%] lg:top-[5%]"
       style={{
@@ -311,11 +220,10 @@ export default function Herosectiontwo() {
   </div>
   <div className="text-sec sm:w-full sm:mt-32 min-[1px]:mt-32 lg:mt-0 xl:w-2/4">
     <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550]">
-      Why Do You Need To Buy YouTube Views?
+     Why Risk your Money on an Unknown Service when we Guarantee the Quality?
     </h3>
     <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black">
-      True, YouTube views may not always be a good measure of video quality or engagement. But, they remain a vital factor in the success of your video’s performance. The number of people who have watched your videos depict a sense of importance about its popularity and level of interest to your visitors! <br />
-      The number of views a video has, for most visitors, automatically indicates that it is valuable and quality. Regardless of whether they eventually like the content or not, the number of views makes videos seem important, period! The more times a user watches your video, the higher your chances of engaging them and the more likely they are to consider what else you might have to offer them. If you continue to keep them interested, they’ll keep coming back, which means more subscribers and more views for your channel!
+    To make your channel stand out on YouTube, you need active subscribers. If you are new to this platform, it is so natural that you have fewer subscribers at first. But you can buy organic YouTube subscribers safely and quickly. Thanks to active YouTube subscribers, the number of likes and views will increase soon. Therefore, maybe a thousand subscribers can watch each YouTube video. If you shoot high quality videos and share these from other social media accounts, you can gain organic subscribers. If you have been on the YouTube platform for a long time and your number of subscribers is staying the same, you can get support from Views4You. Your YouTube channel will be visible again in a short time. You can continue to be successful thanks to purchased YouTube subscribers or add more success to your channel by buying YouTube watch hours service for your videos. You need more active YouTube subscribers to grow their channel and make money. Therefore, if you are one of them, you can buy as many subscribers as you want.
     </p>
   </div>
 </div>
@@ -325,57 +233,32 @@ export default function Herosectiontwo() {
           <div className="step-two w-full md:mt-36 sm:mb-32 sm:mt-24 min-[1px]:mt-24 lg:flex lg:flex-row min-[1px]:flex min-[1px]:flex-col-reverse">
   <div className="text-sec sm:w-full xl:w-2/4">
     <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550]">
-      Numbers, Engagement, and Reputation; Views4You
+    Do My Activities on YouTube Cause My Account to Be Suspended?
     </h3>
     <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black">
-      What is your expectation? Do you just want numerical superiority? Do you want your videos to reach more viewers? Or do you want your company’s ad to look good online? What about making money from YouTube? Numbers are everything in today’s digital world. Buying views makes a quick and immediate contribution to your numerical superiority, making you seem like a legit channel for viewers to flock to. <br />
-      What number of views will satisfy you? Would 100,000 views look good on a video promoting your company? Views4You can provide this for you. Thanks to the quality views we send to your videos, we’re able to activate the YouTube algorithm and make the system work for you. <br />
-      With a little boost from our YouTube growth service, you naturally get the chance to reach more viewers. If you want to earn money from YouTube, Views4You gives you a chance to achieve that.
+    Buying subscribers from Views4You is one of the best ways to grow your channel. We send you the real subscribers you buy within days. There is a reason we do this. The YouTube algorithm may detect organic users who suddenly start following your page as fake subscribers. Thanks to Views4You, popular video sharing platform will not detect any unusual movement, and your YouTube channel will not be banned. As long as you buy YouTube subscribers packages from us, you will not encounter such a problem.
     </p>
   </div>
-  <div className="img-sec relative sm:w-full xl:w-2/4 flex justify-center items-center">
-  {/* First Image Inside the Second */}
-  <img
-    src="https://views4you.com/wp-content/uploads/2022/08/image-2.jpg"
-    alt="YouTube Content"
-    className="absolute left-[50%] w-[27%] 2xl:h-[80%] xl:h-[70%] min-[1px]:h-4/5 rounded-xl "
-    style={{ transform: "matrix(1, .6, 0, .89, 0, 0)" }}
-  />
-  {/* Second Image (Frame) */}
-  <img
-    src="https://views4you.com/wp-content/themes/views4you_theme/img/device-3.png"
-    alt="Device Frame"
-    className="relative w-[80%]"
-  />
-</div>
+  <div className="sm:w-3/4 min-[1px]:w-2/4 lg:mb-36 para items-center relative sm:mb-12 min-[1px]:mb-12 ">
+    <div className='sm:flex sm:justify-center xl:justify-center'><p className="para-text bg-[#ED202433] rounded-3xl h-[8.9rem] sm:w-[12.4rem] min-[1px]:w-[9.4rem]" style={{ transform: "matrix(1, -.58, 0, .89, 0, 0)" }} ></p></div>
+    <div className='sm:flex sm:justify-center xl:justify-center'><p className='paras-one-text bg-[#ED2024] h-[.150rem] sm:w-[11.4rem] min-[1px]:w-[7.4rem] bottom-[120px] left-20 relative' style={{ transform: "matrix(1, -.58, 0, .89, 0, 0)" }}></p></div>
+    </div>
 
 </div>
 
 
           {/* step three  */}
           <div className="step-two w-full md:mt-36 sm:mt-24 min-[1px]:mt-24 lg:flex ">
-  <div className="img-sec relative sm:w-full xl:w-2/4 flex justify-center items-center">
-  {/* First Image Inside the Second */}
-  <img
-    src="https://views4you.com/wp-content/uploads/2022/08/youtube-logo-2.png"
-    alt="YouTube Content"
-    className="absolute left-[50%] w-[27%] 2xl:h-[80%] xl:h-[70%] min-[1px]:h-4/5 rounded-xl "
-    style={{ transform: "matrix(1, .6, 0, .89, 0, 0)" }}
-  />
-  {/* Second Image (Frame) */}
-  <img
-    src="https://views4you.com/wp-content/themes/views4you_theme/img/device-3.png"
-    alt="Device Frame"
-    className="relative w-[80%]"
-  />
-</div>
+          <div className="sm:w-3/4 min-[1px]:w-2/4 lg:mb-36 para items-center relative sm:mb-12 min-[1px]:mb-12">
+    <div className='sm:flex sm:justify-center xl:justify-center'><p className="para-text bg-[#ED202433] rounded-3xl h-[8.9rem] sm:w-[12.4rem] min-[1px]:w-[9.4rem]" style={{ transform: "matrix(1, -.58, 0, .89, 0, 0)" }} ></p></div>
+    <div className='sm:flex sm:justify-center xl:justify-center'><p className='paras-one-text bg-[#ED2024] h-[.150rem] sm:w-[11.4rem] min-[1px]:w-[7.4rem] bottom-[120px] left-20 relative' style={{ transform: "matrix(1, -.58, 0, .89, 0, 0)" }}></p></div>
+    </div>
   <div className="text-sec sm:w-full xl:w-2/4">
     <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550]">
-     An Excellent Strategy To Uplift Your YouTube Channel
+    Gain Online Reputation and Money with Views4You
     </h3>
     <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black">
-    Organic views are great, but if you’re in need, it is possible to buy YouTube views and buy <span className='font-bold text-[#ed2024]'>YouTube watch hours</span> that will provide you with just as much influence in way shorter time. <br />
-    The majority of YouTube visitors never question where these numbers come from. They accept them as quality engagement without thinking too deeply about their origin or authenticity. This means the views you buy can serve as an effective support base for your channel, giving it the credibility visitors need to see to convince them to become subscribers. Whether you are trying to make the next video stand out against the large competition or want to grow your channel’s subscriber base, buying views on YouTube may be an excellent strategy.
+    What was your expectation when opening the YouTube account? If you want to get a reputation and gain more money, you are at the right social media service provider! If you have fewer subscribers, we are here for your YouTube journey. You can gain organic subscribers for your YouTube channels. Buy subscribers, as much as you wish! Don’t you want to get the reward for your efforts as soon as possible? Wouldn’t you like to announce your work to a broader subscriber base? Or do you want to earn more money? If your answer is yes to all of these questions, try Views4You, one of the YouTube subscriber packages. As a Youtube channel owners, you can be reach your targets. Creating an audience in digital media takes time. That’s why you can double or even triple your YouTube success with support from a trusted source, Views4You. You can choose one of the YouTube subscription packages and enjoy becoming famous quickly. Still uncertain? Views4You has been declared the top-rated platform for purchasing YouTube subscribers by a variety of prestigious publications, including Entrepreneur, Wtkr, and OrlandoWeekly. Don’t miss out on the opportunity to join the ranks of thousands of satisfied YouTubers who have already made the wise decision to choose Views4You. All you have to do is select the number of channel subscribers and click the buy now button!
     </p>
   </div>
 
@@ -429,36 +312,29 @@ export default function Herosectiontwo() {
     Frequently Asked Questions
     </h3>
     <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black">
-    Have questions about how to purchase YouTube views or do you want to know how to boost YouTube views on your YouTube channel? We’re here to answer all your questions, so let's get started!
+    Got some questions about our services? We are here to answer all of them, so grab a seat and let's get started!
     </p>
   </div>
   <div className='accordian w-full'>
   <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
   <input type="radio" name="my-accordion-3" defaultChecked />
   <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-    Why buy YouTube views from Views4you?
+  Can YouTube Subscribers Be Bought?
   </div>
   <div className="collapse-content">
     <p className="text-[18px]">
-      Since the start of our company, we have always ensured that every one of your needs is met with unrivaled quality.
-      As a manual team who manually checks all products for authenticity before they are delivered to you – there’s no
-      better option than us! We are the only company that offers a complete package of products for publishers,
-      including high-quality views for YouTube ads and high retention views. Views4You care about our customer
-      satisfaction, so our customer support team provides solutions on the payment process a few hours after you make
-      the purchase. We also care about your pocket; our services come at rock-bottom prices so that you can afford them!
-      We offer a refill package money-back guarantee on all of our products, so there’s nothing you can lose when you
-      give us a try. Other packages we have include premium-quality views for 1000 views or less!
+    Of course, we are for it! We are a reliable website that sells genuine YouTube subscribers. We have verification from reputable organizations, which attests to the credibility of our services. When you purchase from us, you can be confident that you will receive high-quality subscribers who will assist you in growing your channel.
     </p>
   </div>
 </div>
 <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
   <input type="radio" name="my-accordion-3" defaultChecked />
   <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-  Do Views4You's YouTube views affect YouTube ranking?
+  How Can I Trust This Site?
   </div>
   <div className="collapse-content">
     <p className="text-[18px]">
-    We know that many factors affect YouTube ranking. When these elements come together, YouTube automatically sends you more viewers. The title of your video, your video description, and the thumbnail pictures you use for your videos are some factors that directly affect your ranking. In addition to these factors, buying high-quality views can also be among the factors that affect your ranking positively.
+    We are a trustworthy site that sells real YouTube subscribers. We have certification from authoritative organizations that confirms the legitimacy of our services. When you buy from us, you can be certain that you’re getting quality subscribers who will help you grow your channel.
     </p>
   </div>
 </div>
@@ -466,176 +342,258 @@ export default function Herosectiontwo() {
 <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
   <input type="radio" name="my-accordion-3" defaultChecked />
   <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-  Does it take a long time, and how do YouTube views increase?
+  Are These Subscribers’ Bots or Real People?
   </div>
   <div className="collapse-content">
     <p className="text-[18px]">
-    First, you go to our YouTube views service and send your video link to our system. Right after you buy views for your YouTube video, you can see the incoming views on the video statistics page within an average of 10 minutes! For slow viewings, the daily rate is around 2000 views on average, but for immediate viewings, this can be up to 10,000+ views per day. The reflection of the views just below your YouTube video may take up to three hours, depending on YouTube.
+    If YouTube detects that you are using bots, your account will be closed. This is to protect the site from spam and fraud.
+    We understand how important your account safety is to you. That’s why we only provide real, organic subscribers who will engage with your content. You can rest assured knowing that your account is in safe hands with us. We would never sell you bots!
     </p>
   </div>
 </div>
 <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
   <input type="radio" name="my-accordion-3" defaultChecked />
   <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-  Is it legal to buy YouTube Views?
+  How to Get YouTube Subscribers Free?
   </div>
   <div className="collapse-content">
     <p className="text-[18px]">
-    Yes, of course, buying YouTube views is legal in all countries. However, buying views are not in line with YouTube’s terms. YouTube works every day to make this and similar services impossible. Views4You, on the other hand, is trying to do the service it provides in line with YouTube’s terms to fulfill the demands of its customers. As long as you buy real video plays from real YouTube accounts, the number of views of your YouTube videos will continue to grow organically.
+    You can try our free YouTube subscribers trial. Also, you can obtain your free subscribers in as little as one day. We do not require your payment method or any personal information. You can only get 20 free subscribers for one channel at a time. We offer you an opportunity to meet Views4You. After the free trial, there will be no drop in your subscribers. Because the subscribers we offer you, even for free, are real people. If you try a free trial from a site other than Views4You, you may soon notice that the subscribers are bots. In addition, spam accounts will unsubscribe you after a while. It proves that those services are unreliable. Visit Views4You Buy YouTube Subscribers for reliable and permanent subscribers.
     </p>
   </div>
 </div>
 <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
   <input type="radio" name="my-accordion-3" defaultChecked />
   <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-  Why do people need to buy real YouTube views?
+  Is My Subscriber Number Going to Change?  
   </div>
   <div className="collapse-content">
     <p className="text-[18px]">
-    Standing out from the crowd on YouTube is not easy, and it’s even more challenging to appear on the search results when you have a small following or no one. That’s why purchasing YouTube views increases your Social Media engagement; as a result, your YouTube video views impact your ranking on YouTube’s search engine.
+    If you buy YouTube subscribers from us, your subscriber count will change. Since they are real subscribers, we also have to consider the potential impact of their feedback. Subscribers who don’t like the content on your page are likely to leave. However, we can quickly refill them again with new subscribers.
     </p>
   </div>
 </div>
 <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
   <input type="radio" name="my-accordion-3" defaultChecked />
   <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-  Can I choose the YouTube views location?
+  Are YouTube Subscribers Permanent?
   </div>
   <div className="collapse-content">
     <p className="text-[18px]">
-    Yes! Of course, you can. We currently send you views from the USA, England, Spain, Italy, Japan, Korea, Brazil, Indonesia, India, and Israel. We are adding new countries to this list depending on the demands of the target audience you want. After clicking the buy button, you will be directed to the page where you’ll enter your video link. After that, our system will automatically determine your video’s language and suggest that country to you. We offer many services at affordable prices to help you get more views for every video content you share. Similarly, you can buy YouTube subscribers, or YouTube likes and also, you can buy YouTube lives stream views in the same method but on different pages.
+    If you buy YouTube subscribers from us, then, yes. Because our team checks each subscriber to see whether s/he is real; however, if you purchase subscribers from other services, they might not be permanent. They can be a bot or spam account. You can see that the accounts can unsubscribe you.
     </p>
   </div>
 </div>
 <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
   <input type="radio" name="my-accordion-3" defaultChecked />
   <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-  Are YouTube views real when people come from Views4you to watch my YouTube videos?
+  Do I Have to Increase My YouTube Subscribers Number Near a Thousand?
   </div>
   <div className="collapse-content">
     <p className="text-[18px]">
-    Yes! We guarantee that the views come from real people and regularly optimize our systems accordingly. You can confirm that the views you buy from us are real. How? Once the views start coming to your video, look at your statistics page and observe where the views are coming from. We have an efficient screening process through which we filter out any spam accounts that have yet to show the right amount of credibility and legitimacy on YouTube. Again, you can observe the authenticity of views yourself since you will also start to receive active subscribers automatically to your channel, not just views.
+    You’ll be able to participate in the YouTube Partnership Program, begin monetizing your videos, and earn delightful passive revenue once you’ve reached this milestone. Over 10 million video makers have exceeded the 1,000-subscriber milestone, demonstrating that it is possible. If you create your new account, buy organic subscribers from Views4You.
     </p>
   </div>
 </div>
 <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
   <input type="radio" name="my-accordion-3" defaultChecked />
   <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-  How to grow my brand with YouTube views?
+  How do YouTube Subscribers Increase in Other Way?
   </div>
   <div className="collapse-content">
     <p className="text-[18px]">
-    Views4You will not only get you more views, but you’ll also be able to create other strategies that will lead to more exposure and brand awareness. Using our specific customized techniques on our YouTube growth services, you’ll learn how to ensure that your target audience watches your video content. We’re here to help you gain more exposure on the YouTube platform to grow your social media presence and become a leading influencer! Ready? Just read on, choose your package, and let’s get started!
+    There are many ways to increase YouTube subscribers. You can post videos frequently and share them on other platforms. Over time, you will see your subscribers increase slowly. However, there is a way to increase this number more quickly. You know what it is. You can buy YouTube subscribers from us. Choose the most suitable package for your budget with different package options. It is possible to buy more than one package, too. In this way, you will be increasing your follower count organically.
     </p>
   </div>
 </div>
 <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
   <input type="radio" name="my-accordion-3" defaultChecked />
   <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-  1 million YouTube views is how much in costs, if yes is it possible to buy it?
+  Why YouTube Subscribers Are Decreasing?
   </div>
   <div className="collapse-content">
     <p className="text-[18px]">
-    Views4you is the best place to get as many views as you like without any limits. We will help you increase your views to up to 1 million YouTube video views and more, if you like, with our service!
+    There are numerous reasons why a person can choose to unsubscribe to your YouTube channel. You may not be very creative as your subscriber expects or you may not posting your content in timely manner, or even your voice may affect the subscriber who got irritated. Then, s/he may choose to unsubscribe from your channel which causes the decrease. But, if you buy YouTube subscribers from somewhere and started to loose them. The most obvious reason is that these newcomers can be a bot or fake accounts. This is the most common situation you may encounter if you buy subscribers from another. you can encounter this situation. If you want to have permanent subscribers, you can choose Views4You’s subscriber packages, we only offer real YouTube user engagement.
     </p>
   </div>
 </div>
 <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
   <input type="radio" name="my-accordion-3" defaultChecked />
   <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-  Can YouTube views decrease after I make the purchase?
+  How Long Does it Take to Refill My Subscribers?
   </div>
   <div className="collapse-content">
     <p className="text-[18px]">
-    Purchased YouTube views will stay on your channel, but if it ever happens that YouTube views go down, we’ll make it up for free for 60 days!
+    There will be no drop in number of subscribers, but just in case, we estimate that the average period for refilling subscribers is between 1 and 5 days. You can be sure that this package will be delivered on time and without any hassle.
     </p>
   </div>
 </div>
 <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
   <input type="radio" name="my-accordion-3" defaultChecked />
   <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-  How long will my videos be watched?
+  Can I Gain Money From These Subscribers?
   </div>
   <div className="collapse-content">
     <p className="text-[18px]">
-    We cannot guarantee exactly, but it should be a minimum of 1 minute of watch time on average.
+    Although they are real subscribers, YouTube can’t accept them as your first 1,000 subs to monetize your account. Instead, the purpose of these subscribers is to help you show other YouTube users that you have good content and you have some subscribers. This will give your page value and influence others to subscribe.
     </p>
   </div>
 </div>
 <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
   <input type="radio" name="my-accordion-3" defaultChecked />
   <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-  There is a country restriction on my video. Does this affect your work? 
+  Is YouTube Subscribers Count Important?
   </div>
   <div className="collapse-content">
     <p className="text-[18px]">
-    If your channel has a country restriction, unfortunately, we cannot offer you our YouTube views service. We recommend using other promotional strategies to get more views for your YouTube channel.
+    Of course, YouTube cares about your subscriber numbers. It is the one of the conditions that is considered when you applied to YouTube Partner Program. The program that allows you to make money on YouTube.
     </p>
   </div>
 </div>
 <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
   <input type="radio" name="my-accordion-3" defaultChecked />
   <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-  How many views should I buy?
+  Do I Need YouTube Subscribers for Monetization?
   </div>
   <div className="collapse-content">
     <p className="text-[18px]">
-    Your YouTube promotion decision is totally up to you and what you want for your YouTube channel. But remember that the more views you buy, the higher your chances of getting the popularity you want on YouTube.
+    Yes, of course! If you want to be considered for YouTube’s monetization scheme, you must have at least 1,000 subscribers and 4,000 view hours in the last 12 months. Once you pass these numbers, you can start making money quickly. You can even begin by buying subscribers from us.
     </p>
   </div>
 </div>
 <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
   <input type="radio" name="my-accordion-3" defaultChecked />
   <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-  What is the difference between your fast views and slow views service?
+  How Much Do I Pay for YouTube Subscribers to Make Money?
   </div>
   <div className="collapse-content">
     <p className="text-[18px]">
-    The difference between buying the Fast or Slow YouTube views service depends only on how quickly you want your video to get views.
+    Paying more or less is up to you. You can choose one of the packages depending on how many subscribers you want to your channel. You can find the most affordable subscription packages on our site. Contact us if you see the opportunity to buy a YouTube subscriber on a different site. In this way, we can equalize our prices and offer you a better-quality service at the same price.
     </p>
   </div>
 </div>
 <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
   <input type="radio" name="my-accordion-3" defaultChecked />
   <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-  Are YouTube views fake an option to buy?
+  How to Get YouTube Subscribers for Making Money?
   </div>
   <div className="collapse-content">
     <p className="text-[18px]">
-    Yes. Of course, you can buy fake views for your YouTube videos. But if you can buy real YouTube views from Views4You, why would you need a fake one?
+    It is so easy! You can buy from Views4You with basic information and a few clicks. First of all, you should enter in Buy YouTube Subscribers page. After that, you have to pick one of the affordable packages. Then, we need your channel URL and name. That’s all!
     </p>
   </div>
 </div>
 <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
   <input type="radio" name="my-accordion-3" defaultChecked />
   <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-  Does buying YouTube views have an impact on visibility in search engines like Google?
+  Do I Need YouTube Subscribers to Get Paid?
   </div>
   <div className="collapse-content">
     <p className="text-[18px]">
-    If you paid attention while searching on Google, you must have noticed that YouTube includes the most watched videos on the first pages. If the YouTube views you purchased have a high-quality source (Views4You gets its traffic from within YouTube), it will positively affect both YouTube SEO and search engines. Don’t forget that the YouTube views you receive from Views4You come from only real accounts bringing more YouTube views real and quickly to your network.
+    If you have a YouTube channel, you must also have subscribers to get the video views which is the real proved thing to make money on YouTube. Especially if you opened this channel to make money, you must have a lot of subscribers to promote your content to get more views. You can use Views4You’s service to get more subscribers, or views.
     </p>
   </div>
 </div>
 <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
   <input type="radio" name="my-accordion-3" defaultChecked />
   <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-  Will others know that I bought views?
+  Are There Any Effects YouTube Subscribers to Views Ratio?
   </div>
   <div className="collapse-content">
     <p className="text-[18px]">
-    The great thing about purchasing YouTube views from Views4You is that they make your video views look authentic. Our packages also work to bring more organic traffic since when users see popular content such as yours, it’s hard not to check in!
+    Yes, of course! More YouTube subscribers are essentially social proof. It is due to the popularity of the channel. More subscribers may persuade others to subscribe to your YouTube channel. More subscribers equals to high views ratio.
     </p>
   </div>
 </div>
 <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
   <input type="radio" name="my-accordion-3" defaultChecked />
   <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-  How can I trust companies that sell YouTube views services, like Views4You offers?
+  Are These Subscribers Going to Watch My Videos?
   </div>
   <div className="collapse-content">
     <p className="text-[18px]">
-    Anytime you are thinking about trusting a company with YouTube views services, you should ask yourself a few questions: How long has this company been in business? Do they have any positive reviews? What do other people say about their services? Once you have looked into these things, you can make an informed decision about whether or not you want to trust the company. In the case of Views4You, we have been in business for years and have countless satisfied customers. We also have a five-star rating on Trustpilot, so you can be confident that we are a company you can trust. When it comes to promoting your YouTube business or product, Views4You is a clear choice.
+    When you buy YouTube subscribers from us, these subscribers are only going to reflect on your analytics. The subscribers don’t watch the actual videos unless it’s content they like. They just change your subscriber count. If you want your video views to match up with your subscriber numbers, you’ll need to buy some view packages. Simply check out how many subscribers you have, and find a view package that will give you at least that many views or something close. Otherwise, the content on your page will look kind of deserted and empty.
+    </p>
+  </div>
+</div>
+<div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
+  <input type="radio" name="my-accordion-3" defaultChecked />
+  <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
+  Who Are My YouTube Subscribers when I buy from Views4You?
+  </div>
+  <div className="collapse-content">
+    <p className="text-[18px]">
+    The subscribers you buy from us are real. We make subscribers all over the world available to you. It’s always been challenging to find the ideal subscribers for your needs! You can find the ideal match for your company with our updated and enhanced subscription options. We do not send you random or unchecked subscribers. Every account is carefully reviewed and sent to you to ensure you grow organically.
+    </p>
+  </div>
+</div><div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
+  <input type="radio" name="my-accordion-3" defaultChecked />
+  <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
+  Where are These Subscribers From?
+  </div>
+  <div className="collapse-content">
+    <p className="text-[18px]">
+    The location of your subscribers is also very important. That’s why we make subscribers available to you from all around the world. Choosing the right subscribers for your needs has never been easier! With our new and improved subscriber options, you can find the perfect match for your business. The subscribers are not going to write anything in any language, so don’t worry if you didn’t find your country on the list, just pick something close.
+    </p>
+  </div>
+</div><div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
+  <input type="radio" name="my-accordion-3" defaultChecked />
+  <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
+  Do I see YouTube Subscriber Names after I Bought One of the Packages from Views4You?
+  </div>
+  <div className="collapse-content">
+    <p className="text-[18px]">
+    Yes, you can see YouTube subscribers’ names. You may see a list of your latest subscribers on the channel dashboard. In YouTube Studio, you can also see your subscriber numbers over time. Enter your YouTube Studio username and password. Then, locate the “Recent subscribers” card on the Dashboard. To enlarge the card, click See all. Subscribers appear on your list of recent subscribers if they made their subscriptions public or joined your channel during the previous 28 days. However, subscribers may not appear on your list of current subscribers if they decide to keep their subscriptions confidential. Or their account has been suspended or flagged as spam. However, if you buy subscribers from us, you can see the newcomers daily because we don’t send them at once. We send the subscribers according to the package that you buy.
+    </p>
+  </div>
+</div><div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
+  <input type="radio" name="my-accordion-3" defaultChecked />
+  <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
+  How Long Does it Take to Start After Payment?
+  </div>
+  <div className="collapse-content">
+    <p className="text-[18px]">
+    Once you make your payment, the process will instantly begin from our end, although it may take about 48 hours before changes begin to occur on your page. Once it kicks off, you’ll start to see an influx of new subscribers! There are different packages you can choose from that will determine how long we’ll send you subscribers. Choose the package that best fits your needs.
+    </p>
+  </div>
+</div><div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
+  <input type="radio" name="my-accordion-3" defaultChecked />
+  <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
+  When Can I Check My YouTube Subscribers After I Bought?
+  </div>
+  <div className="collapse-content">
+    <p className="text-[18px]">
+    When you complete your purchase, the procedure will begin immediately on our end, but it could take up to 48 hours for changes to appear on your page. Once it gets going, you’ll notice an increase in new subscribers! You can select one of several bundles to decide how long we will send you subscribers. Select the option that best meets your requirements.
+    </p>
+  </div>
+</div><div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
+  <input type="radio" name="my-accordion-3" defaultChecked />
+  <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
+  After I Bought One of The Packages from Views4you, Why Do YouTube Subscribers Not Updating?
+  </div>
+  <div className="collapse-content">
+    <p className="text-[18px]">
+    It depends on your subscriber count. If you have less than 1,000, it will be updated for each subscriber. However, if you have more than 100,000 subscribers, it will be updated for every 1,000 new subscribers.
+    </p>
+  </div>
+</div><div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
+  <input type="radio" name="my-accordion-3" defaultChecked />
+  <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
+  Why Are My YouTube Subscribers Not Showing Up?
+  </div>
+  <div className="collapse-content">
+    <p className="text-[18px]">
+    This is not the thing you’ll face when you buy packages from Views4You. We provide every single order in time. But, if you wonder why your subscribers are not show up when you buy from another service. That’s probably they send you fakes and robots. Then, they might not show up on your recent list of subscribers. Because, they may have had their account suspended or marked as spam.
+    </p>
+  </div>
+</div><div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
+  <input type="radio" name="my-accordion-3" defaultChecked />
+  <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
+  How Can I Contact Your Site if I Had Any Problems?
+  </div>
+  <div className="collapse-content">
+    <p className="text-[18px]">
+    If you need to get in touch with us, there are several ways you can do so. You can email us if you like. Alternatively, our customer service is here to help immediately!
     </p>
   </div>
 </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 function Card() {
   return (
-  <div className="flex items-center justify-between">
+  <div className="flex items-center justify-between" id="card-sec">
     <div className="bg-white sm:pt-10 lg:py-16 sm:pb-0 max-w-[1390px] px-5 sm:w-full min-[1px]:w-full  mx-auto min-[1px]:pb-0 ">
       <h2 className="text-3xl min-[320px]:text-[2rem] sm:text-3xl  font-bold text-center mb-8">
         Buy YouTube Views, Subscribers, And Likes
