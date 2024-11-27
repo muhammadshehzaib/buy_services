@@ -387,9 +387,9 @@ export default function Stepsection() {
               <div class="lg:flex-row gap-4 lg:flex justify-center space-x-3 pb-16 mb-10 border-b-[1px] border-gray-500 ">
              <div className='btn-one'>
              <div className='min-[1px]:flex min-[1px]:justify-center lg:block'>
-             <button class="bg-black text-white font-bold  py-5 px-16 rounded-full hover:bg-gray-800 transition">
+             <a href='/Likes' class="bg-black text-white font-bold  py-5 px-16 rounded-full hover:bg-gray-800 transition">
                     Buy YouTube Likes
-                </button>
+                </a>
              </div>
                 <p className='text-[18px] text-center pt-5'>
                 Starting at <span className='font-bold'>$4.8</span>
@@ -400,9 +400,9 @@ export default function Stepsection() {
              </div>
                 <div>
                 <div className='min-[1px]:flex  min-[1px]:justify-center lg:block '>
-                <button class="bg-black text-white sm:mt-10 lg:mt-0 font-bold py-5 px-16 rounded-full hover:bg-gray-800 transition">
+                <a href='/Views' class="bg-black text-white sm:mt-10 lg:mt-0 font-bold py-5 px-16 rounded-full hover:bg-gray-800 transition">
                 Buy YouTube Views
-                </button>
+                </a>
                 </div>
                 <p className='text-[18px] text-center pt-5'>
                 Starting at <span className='font-bold'>$3.5</span>
@@ -413,9 +413,9 @@ export default function Stepsection() {
                 </div>
                 <div>
                <div className='min-[1px]:flex sm:mt-10 lg:mt-0 min-[1px]:justify-center lg:block '>
-               <button class="bg-black text-white font-bold py-5 px-12 rounded-full hover:bg-gray-800 transition">
+               <a href='/Subscribers' class="bg-black text-white font-bold py-5 px-12 rounded-full hover:bg-gray-800 transition">
                 Buy YouTube Subscribers
-                </button>
+                </a>
                </div>
                 <p className='text-[18px] text-center pt-5'>
                 Starting at <span className='font-bold'>$3.9</span>

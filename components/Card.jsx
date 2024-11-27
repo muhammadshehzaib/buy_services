@@ -21,11 +21,7 @@ function Card() {
           <p className="text-gray-600 mb-4 flex-grow">
             It's the views that will help you boost your YouTube channel. They'll give your videos significant recognition in the YouTube algorithm, leading you to more organic views soon, and this steady growth for your channel will be a long run. Unlike many other YouTube growth agencies, we have one genuine package.
           </p>
-          <button className="flex items-center justify-center bg-red-600 text-white font-bold py-2 px-4 rounded mb-2">
-          <img src="https://views4you.com/wp-content/themes/views4you_theme/img/icon-youtube-white.svg" alt="" />
-
-<span className="ml-2">Buy YouTube Views</span>
-          </button>
+          <a href="/Views"className="flex items-center justify-center bg-red-600 text-white font-bold py-2 px-4 rounded mb-2 ml-2">Buy YouTube Views</a>
           <div className="flex justify-between items-center">
             <p className="text-gray-600">
               Starting at <span className="font-bold text-red-600">$4.80</span>
@@ -53,11 +49,7 @@ function Card() {
           <p className="text-gray-600 mb-4 flex-grow">
             When YouTube visitors see that your videos have a lot of likes, they will be more likely to watch them. Video views are the most valued ads revenue, so the likes will help you to grow your channel quicker. At Views4You, we offer the best prices and the highest quality YouTube Likes service in the industry.
           </p>
-          <button className="flex items-center justify-center bg-red-600 text-white font-bold py-2 px-4 rounded mb-2">
-          <img src="https://views4you.com/wp-content/themes/views4you_theme/img/icon-youtube-white.svg" alt="" />
-
-<span className="ml-2">Buy YouTube Likes</span>
-          </button>
+          <a href="/Likes"className="flex items-center justify-center bg-red-600 text-white font-bold py-2 px-4 rounded mb-2 ml-2">Buy YouTube Likes</a>
           <div className="flex justify-between items-center">
             <p className="text-gray-600">
               Starting at <span className="font-bold text-red-600">$3.50</span>
@@ -84,11 +76,7 @@ function Card() {
           <p className="text-gray-600 mb-4 flex-grow">
             Subscribers are the main drivers of YouTube's algorithm. Once you have a good number of YouTube subscribers, it means you're someone whose video contents are worth following. The best part about this service is that it is affordable and organically provided by real users.
           </p>
-          <button className="flex items-center justify-center bg-red-600 text-white font-bold py-2 px-4 rounded mb-2">
-            <img src="https://views4you.com/wp-content/themes/views4you_theme/img/icon-youtube-white.svg" alt="" />
-
-            <span className="ml-2">Buy YouTube Subscribers</span>
-          </button>
+          <a href="/Likes"className="flex items-center justify-center bg-red-600 text-white font-bold py-2 px-4 rounded mb-2 ml-2">Buy YouTube Subscribers</a>
           <div className="flex justify-between items-center">
             <p className="text-gray-600">
               Starting at <span className="font-bold text-red-600">$3.90</span>

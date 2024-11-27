@@ -681,9 +681,9 @@ export default function Herosectionthree() {
               <div class="lg:flex-row gap-4 lg:flex justify-center space-x-3 pb-16 mb-10 border-b-[1px] border-gray-500 ">
              <div className='btn-one'>
              <div className='min-[1px]:flex min-[1px]:justify-center lg:block'>
-             <button class="bg-black text-white font-bold  py-5 px-16 rounded-full hover:bg-gray-800 transition">
+             <a href='/Likes' class="bg-black text-white font-bold  py-5 px-16 rounded-full hover:bg-gray-800 transition">
                     Buy YouTube Likes
-                </button>
+                </a>
              </div>
                 <p className='text-[18px] text-center pt-5'>
                 Starting at <span className='font-bold'>$4.8</span>
@@ -694,9 +694,9 @@ export default function Herosectionthree() {
              </div>
                 <div>
                 <div className='min-[1px]:flex  min-[1px]:justify-center lg:block '>
-                <button class="bg-black text-white sm:mt-10 lg:mt-0 font-bold py-5 px-16 rounded-full hover:bg-gray-800 transition">
+                <a href='/Views' class="bg-black text-white sm:mt-10 lg:mt-0 font-bold py-5 px-16 rounded-full hover:bg-gray-800 transition">
                 Buy YouTube Views
-                </button>
+                </a>
                 </div>
                 <p className='text-[18px] text-center pt-5'>
                 Starting at <span className='font-bold'>$3.5</span>
@@ -707,9 +707,9 @@ export default function Herosectionthree() {
                 </div>
                 <div>
                <div className='min-[1px]:flex sm:mt-10 lg:mt-0 min-[1px]:justify-center lg:block '>
-               <button class="bg-black text-white font-bold py-5 px-12 rounded-full hover:bg-gray-800 transition">
+               <a href='/Subscribers' class="bg-black text-white font-bold py-5 px-12 rounded-full hover:bg-gray-800 transition">
                 Buy YouTube Subscribers
-                </button>
+                </a>
                </div>
                 <p className='text-[18px] text-center pt-5'>
                 Starting at <span className='font-bold'>$3.9</span>
@@ -721,12 +721,12 @@ export default function Herosectionthree() {
             </div>
             <div className='mb-16'>
             <ul id="menu-footer_menu_new" className="menu-list flex flex-wrap justify-between sm:flex-wrap md:flex-nowrap w-full">
-                <li className='text-[18px] font-bold'><a href="https://views4you.com/offers/">Offers</a></li>
-                <li className='text-[18px] font-bold'><a href="https://views4you.com/affiliate-program/">Affiliate Program</a></li>
-                <li className='text-[18px] font-bold'><a rel="privacy-policy" href="https://views4you.com/privacy-policy/">Privacy Policy</a></li>
-                <li className='text-[18px] font-bold'><a href="https://views4you.com/terms-of-service/">Terms of Service</a></li>
-                <li className='text-[18px] font-bold'><a href="https://views4you.com/about-us/">About Us</a></li>
-          </ul>
+  <li className='text-[18px] font-bold'><a href="https://views4you.com/offers/">Offers</a></li>
+  <li className='text-[18px] font-bold'><a href="https://views4you.com/affiliate-program/">Affiliate Program</a></li>
+  <li className='text-[18px] font-bold'><a rel="privacy-policy" href="https://views4you.com/privacy-policy/">Privacy Policy</a></li>
+  <li className='text-[18px] font-bold'><a href="https://views4you.com/terms-of-service/">Terms of Service</a></li>
+  <li className='text-[18px] font-bold'><a href="https://views4you.com/about-us/">About Us</a></li>
+</ul>
 
             </div>
             <div className='flex justify-center'>

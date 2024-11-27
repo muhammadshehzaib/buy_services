@@ -128,16 +128,16 @@ const List = () => {
       But don't know how? <span className='text-[#ED2024]'>Views4You provides all in one!</span>
     </h2>
             <div class="flex justify-center space-x-3 sm:flex min-[1px]:flex-col sm:flex-row gap-4 ">
-                <button class="bg-black text-white font-semibold py-5 lg:px-12 sm:px-12 min-[1px]:px-20  sm:mb-0 lg:text-[15px] xl:px-20 rounded-full hover:bg-gray-800 transition">
+                <a href='/Likes' class="bg-black text-white font-semibold py-5 lg:px-12 sm:px-12 min-[1px]:px-20  sm:mb-0 lg:text-[15px] xl:px-20 rounded-full hover:bg-gray-800 transition">
                     Buy YouTube Likes
-                </button>
-                <button class="bg-black text-white font-semibold py-5 lg:px-12 sm:px-12 min-[1px]:px-20 ml:0 lg:text-[15px] xl:px-20 rounded-full hover:bg-gray-800 transition">
+                </a >
+                <a href='/Views' class="bg-black text-white font-semibold py-5 lg:px-12 sm:px-12 min-[1px]:px-20 ml:0 lg:text-[15px] xl:px-20 rounded-full hover:bg-gray-800 transition">
                 Buy YouTube Views
-                </button>
+                </a >
             </div>
-            <button class="bg-black  text-white font-semibold py-5 px-20 sm:px-16 min-[1px]:px-16 rounded-full hover:bg-gray-800 transition">
+            <a href='/Subscribers' class="bg-black  text-white font-semibold text-center py-5 px-20 sm:px-16 min-[1px]:px-16 rounded-full hover:bg-gray-800 transition">
                 Buy YouTube Subscribers
-            </button>
+            </a >
         </div>
     </div>
   </div>
