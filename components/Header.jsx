@@ -23,21 +23,21 @@ const Header = () => {
           <nav className="w-full	flex justify-end lg:mt-1.5 xl:mt-0">
             <div className="hidden hover:bg-[#ffffff] lg:flex bg-red-200 py-1 px-1 rounded-full menu-outer">
               <Link
-                href="/Views"
+                href="/views"
                 className="text-black text-[.90rem] 2xl:text-[1rem] font-bold hover:bg-red-600 rounded-full py-2.5 px-3 hover:text-white"
                 style={{ marginLeft: 0, marginRight: 0, transition: 'all 0.3s ease-in-out' }}
               >
                 Buy YouTube Views
               </Link>
               <Link
-                href="/Subscribers"
+                href="/subscribers"
                 className="text-black text-[.90rem] 2xl:text-[1rem] font-bold hover:bg-red-600 rounded-full py-2.5 px-3 hover:text-white"
                 style={{ marginLeft: 0, marginRight: 0, transition: 'all 0.3s ease-in-out' }}
               >
                 Buy YouTube Subscribers
               </Link>
               <Link
-                href="/Likes"
+                href="/likes"
                 className="text-black text-[.90rem] 2xl:text-[1rem] font-bold hover:bg-red-600 rounded-full py-2.5 px-3 hover:text-white"
                 style={{ marginLeft: 0, marginRight: 0, transition: 'all 0.3s ease-in-out' }}
               >
@@ -59,7 +59,7 @@ const Header = () => {
             <div className="hidden lg:flex items-center py-1 px-1 space-x-8 menu-outer">
               <div className="relative group">
                 <button className="text-black font-bold focus:outline-none flex items-center pl-4 group-hover:text-red-600">
-                  <a href="/Tools">
+                  <a href="/tools">
                     <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-100 transform group-hover:translate-y-1">T</span>
                     <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-200 transform group-hover:translate-y-1">o</span>
                     <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-300 transform group-hover:translate-y-1">o</span>
@@ -82,27 +82,27 @@ const Header = () => {
                 <div className="absolute left-0 top-full hidden group-hover:block sm:z-10 w-80 mt-2 bg-white border border-gray-200 rounded-lg shadow-lg">
                   <ul className="py-2">
                     <li>
-                      <a href="/Insta-story" className="block px-4 py-2 hover:text-red-600 font-bold">
+                      <a href="/insta-story" className="block px-4 py-2 hover:text-red-600 font-bold">
                         Instagram Story Viewer
                       </a>
                     </li>
                     <li>
-                      <a href="/Calculator" className="block px-4 py-2 hover:text-red-600 font-bold">
+                      <a href="/calculator" className="block px-4 py-2 hover:text-red-600 font-bold">
                         YouTube Money Calculator
                       </a>
                     </li>
                     <li>
-                      <a href="/Title" className="block px-4 py-2 hover:text-red-600 font-bold">
+                      <a href="/title" className="block px-4 py-2 hover:text-red-600 font-bold">
                         YouTube Title Generator
                       </a>
                     </li>
                     <li>
-                      <a href="/Time" className="block px-4 py-2 hover:text-red-600 font-bold">
+                      <a href="/time" className="block px-4 py-2 hover:text-red-600 font-bold">
                         Best Time to Post on YouTube
                       </a>
                     </li>
                     <li>
-                      <a href="/Analytics" className="block px-4 py-2 hover:text-red-600 font-bold">
+                      <a href="/analytics" className="block px-4 py-2 hover:text-red-600 font-bold">
                         YouTube Video Analytics
                       </a>
                     </li>
@@ -112,7 +112,7 @@ const Header = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="/Tools" className="block px-4 py-2 hover:text-red-600 font-bold">
+                      <a href="/tools" className="block px-4 py-2 hover:text-red-600 font-bold">
                         See All Tools
                       </a>
                     </li>
@@ -123,7 +123,7 @@ const Header = () => {
 
               <div className="relative group">
                 <button className="text-black font-bold focus:outline-none flex items-center group-hover:text-red-600">
-                  <a href="/Bots">
+                  <a href="/bots">
                     <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-100 transform group-hover:translate-y-1">B</span>
                     <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-200 transform group-hover:translate-y-1">o</span>
                     <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-300 transform group-hover:translate-y-1">t</span>
@@ -157,50 +157,88 @@ const Header = () => {
 
             <button
               className="lg:hidden sm:mr-7 sm:pt-2.5 btn btn-square btn-ghost text-[#ED2024]"
-              onClick={() => setMenuOpen(!isMenuOpen)}
+              onClick={() => setMenuOpen(!isMenuOpen)} // Toggle state on click
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                className="inline-block h-11 w-11 stroke-current rounded-lg p-2.5 bg-neutral-100"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h16M4 18h16"
-                ></path>
-              </svg>
+              {isMenuOpen ? (
+                // Cross Icon
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  className="inline-block h-11 w-11 stroke-current rounded-lg p-2.5 bg-neutral-100"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  ></path>
+                </svg>
+              ) : (
+                // Hamburger Icon
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  className="inline-block h-11 w-11 stroke-current rounded-lg p-2.5 bg-neutral-100"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M4 6h16M4 12h16M4 18h16"
+                  ></path>
+                </svg>
+              )}
             </button>
+
 
             <button
               className="hidden lg:inline btn btn-square btn-ghost"
-              onClick={() => setLargeMenuOpen(!isLargeMenuOpen)}
+              onClick={() => setLargeMenuOpen(!isLargeMenuOpen)} // Toggle state on click
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                className="inline-block h-11 w-11 ml-2.5	rounded-lg stroke-current bg-neutral-100	p-2.5"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h16M4 18h16"
-                ></path>
-              </svg>
+              {isLargeMenuOpen ? (
+                // Cross Icon
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  className="inline-block h-11 w-11 ml-2.5 rounded-lg stroke-current bg-neutral-100 p-2.5"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  ></path>
+                </svg>
+              ) : (
+                // Hamburger Icon
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  className="inline-block h-11 w-11 ml-2.5 rounded-lg stroke-current bg-neutral-100 p-2.5"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M4 6h16M4 12h16M4 18h16"
+                  ></path>
+                </svg>
+              )}
             </button>
+
             {isMenuOpen && (
               <div className="absolute sm:w-2/5 z-10 top-14 min-[1px]:w-10/12 rounded-3xl bg-white shadow-md py-4 flex flex-col items-center space-y-4 md:flex menu-outer">
-                <Link href="/Views" className="text-black font-bold hover:text-red-600">
+                <Link href="/views" className="text-black font-bold hover:text-red-600">
                   Buy YouTube Views
                 </Link>
-                <Link href="/Subscribers" className="text-black font-bold hover:text-red-600">
+                <Link href="/subscribers" className="text-black font-bold hover:text-red-600">
                   Buy YouTube Subscribers
                 </Link>
-                <Link href="/Likes" className="text-black font-bold hover:text-red-600">
+                <Link href="/likes" className="text-black font-bold hover:text-red-600">
                   Buy YouTube Likes
                 </Link>
                 <Link href="/insta" className="text-black font-bold hover:text-red-600">
@@ -208,7 +246,7 @@ const Header = () => {
                 </Link>
                 <div className="relative group">
                   <button className="text-black font-bold focus:outline-none flex items-center pl-4 group-hover:text-red-600">
-                    <a href="/Tools">
+                    <a href="/tools">
                       Tools
                     </a>
                     <svg
@@ -227,37 +265,37 @@ const Header = () => {
                   <div className="absolute top-full sm:right-0 min-[1px]:w-48 hidden group-hover:block sm:z-10 sm:w-80 mt-2 bg-white border border-gray-200 rounded-lg shadow-lg">
                     <ul className="py-2">
                       <li>
-                        <a href="/Insta-story" className="block px-4 py-2 hover:text-red-600 font-bold">
+                        <a href="/insta-story" className="block px-4 py-2 hover:text-red-600 font-bold">
                           Instagram Story Viewer
                         </a>
                       </li>
                       <li>
-                        <a href="/Calculator" className="block px-4 py-2 hover:text-red-600 font-bold">
+                        <a href="/calculator" className="block px-4 py-2 hover:text-red-600 font-bold">
                           YouTube Money Calculator
                         </a>
                       </li>
                       <li>
-                        <a href="/Title" className="block px-4 py-2 hover:text-red-600 font-bold">
+                        <a href="/title" className="block px-4 py-2 hover:text-red-600 font-bold">
                           YouTube Title Generator
                         </a>
                       </li>
                       <li>
-                        <a href="/Time" className="block px-4 py-2 hover:text-red-600 font-bold">
+                        <a href="/time" className="block px-4 py-2 hover:text-red-600 font-bold">
                           Best Time to Post on YouTube
                         </a>
                       </li>
                       <li>
-                        <a href="/Analytics" className="block px-4 py-2 hover:text-red-600 font-bold">
+                        <a href="/analytics" className="block px-4 py-2 hover:text-red-600 font-bold">
                           YouTube Video Analytics
                         </a>
                       </li>
                       <li>
-                        <a href="/Tracker" className="block px-4 py-2 hover:text-red-600 font-bold">
+                        <a href="/tracker" className="block px-4 py-2 hover:text-red-600 font-bold">
                           YouTube Rank Tracker
                         </a>
                       </li>
                       <li>
-                        <a href="/Tools" className="block px-4 py-2 hover:text-red-600 font-bold">
+                        <a href="/tools" className="block px-4 py-2 hover:text-red-600 font-bold">
                           See All Tools
                         </a>
                       </li>
@@ -269,13 +307,13 @@ const Header = () => {
             )}
             {isLargeMenuOpen && (
               <div className="absolute sm:top-20 sm:rounded-3xl right-12 w-2/5 z-10 bg-white shadow-md py-4 flex flex-col items-center space-y-4 md:flex menu-outer">
-                <Link href="/Views" className="text-black font-bold hover:text-red-600">
+                <Link href="/views" className="text-black font-bold hover:text-red-600">
                   Buy YouTube Views
                 </Link>
-                <Link href="/Subscribers" className="text-black font-bold hover:text-red-600">
+                <Link href="/subscribers" className="text-black font-bold hover:text-red-600">
                   Buy YouTube Subscribers
                 </Link>
-                <Link href="/Likes" className="text-black font-bold hover:text-red-600">
+                <Link href="/likes" className="text-black font-bold hover:text-red-600">
                   Buy YouTube Likes
                 </Link>
                 <Link href="/insta" className="text-black font-bold hover:text-red-600">
@@ -283,7 +321,7 @@ const Header = () => {
                 </Link>
                 <div className="relative group">
                   <button className="text-black font-bold focus:outline-none flex items-center pl-4 group-hover:text-red-600">
-                    <a href="/Tools">
+                    <a href="/tools">
                       Tools
                     </a>
                     <svg
@@ -302,37 +340,37 @@ const Header = () => {
                   <div className="absolute left-0 top-full hidden group-hover:block sm:z-10 w-80 mt-2 bg-white border border-gray-200 rounded-lg shadow-lg">
                     <ul className="py-2">
                       <li>
-                        <a href="/Insta-story" className="block px-4 py-2 hover:text-red-600 font-bold">
+                        <a href="/insta-story" className="block px-4 py-2 hover:text-red-600 font-bold">
                           Instagram Story Viewer
                         </a>
                       </li>
                       <li>
-                        <a href="/Calculator" className="block px-4 py-2 hover:text-red-600 font-bold">
+                        <a href="/calculator" className="block px-4 py-2 hover:text-red-600 font-bold">
                           YouTube Money Calculator
                         </a>
                       </li>
                       <li>
-                        <a href="/Title" className="block px-4 py-2 hover:text-red-600 font-bold">
+                        <a href="/title" className="block px-4 py-2 hover:text-red-600 font-bold">
                           YouTube Title Generator
                         </a>
                       </li>
                       <li>
-                        <a href="/Time" className="block px-4 py-2 hover:text-red-600 font-bold">
+                        <a href="/time" className="block px-4 py-2 hover:text-red-600 font-bold">
                           Best Time to Post on YouTube
                         </a>
                       </li>
                       <li>
-                        <a href="/Analytics" className="block px-4 py-2 hover:text-red-600 font-bold">
+                        <a href="/analytics" className="block px-4 py-2 hover:text-red-600 font-bold">
                           YouTube Video Analytics
                         </a>
                       </li>
                       <li>
-                        <a href="/Tracker" className="block px-4 py-2 hover:text-red-600 font-bold">
+                        <a href="/tracker" className="block px-4 py-2 hover:text-red-600 font-bold">
                           YouTube Rank Tracker
                         </a>
                       </li>
                       <li>
-                        <a href="/Tools" className="block px-4 py-2 hover:text-red-600 font-bold">
+                        <a href="/tools" className="block px-4 py-2 hover:text-red-600 font-bold">
                           See All Tools
                         </a>
                       </li>
@@ -358,7 +396,7 @@ const Header = () => {
             <div className="hidden lg:flex items-center py-1 px-1 space-x-8 menu-outer">
               <div className="relative group">
                 <button className="text-black font-bold focus:outline-none flex items-center pl-4 group-hover:text-red-600">
-                  <a href="/Tools">
+                  <a href="/tools">
                     <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-100 transform group-hover:translate-y-1">T</span>
                     <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-200 transform group-hover:translate-y-1">o</span>
                     <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-300 transform group-hover:translate-y-1">o</span>
@@ -381,37 +419,37 @@ const Header = () => {
                 <div className="absolute top-9 right-10 z-10 w-80 bg-white border border-gray-200 rounded-lg shadow-lg hidden group-hover:block">
                   <ul className="py-2">
                     <li>
-                      <a href="/Insta-story" className="block px-4 py-2 hover:text-red-600">
+                      <a href="/insta-story" className="block px-4 py-2 hover:text-red-600">
                         Instagram Story Viewer
                       </a>
                     </li>
                     <li>
-                      <a href="/Calculator" className="block px-4 py-2 hover:text-red-600">
+                      <a href="/calculator" className="block px-4 py-2 hover:text-red-600">
                         YouTube Money Calculator
                       </a>
                     </li>
                     <li>
-                      <a href="/Title" className="block px-4 py-2 hover:text-red-600">
+                      <a href="/title" className="block px-4 py-2 hover:text-red-600">
                         YouTube Title Generator
                       </a>
                     </li>
                     <li>
-                      <a href="/Time" className="block px-4 py-2 hover:text-red-600">
+                      <a href="/time" className="block px-4 py-2 hover:text-red-600">
                         Best Time to Post on YouTube
                       </a>
                     </li>
                     <li>
-                      <a href="/Analytics" className="block px-4 py-2 hover:text-red-600">
+                      <a href="/analytics" className="block px-4 py-2 hover:text-red-600">
                         YouTube Video Analytics
                       </a>
                     </li>
                     <li>
-                      <a href="/Tracker" className="block px-4 py-2 hover:text-red-600">
+                      <a href="/tracker" className="block px-4 py-2 hover:text-red-600">
                         YouTube Rank Tracker
                       </a>
                     </li>
                     <li>
-                      <a href="/Tools" className="block px-4 py-2 hover:text-red-600">
+                      <a href="/tools" className="block px-4 py-2 hover:text-red-600">
                         See All Tools
                       </a>
                     </li>
@@ -421,7 +459,7 @@ const Header = () => {
 
               <div className="relative group">
                 <button className="text-black font-bold focus:outline-none flex items-center group-hover:text-red-600">
-                  <a href="/Bots">
+                  <a href="/bots">
                     <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-100 transform group-hover:translate-y-1">B</span>
                     <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-200 transform group-hover:translate-y-1">o</span>
                     <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-300 transform group-hover:translate-y-1">t</span>
@@ -452,31 +490,49 @@ const Header = () => {
               </div>
               <button
                 className="hidden lg:inline btn btn-square btn-ghost"
-                onClick={() => setLargeMenuOpen(!isLargeMenuOpen)}
+                onClick={() => setLargeMenuOpen(!isLargeMenuOpen)} // Toggle state on click
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  className="inline-block h-11 w-11 ml-2.5	rounded-lg stroke-current bg-neutral-100	p-2.5"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M4 6h16M4 12h16M4 18h16"
-                  ></path>
-                </svg>
+                {isLargeMenuOpen ? (
+                  // Cross Icon
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    className="inline-block h-11 w-11 ml-2.5 rounded-lg stroke-current bg-neutral-100 p-2.5"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M6 18L18 6M6 6l12 12"
+                    ></path>
+                  </svg>
+                ) : (
+                  // Hamburger Icon
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    className="inline-block h-11 w-11 ml-2.5 rounded-lg stroke-current bg-neutral-100 p-2.5"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M4 6h16M4 12h16M4 18h16"
+                    ></path>
+                  </svg>
+                )}
               </button>
               {isLargeMenuOpen && (
                 <div className="absolute top-28 right-20 z-10 rounded-3xl lg:w-2/5 bg-white x shadow-md py-4 lg:flex flex-col items-center space-y-4 md:flex menu-outer">
-                  <Link href="/Views" className="text-black font-bold hover:text-red-600">
+                  <Link href="/views" className="text-black font-bold hover:text-red-600">
                     Buy YouTube Views
                   </Link>
-                  <Link href="/Subscribers" className="text-black font-bold hover:text-red-600">
+                  <Link href="/subscribers" className="text-black font-bold hover:text-red-600">
                     Buy YouTube Subscribers
                   </Link>
-                  <Link href="/Likes" className="text-black font-bold hover:text-red-600">
+                  <Link href="/likes" className="text-black font-bold hover:text-red-600">
                     Buy YouTube Likes
                   </Link>
                   <Link href="/insta" className="text-black font-bold hover:text-red-600">
@@ -484,7 +540,7 @@ const Header = () => {
                   </Link>
                   <div className="relative group">
                     <button className="text-black font-bold focus:outline-none flex items-center group-hover:text-red-600">
-                      <a href="/Tools">Tools</a>
+                      <a href="/tools">Tools</a>
                       <svg
                         className="-mr-1 h-5 w-5 text-black"
                         viewBox="0 0 20 20"
@@ -501,37 +557,37 @@ const Header = () => {
                     <div className="absolute top-9 right-10 z-10 w-80 bg-white border border-gray-200 rounded-lg shadow-lg hidden group-hover:block">
                       <ul className="py-2">
                         <li>
-                          <a href="/Insta-story" className="block px-4 py-2 hover:text-red-600">
+                          <a href="/insta-story" className="block px-4 py-2 hover:text-red-600">
                             Instagram Story Viewer
                           </a>
                         </li>
                         <li>
-                          <a href="/Calculator" className="block px-4 py-2 hover:text-red-600">
+                          <a href="/calculator" className="block px-4 py-2 hover:text-red-600">
                             YouTube Money Calculator
                           </a>
                         </li>
                         <li>
-                          <a href="/Title" className="block px-4 py-2 hover:text-red-600">
+                          <a href="/title" className="block px-4 py-2 hover:text-red-600">
                             YouTube Title Generator
                           </a>
                         </li>
                         <li>
-                          <a href="/Time" className="block px-4 py-2 hover:text-red-600">
+                          <a href="/time" className="block px-4 py-2 hover:text-red-600">
                             Best Time to Post on YouTube
                           </a>
                         </li>
                         <li>
-                          <a href="/Analytics" className="block px-4 py-2 hover:text-red-600">
+                          <a href="/analytics" className="block px-4 py-2 hover:text-red-600">
                             YouTube Video Analytics
                           </a>
                         </li>
                         <li>
-                          <a href="/Tracker" className="block px-4 py-2 hover:text-red-600">
+                          <a href="/tracker" className="block px-4 py-2 hover:text-red-600">
                             YouTube Rank Tracker
                           </a>
                         </li>
                         <li>
-                          <a href="/Tools" className="block px-4 py-2 hover:text-red-600">
+                          <a href="/tools" className="block px-4 py-2 hover:text-red-600">
                             See All Tools
                           </a>
                         </li>
@@ -545,21 +601,21 @@ const Header = () => {
           <nav className="w-full	lg:flex lg:justify-center mr-7 lg:mt-1.5 xl:mt-0">
             <div className="hidden lg:flex bg-red-200 py-1 px-1 rounded-full menu-outer">
               <Link
-                href="/Views"
+                href="/views"
                 className="text-black text-base font-bold hover:bg-red-600 rounded-full py-2.5 px-3 hover:text-white"
                 style={{ marginLeft: 0, marginRight: 0 }}
               >
                 Buy YouTube Views
               </Link>
               <Link
-                href="/Subscribers"
+                href="/subscribers"
                 className="text-black text-base font-bold hover:bg-red-600 rounded-full py-2.5 px-3 hover:text-white"
                 style={{ marginLeft: 0, marginRight: 0 }}
               >
                 Buy YouTube Subscribers
               </Link>
               <Link
-                href="/Likes"
+                href="/likes"
                 className="text-black text-base font-bold hover:bg-red-600 rounded-full py-2.5 px-3 hover:text-white"
                 style={{ marginLeft: 0, marginRight: 0 }}
               >

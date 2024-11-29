@@ -80,7 +80,8 @@ const List = () => {
           <li class="flex text-lg mb-4 pr-8 pl-6 md:w-[50%] lg:w-4/12 xl:w-3/12  items-center">
             <span class="w-2 h-2 bg-red-500 rounded-full mr-2"></span>
             <span class="font-bold text-black">promote YouTube marketing</span>
-          </li><li class="flex text-lg mb-4 pr-8 pl-6 md:w-[50%] lg:w-4/12 xl:w-3/12  items-center">
+          </li>
+          <li class="flex text-lg mb-4 pr-8 pl-6 md:w-[50%] lg:w-4/12 xl:w-3/12  items-center">
             <span class="w-2 h-2 bg-red-500 rounded-full mr-2"></span>
             <span class="font-bold text-black">grow your YouTube channel</span>
           </li>
