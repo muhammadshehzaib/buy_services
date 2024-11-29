@@ -115,7 +115,7 @@ function Slider() {
   };
 
   return (
-    <div className="carousel relative w-full overflow-visible border-y-2 mt-10 py-5">
+    <div className="carousel relative w-full overflow-hidden border-y-2 mt-10 py-5">
       {/* Carousel container */}
       <div
         className="flex transition-transform duration-500 ease-in-out"
