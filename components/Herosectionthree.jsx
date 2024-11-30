@@ -1,13 +1,13 @@
 'use client'
 
-import React from 'react'
+import React from 'react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import { Pagination } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import Footer from "./Footer";
-import { Swiper, SwiperSlide } from 'swiper/react'
-import 'swiper/css'
-import 'swiper/css/pagination'
-import { Pagination, Navigation } from 'swiper/modules'
-import Image from 'next/image'
-import Link from 'next/link'
+import LineSection from "./linesection/LineSection";
+import CampaignSection from "./campaignsection/CampaignSection"
 
 
 const testimonials = {
@@ -158,38 +158,15 @@ export default function Herosectionthree() {
         </div>
       </div>
       {/* Campaign sec */}
-      <div className='w-full sm:mt-20 lg:mt-28 rounded-3xl Campaign-sec lg:flex sm:py-28 min-[1px]:pt-16 pb-36  bg-[#F4F6F8]'>
-        <div className='w-full min-[1px]:px-10 sm:px-20 lg:pl-20'>
-          <h1 className="font-montserrat min-[320px]:text-[30px] 2xl:w-full lg:text-[32px] sm:text-4xl md:text-[2.75rem] font-bold text-gray-800 mb-4">
-            All In One YouTube Subscribers Campaign
-          </h1>
-          <div className='xl:flex font-montserrat'>
-            <span className="font-montserrat text-[1.75rem] text-white sm:mb-4 min-[1px]:mb-4 md:mb-0 font-bold bg-[#ed2024] px-5 py-3 rounded-[.75rem] flex items-center w-36">
-              $68.00
-            </span>
-            <button className='py-6 px-24 bg-black rounded-full text-white font-bold text-[18px] sm:mt-5 xl:mt-0 xl:ml-10'>Buy Now</button>
-          </div>
-          <p className="font-montserrat block sm:my-5 mx-0  min-[1px]:my-5 max-[639px]:my-0 lg:w-full text-lg text-#050708">
-            Buy real YouTube subscribers from Views4You with an exclusive package, including <span className='text-[#ed2024] font-bold'>buy YouTube Views </span>service to add more engagement to your videos. Also, you can <span className='text-[#ed2024] font-bold'>buy YouTube likes</span> service to increase your channel’s performance instantly. After your purchase, you can benefit from customer service at all hours of the day and night.
-          </p>
-        </div>
-        <div className='w-full min-[1px]:px-10 sm:pl-20 sm:pr-40 flex flex-col lg:justify-center xl:justify-end'>
-          <div className='flex justify-between mb-5'>
-            <p><span className='text-[32px] font-bold text-[#ed2024]'>1000</span> <br /> New active <br /> subscribers at once</p>
-            <p><span className='text-[32px] font-bold text-[#ed2024]'>5000</span> <br />Views for <br /> chosen video</p>
-          </div>
-          <div className='flex justify-between'>
-            <p><span className='text-[32px] font-bold text-[#ed2024]'>500</span> <br /> Likes for <br /> chosen video</p>
-            <p><span className='text-[32px] font-bold text-[#ed2024]'>24/7</span> <br /> Customers <br /> Support</p>
-          </div>
-        </div>
-      </div>
-      {/* lines  */}
-      <div className="sm:w-3/4 min-[1px]:w-2/4 lg:mb-36 para relative left-36 bottom-20 sm:mb-12">
-        <div className='sm:flex sm:justify-center xl:justify-start'><p className="para-text bg-[#ED202433] rounded-3xl h-[8.9rem] sm:w-[12.4rem] min-[1px]:w-[9.4rem]" style={{ transform: "matrix(1, .58, 0, .89, 0, 0)" }} ></p></div>
-        <div className='sm:flex sm:justify-center xl:justify-start'><p className='paras-one-text bg-[#ED2024] h-[.150rem] sm:w-[11.4rem] min-[1px]:w-[7.4rem] left-20 relative' style={{ transform: "matrix(1, .58, 0, .89, 0, 0)" }}></p></div>
-        <div className='sm:flex sm:justify-center  xl:justify-start'><p className='paras-two-text bg-[#ED2024] rounded-md ml-10 h-[1.6rem] sm:w-[9.25rem] bottom-40 right-20 min-[1px]:w-[6.25rem] relative' style={{ transform: "matrix(1, .58, 0, .89, 0, 0)" }}></p></div>
-      </div>
+       {/* Campaign sec */}
+       <CampaignSection
+      title="All In One YouTube Subscribers Campaign"
+      price="$68.00"
+      description="Buy real YouTube subscribers from Views4You with an exclusive package, including buy YouTube Views service to add more engagement to your videos. Also, you can buy YouTube likes service to increase your channel’s performance instantly. After your purchase, you can benefit from customer service at all hours of the day and night."
+      views="5000"
+      likes="1000"
+    />
+    <LineSection />
 
       {/* video sec  */}
       <div className="">
