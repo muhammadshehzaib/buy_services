@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import Header from "../components/Header";
 import Slider from "../components/Slider";
 import HeroSection from "../components/HeroSection";
-import Card from "../components/Card";
+import Cards from "../components/Cards";
 import Reviews from "../components/Reviews";
 import List from "../components/List";
 import Stepsection from "../components/Stepsection";
@@ -38,7 +38,7 @@ export default function Home() {
       <Header />
       <Slider />
       <HeroSection />
-      <Card />
+      <Cards />
       <Reviews />
       <List />
       <Stepsection />
