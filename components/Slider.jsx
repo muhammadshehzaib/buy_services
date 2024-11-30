@@ -76,7 +76,7 @@ const jsonData = {
         },
         {
           label: "YouTube Rank Tracker",
-          link: "/TrackerTracker"
+          link: "/tracker"
         },
         {
           label: "See All Tools",

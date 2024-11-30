@@ -1,6 +1,6 @@
 import Header from "../../components/Header";
 import Slider from "../../components/Slider";
-import Generator from "../../components/Generator";
+import Generator from "../../components/youtube title generator/Generator";
 
 
 export default function Generators () {

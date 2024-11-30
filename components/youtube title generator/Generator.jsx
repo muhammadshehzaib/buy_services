@@ -1,5 +1,7 @@
 import React from "react";
-import Footer from "./Footer";
+import Footer from "../Footer";
+import FAQ from '../faq/FAQ';  
+import { faqs } from './faqData';  
 export default function Generator() {
   return (
     <div className="max-w-[1390px] px-5 mx-auto">
@@ -118,82 +120,8 @@ export default function Generator() {
         </div>
       </div>
       {/* faqs  */}
-      <div className="lg:flex sm:pt-36 min-[1px]:pt-0 ">
-        <div className="text-sec  lg:w-2/4  lg:pr-28">
-          <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550]">
-            Frequently Asked Questions
-          </h3>
-        </div>
-        <div className='accordian w-full'>
-          <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
-            <input type="radio" name="my-accordion-3" defaultChecked />
-            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-              What Is YouTube Title Generator by Views4You?
-            </div>
-            <div className="collapse-content">
-              <p className="text-[18px]">
-                It is a tool that assists YouTube content creators in crafting attractive titles for their videos. You can obtain several titles based on your keywords and descriptions.
-              </p>
-            </div>
-          </div>
-          <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
-            <input type="radio" name="my-accordion-3" defaultChecked />
-            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-              Do I have to make a payment to utilize the Views4You YouTube Title Generator?
-            </div>
-            <div className="collapse-content">
-              <p className="text-[18px]">
-                No, it is absolutely free. We created this tool to aid YouTubers at no additional cost.
-              </p>
-            </div>
-          </div>
+      <FAQ faqs={faqs} />
 
-          <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
-            <input type="radio" name="my-accordion-3" defaultChecked />
-            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-              How can I use the tone feature?
-            </div>
-            <div className="collapse-content">
-              <p className="text-[18px]">
-                You can select one option from nine tones. We advise you to pay attention to your content and pick the tone according to it.
-              </p>
-            </div>
-          </div>
-          <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
-            <input type="radio" name="my-accordion-3" defaultChecked />
-            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-              What should I do if I’m dissatisfied with the generated titles?
-            </div>
-            <div className="collapse-content">
-              <p className="text-[18px]">
-                If you don’t like the first titles, then regenerate it! Before the second tour, you can change the tone, keyword, or description to get what you want. Thanks to our free tool, you can have flexibility and creativity in determining the ideal title.
-              </p>
-            </div>
-          </div>
-          <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
-            <input type="radio" name="my-accordion-3" defaultChecked />
-            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-              Can I benefit from the created titles directly for my videos?
-            </div>
-            <div className="collapse-content">
-              <p className="text-[18px]">
-                Definitely! As soon as you find the perfect title, you can copy it for your YouTube video.
-              </p>
-            </div>
-          </div>
-          <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
-            <input type="radio" name="my-accordion-3" defaultChecked />
-            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-              Is there support available if I have questions or feedback?
-            </div>
-            <div className="collapse-content">
-              <p className="text-[18px]">
-                Yes, we have experienced and talented customer support. You can get in touch with us from our website, and we’ll gladly assist you with any questions about the YouTube Shorts Title Generator.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
       <Footer />
     </div>
   );
