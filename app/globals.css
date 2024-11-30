@@ -1,4 +1,115 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+p.paras:before {
+    background: rgba(237, 32, 36, 0.1);
+    top: -1.1rem;
+    left: .7rem;
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 1.25rem;
+}
+p.paras:after {
+    background: rgba(237, 32, 36, 0.1);
+    top: -2.3rem;
+    left: 1.3rem;
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 1.25rem;
+}
+.space-x-3 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(0.75rem * var(--tw-space-x-reverse));
+    margin-left: 0px !important;
+}  
+  .testimonial-item img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+  }
+  
+  blockquote {
+    font-style: italic;
+    margin: 10px 0;
+  }
+  .swiper-wrapper {
+    padding-bottom: 100px;
+}
+  /* Style for inactive bullets */
+.swiper-pagination-bullet {
+  width: 1.1rem !important;
+  height: 1.1rem !important;
+  background-color: #ddd; 
+  border-radius: 50%; 
+  opacity: 1; 
+  border: none; 
+}
+.swiper-pagination-bullet:hover{
+  background-color: red;
+  opacity: 100%;
+}
+/* Style for the active bullet */
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  width: 2rem !important;
+  height: 2rem !important;
+  background-color: transparent; 
+  border: 2px solid red;
+  border-radius: 50%; 
+}
+.swiper-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.svg-img:hover {
+  filter: brightness(0) saturate(100%) invert(21%) sepia(98%) saturate(7491%) hue-rotate(0deg) brightness(102%) contrast(112%);
+}
+/* Default theme variables */
+:root {
+  --background-color: #ffffff;
+  --text-color: #000000;
+}
+
+[data-theme="dark"] {
+  --background-color: #181818;
+  --text-color: #ffffff;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+clicked-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: var(--text-color);
+  color: var(--background-color);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+clicked-btn:hover {
+  opacity: 0.8;
+}
+p,a,h1,h2,h3,h4,h5,h6 {
+  color: #000000;
+}
 

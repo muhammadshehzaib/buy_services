@@ -1,0 +1,114 @@
+{
+    "slides": [
+      {
+        "testimonials": [
+          {
+            "name": "Elizabeth",
+            "followers": "840k",
+            "quote": "Well, the site is terrific!!! I got my services in a moment! They gave me more confidence to work harder and monetize my channel.",
+            "image": "elizabeth.jpg"
+          },
+          {
+            "name": "Lucy",
+            "followers": "100k",
+            "quote": "One of my friends sent the link to a video on YouTube about this site cause it has been just 1 month since I started my page. It was difficult at first but now with all these helpful videos, making them is easy!",
+            "image": "lucy.jpg"
+          },
+          {
+            "name": "John",
+            "followers": "560k",
+            "quote": "Wow! What a service. I’ve been following them for a while and was thinking if they are fake, I mean, they could be lost. But they didn’t! Thank you.",
+            "image": "john.jpg"
+          }
+        ]
+      },
+      {
+        "testimonials": [
+          {
+            "name": "David",
+            "followers": "450k",
+            "quote": "This platform really changed my game! The services are top-notch.",
+            "image": "david.jpg"
+          },
+          {
+            "name": "Sarah",
+            "followers": "300k",
+            "quote": "I couldn’t have done it without them. It’s amazing what you can do with the right tools.",
+            "image": "sarah.jpg"
+          },
+          {
+            "name": "Mike",
+            "followers": "600k",
+            "quote": "I’ve never had such an easy experience. Everything just works!",
+            "image": "mike.jpg"
+          }
+        ]
+      },
+      {
+        "testimonials": [
+          {
+            "name": "Alice",
+            "followers": "750k",
+            "quote": "Incredible! They made the entire process effortless.",
+            "image": "alice.jpg"
+          },
+          {
+            "name": "James",
+            "followers": "900k",
+            "quote": "I highly recommend them. The services are quick and efficient.",
+            "image": "james.jpg"
+          },
+          {
+            "name": "Emily",
+            "followers": "820k",
+            "quote": "A true game-changer in this industry. You won’t find a better platform!",
+            "image": "emily.jpg"
+          }
+        ]
+      },
+      {
+        "testimonials": [
+          {
+            "name": "Tom",
+            "followers": "200k",
+            "quote": "Fantastic! This is the future of digital services.",
+            "image": "tom.jpg"
+          },
+          {
+            "name": "Rachel",
+            "followers": "700k",
+            "quote": "I was skeptical at first, but they delivered beyond expectations.",
+            "image": "rachel.jpg"
+          },
+          {
+            "name": "Chris",
+            "followers": "150k",
+            "quote": "This has been an absolute game changer for my business!",
+            "image": "chris.jpg"
+          }
+        ]
+      },
+      {
+        "testimonials": [
+          {
+            "name": "Sophie",
+            "followers": "680k",
+            "quote": "Their support team is fantastic. Always there when I need them.",
+            "image": "sophie.jpg"
+          },
+          {
+            "name": "Ben",
+            "followers": "590k",
+            "quote": "I’ve tried many platforms, but this one stands out. The best by far.",
+            "image": "ben.jpg"
+          },
+          {
+            "name": "Lily",
+            "followers": "490k",
+            "quote": "A reliable and trustworthy platform. You can count on them every time.",
+            "image": "lily.jpg"
+          }
+        ]
+      }
+    ]
+  }

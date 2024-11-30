@@ -11,12 +11,20 @@
   "dependencies": {
     "@headlessui/react": "^2.1.10",
     "@heroicons/react": "^2.1.5",
+    "bootstrap": "^5.3.3",
     "daisyui": "^4.12.13",
-    "next": "14.2.14",
+    "next": "^15.0.3",
     "react": "^18",
-    "react-dom": "^18"
+    "react-bootstrap": "^2.10.5",
+    "react-countup": "^6.5.3",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0",
+    "swiper": "^11.1.15",
+    "swr": "^2.2.5"
   },
   "devDependencies": {
+    "@types/node": "22.9.1",
+    "@types/react": "18.3.12",
     "eslint": "^8",
     "eslint-config-next": "14.2.14",
     "postcss": "^8",

@@ -10,8 +10,12 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-      },
+      }, rotate: {
+        '25': '25deg',
+      }
     },
   },
-  plugins: [],
+   plugins: [
+    require('daisyui'),
+  ],
 };
