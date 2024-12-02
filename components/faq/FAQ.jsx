@@ -16,7 +16,7 @@ const FAQ = ({ faqs }) => {
         </h3>
       </div>
       <div className='accordian w-full'>
-        {faqs.map((faq, index) => (
+        {faqs .map((faq, index) => (
           <div 
             key={index} 
             className="collapse collapse-plus mb-5 p-8 bg-white group" 
