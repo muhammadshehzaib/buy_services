@@ -1,6 +1,6 @@
 import Header from "../../components/Header";
 import Slider from "../../components/Slider";
-import HeroSectiontwo from "../../components/HeroSectiontwo";
+import HeroSectiontwo from "../../components/Herosectiontwo";
 
 
 export default function Views () {

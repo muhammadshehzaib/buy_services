@@ -3,8 +3,7 @@ import React, { useState } from "react";
 import Footer from "./Footer";
 import { ToolGrid } from './tools/ToolGrid';
 
-// Import the tools data
-import { youtubeTools, instagramTools } from './tools/toolsData';
+import { youtubeTools, instagramTools } from './tools/ToolsData';
 
 function Alltools() {
   const [selectedCategory, setSelectedCategory] = useState('all');
