@@ -285,7 +285,7 @@ export default function Herosectionthree() {
       </Swiper>
       {/* FAQ,S sec  */}
 
-      {/* <div className="lg:flex sm:pt-36 min-[1px]:pt-24 ">
+      <div className="lg:flex sm:pt-36 min-[1px]:pt-24 ">
         <div className="text-sec sm:w-full  lg:pr-32">
           <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550]">
             Frequently Asked Questions
@@ -577,7 +577,7 @@ export default function Herosectionthree() {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
       {/* reviews slider  */}
       <div className='pt-28 mb-16 flex justify-between items-center'>
         <h2 className='font-bold text-[32px] '>
