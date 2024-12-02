@@ -259,7 +259,7 @@ export default function Herosectiontwo() {
       {/* video sec  */}
       <div className="">
         <div className='text-center flex min-[1px]:pt-20 sm:pt-24 lg:pt-36 items-center video-sec flex-col'>
-          <h2 className='text-[32px] font-bold lg:w-2/4 sm:3/4 mb-6'>The world's number one YouTube Views service!</h2>
+          <h2 className='text-[32px] font-bold lg:w-2/4 sm:3/4 mb-6'>The world&apos;s number one YouTube Views service!</h2>
           <p className='text-[18px] w-3/4'>Why wait? Your views are sure to go up, but only if you start to buy YouTube views from us today. Increase your view count and watch them shoot up quickly and safely.</p>
           <p className='flex justify-center pt-5 w-full'>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/nC5bR-OCi90?si=4s_sU0oiqV7IfHH1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -405,7 +405,7 @@ export default function Herosectiontwo() {
             Frequently Asked Questions
           </h3>
           <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black">
-            Have questions about how to purchase YouTube views or do you want to know how to boost YouTube views on your YouTube channel? We’re here to answer all your questions, so let's get started!
+            Have questions about how to purchase YouTube views or do you want to know how to boost YouTube views on your YouTube channel? We’re here to answer all your questions, so let&apos;s get started!
           </p>
         </div>
         <div className='accordian w-full'>
@@ -430,7 +430,7 @@ export default function Herosectiontwo() {
           <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
             <input type="radio" name="my-accordion-3" defaultChecked />
             <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-              Do Views4You's YouTube views affect YouTube ranking?
+              Do Views4You&apos;s YouTube views affect YouTube ranking?
             </div>
             <div className="collapse-content">
               <p className="text-[18px]">

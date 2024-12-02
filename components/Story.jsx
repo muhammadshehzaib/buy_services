@@ -172,7 +172,7 @@ export default function story() {
           <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
             <input type="radio" name="my-accordion-3" defaultChecked />
             <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
-              How to view someone's Instagram story anonymously?
+              How to view someone&apos;s Instagram story anonymously?
             </div>
             <div className="collapse-content">
               <p className="text-[18px]">

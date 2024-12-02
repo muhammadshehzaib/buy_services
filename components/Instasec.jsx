@@ -298,7 +298,7 @@ export default function Instasec() {
             Frequently Asked Questions
           </h3>
           <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black">
-            Do you still have questions about buying Instagram followers? We have all the answers. So, find yourself a seat, and let's dive in! Also, reach us anytime to ask more via contact@views4you.com
+            Do you still have questions about buying Instagram followers? We have all the answers. So, find yourself a seat, and let&apos;s dive in! Also, reach us anytime to ask more via contact@views4you.com
           </p>
         </div>
         <div className='accordian w-full'>

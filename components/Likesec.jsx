@@ -318,7 +318,7 @@ export default function Likesec() {
             Frequently Asked Questions
           </h3>
           <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black">
-            We are here to answer all of your questions, so let's get started to improve your YouTube presence!
+            We are here to answer all of your questions, so let&apos;s get started to improve your YouTube presence!
           </p>
         </div>
         <div className='accordian w-full'>

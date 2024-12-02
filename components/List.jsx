@@ -126,7 +126,7 @@ const List = () => {
     </div>
     <div class="lg:w-1/2 flex justify-end flex-col space-y-3">
     <h2 className='text-2xl text-black font-bold sm:ml-4 mb-8 min-[1px]:text-center min-[1px]:ml-0 min-[1px]:mb-4 md:text-center'>
-      But don't know how? <span className='text-[#ED2024]'>Views4You provides all in one!</span>
+      But don&apos;t know how? <span className='text-[#ED2024]'>Views4You provides all in one!</span>
     </h2>
             <div class="flex justify-center space-x-3 sm:flex min-[1px]:flex-col sm:flex-row gap-4 ">
                 <a href='/Likes' class="bg-black text-white font-semibold py-5 lg:px-12 sm:px-12 min-[1px]:px-20  sm:mb-0 lg:text-[15px] xl:px-20 rounded-full hover:bg-gray-800 transition">

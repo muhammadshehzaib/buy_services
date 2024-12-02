@@ -291,7 +291,7 @@ export default function Herosectionthree() {
             Frequently Asked Questions
           </h3>
           <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black">
-            Got some questions about our services? We are here to answer all of them, so grab a seat and let's get started!
+            Got some questions about our services? We are here to answer all of them, so grab a seat and let&apos;s get started!
           </p>
         </div>
         <div className='accordian w-full'>

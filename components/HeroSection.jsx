@@ -11,7 +11,7 @@ function HeroSection() {
           Views4You
         </span>
         <p className="font-montserrat block md:my-5 mx-0 md:py-3 sm:my-0 min-[1px]:my-0 max-[639px]:my-0 lg:w-full text-lg text-#050708">
-          Lights, camera, and action! You're live on the best social media
+          Lights, camera, and action! You&apos;re live on the best social media
           channel for views—YouTube. But you may require some
           backup to quickly gain a huge amount of views in a short time.
           Of course, this is where the highly-recommended YouTube
