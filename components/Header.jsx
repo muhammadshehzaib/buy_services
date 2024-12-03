@@ -87,7 +87,7 @@ const Header = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="/calculator" className="block px-4 py-2 hover:text-red-600 font-bold">
+                      <a href="/Calculator" className="block px-4 py-2 hover:text-red-600 font-bold">
                         YouTube Money Calculator
                       </a>
                     </li>
@@ -102,12 +102,12 @@ const Header = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="/analytics" className="block px-4 py-2 hover:text-red-600 font-bold">
+                      <a href="/Analytics" className="block px-4 py-2 hover:text-red-600 font-bold">
                         YouTube Video Analytics
                       </a>
                     </li>
                     <li>
-                      <a href="/TrackerTracker" className="block px-4 py-2 hover:text-red-600 font-bold">
+                      <a href="/tracker" className="block px-4 py-2 hover:text-red-600 font-bold">
                         YouTube Rank Tracker
                       </a>
                     </li>
@@ -270,7 +270,7 @@ const Header = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="/calculator" className="block px-4 py-2 hover:text-red-600 font-bold">
+                        <a href="/Calculator" className="block px-4 py-2 hover:text-red-600 font-bold">
                           YouTube Money Calculator
                         </a>
                       </li>
@@ -285,7 +285,7 @@ const Header = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="/analytics" className="block px-4 py-2 hover:text-red-600 font-bold">
+                        <a href="/Analytics" className="block px-4 py-2 hover:text-red-600 font-bold">
                           YouTube Video Analytics
                         </a>
                       </li>
@@ -345,7 +345,7 @@ const Header = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="/calculator" className="block px-4 py-2 hover:text-red-600 font-bold">
+                        <a href="/Calculator" className="block px-4 py-2 hover:text-red-600 font-bold">
                           YouTube Money Calculator
                         </a>
                       </li>
@@ -360,7 +360,7 @@ const Header = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="/analytics" className="block px-4 py-2 hover:text-red-600 font-bold">
+                        <a href="/Analytics" className="block px-4 py-2 hover:text-red-600 font-bold">
                           YouTube Video Analytics
                         </a>
                       </li>
@@ -424,7 +424,7 @@ const Header = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="/calculator" className="block px-4 py-2 hover:text-red-600">
+                      <a href="/Calculator" className="block px-4 py-2 hover:text-red-600">
                         YouTube Money Calculator
                       </a>
                     </li>
@@ -439,7 +439,7 @@ const Header = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="/analytics" className="block px-4 py-2 hover:text-red-600">
+                      <a href="/Analytics" className="block px-4 py-2 hover:text-red-600">
                         YouTube Video Analytics
                       </a>
                     </li>
@@ -562,7 +562,7 @@ const Header = () => {
                           </a>
                         </li>
                         <li>
-                          <a href="/calculator" className="block px-4 py-2 hover:text-red-600">
+                          <a href="/Calculator" className="block px-4 py-2 hover:text-red-600">
                             YouTube Money Calculator
                           </a>
                         </li>
@@ -577,7 +577,7 @@ const Header = () => {
                           </a>
                         </li>
                         <li>
-                          <a href="/analytics" className="block px-4 py-2 hover:text-red-600">
+                          <a href="/Analytics" className="block px-4 py-2 hover:text-red-600">
                             YouTube Video Analytics
                           </a>
                         </li>

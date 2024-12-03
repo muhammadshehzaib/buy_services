@@ -10,7 +10,8 @@ import Image from 'next/image';
 import CampaignSection from "../campaignsection/CampaignSection";
 import LineSection from "../linesection/LineSection";
 import FAQ from "../faq/FAQ";
-import {subfaqs} from './subfaq'
+import {subfaqs} from "./subfaq";
+import NewSlider from "../slide/NewSlider";
 
 const testimonials = {
     slides: [
@@ -131,7 +132,7 @@ const testimonials = {
 export default function Herosectionthree() {
   return (
     <div className='items-center justify-between max-w-[1390px] px-5 mx-auto'>
-
+<NewSlider />
       {/* Subscriber page  */}
 
       {/* Subscriber-sec-tabs  */}
@@ -285,7 +286,7 @@ export default function Herosectionthree() {
         ))}
    </Swiper>
         {/* FAQ,S sec  */}
-        <FAQ subfaqs={subfaqs} />
+        <FAQ faqs={subfaqs} />
         {/* <div className="lg:flex sm:pt-36 min-[1px]:pt-24 ">
           <div className="text-sec sm:w-full  lg:pr-32">
             <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550]">
@@ -588,7 +589,42 @@ export default function Herosectionthree() {
           <div>
             <p>Average: <span className='font-bold'>4.9</span> / 5</p>
           </div>
-        </div>
+             </div>
+          <Swiper
+        spaceBetween={50}
+        slidesPerView={1}
+        pagination={{ clickable: true }}
+        Pagination
+        modules={[Pagination]}
+      >
+
+        {testimonials.slides.map((slide, index) => (
+          <SwiperSlide key={index}>
+            <div className="grid lg:grid-cols-3 sm:grid-cols-2 gap-12 w-full">
+              {slide.testimonials.map((testimonial, idx) => (
+                <div key={idx} className="testimonial-item mb-5  xl:pr-12 sm:pr-7 border-r-2">
+                  <img
+                    src={testimonial.image1}
+                    alt=""
+                  />
+                  <blockquote className='text-left  xl:text-xl font-bold sm:h-4/6 sm:mb-0 min-[1px]:mb-12 w-auto'>{testimonial.quote}</blockquote>
+                  <div className='flex items-center gap-8'>
+                    <img
+                      src={testimonial.image}
+                      alt={testimonial.name}
+                    />
+                    <div className='text-left text-[18px]'>
+                      <h3 className='font-bold'>{testimonial.name}</h3>
+                      <p>{testimonial.followers} followers</p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </SwiperSlide>
+        ))}
+   </Swiper>
+     
 
 
         {/* form-sec  */}
