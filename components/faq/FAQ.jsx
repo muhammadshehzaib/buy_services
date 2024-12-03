@@ -1,4 +1,5 @@
-'use client'
+'use client';
+
 import React, { useState } from 'react';
 
 const FAQ = ({ faqs }) => {
@@ -15,25 +16,28 @@ const FAQ = ({ faqs }) => {
           Frequently Asked Questions
         </h3>
       </div>
-      <div className='accordian w-full'>
-        {faqs .map((faq, index) => (
-          <div 
-            key={index} 
-            className="collapse collapse-plus mb-5 p-8 bg-white group" 
+      <div className="accordion w-full">
+        {faqs.map((faq, index) => (
+          <div
+            key={index}
+            className="collapse collapse-plus mb-5 p-8 bg-white group"
             style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}
           >
-            <input 
-              type="radio" 
-              name="my-accordion" 
-              checked={activeIndex === index} 
-              onChange={() => handleToggle(index)} 
+            {/* Replace "radio" with "checkbox" */}
+            <input
+              type="checkbox"
+              className="peer" // Use Tailwind's peer for toggling styles
+              checked={activeIndex === index}
+              onChange={() => handleToggle(index)}
             />
             <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
               {faq.question}
             </div>
-            <div className="collapse-content">
-              <p className="text-[18px]">{faq.answer}</p>
-            </div>
+            {activeIndex === index && ( // Show content only if active
+              <div className="collapse-content">
+                <p className="text-[18px]">{faq.answer}</p>
+              </div>
+            )}
           </div>
         ))}
       </div>

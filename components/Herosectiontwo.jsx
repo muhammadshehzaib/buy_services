@@ -8,6 +8,7 @@ import CampaignSection from "./campaignsection/CampaignSection";
 import Footer from "./Footer";
 import LineSection from "./linesection/LineSection";
 
+
 const testimonials = {
   slides: [
     {
@@ -168,7 +169,8 @@ export default function Herosectiontwo() {
     />
     <LineSection />
       {/* Views4You’s Guarantee  */}
-      <div className='md:flex gap-11'>
+    <Guranted />
+      {/* <div className='md:flex gap-11'>
         <div className='main md:w-2/4'>
           <div className='xl:p-10 min-[1px]:p-5'>
             <h1 className="font-montserrat 2xl:w-full sm:text-[32px] min-[1px]:text-[23px] font-bold text-gray-800 mb-4">
@@ -255,7 +257,7 @@ export default function Herosectiontwo() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* video sec  */}
       <div className="">
         <div className='text-center flex min-[1px]:pt-20 sm:pt-24 lg:pt-36 items-center video-sec flex-col'>

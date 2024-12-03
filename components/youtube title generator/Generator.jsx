@@ -1,8 +1,7 @@
 import React from "react";
 import Footer from "../Footer";
 import FAQ from "../faq/FAQ";
-import faqs from "./faqData";
-
+import {faqs} from "./faqData";
 
 export default function Generator() {
   return (
