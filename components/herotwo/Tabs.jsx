@@ -57,38 +57,40 @@ export default function Herosectiontwo() {
           {activeTab === 'regular' && (
              <div className='p-10'>
               
-             {/* <div className='flex gap-8 mb-4'>
+
+
+             <div className='flex gap-8 mb-4'>
                <div className='flex w-[75%]'>
-                 <div className=' px-12  rounded-tl-full rounded-bl-full border-r-0 border-2'><p className='text-[24px] font-bold'>100 <br /> <span className='text-[15px]'>views</span></p></div>
-                 <div className=' px-16 flex items-center text-[18px] font-bold bg-[#f4f6f8] rounded-tr-full rounded-br-full '>
+                 <div className='flex-none basis-[35%] justify-center flex rounded-tl-full rounded-bl-full border-r-0 border-2'><p className='text-[24px] font-bold'>100 <br /> <span className='text-[15px]'>views</span></p></div>
+                 <div className='flex-none basis-[58%] flex items-center justify-center text-[18px] font-bold bg-[#f4f6f8] rounded-tr-full rounded-br-full '>
                    <p className='text-[#ed2024]'>$0.98</p>
                  </div>
                </div>
                <div className='flex w-[75%]'>
-                 <div className=' px-10  rounded-tl-full rounded-bl-full border-r-0 border-2'><p className='text-[24px] font-bold'>1000 <br /> <span className='text-[15px]'>views</span></p></div>
-                 <div className='px-7 flex flex-col justify-end text-[18px] font-bold bg-[#f4f6f8] rounded-tr-full rounded-br-full '>
+                 <div className='flex-none basis-[35%] justify-center flex  rounded-tl-full rounded-bl-full border-r-0 border-2'><p className='text-[24px] font-bold'>1000 <br /> <span className='text-[15px]'>views</span></p></div>
+                 <div className='flex-none basis-[58%] flex items-center justify-end flex-col text-[18px] font-bold bg-[#f4f6f8] rounded-tr-full rounded-br-full '>
                    <p className='text-[#000] flex gap-x-2'><span className='line-through mb-2'>$6.50</span>  <span className='text-[#ed2024]'>$4.70</span></p>
                    <p className='bg-[#ed2024] flex justify-center text-white px-2 rounded-tr-lg rounded-tl-lg'>save 28%</p>
                  </div>
                </div>
-             </div> */}
+             </div>
  
-             {/* <div className='flex gap-8'>
+             <div className='flex gap-8'>
                <div className='flex w-[78%]'>
-                 <div className=' px-10  rounded-tl-full rounded-bl-full border-r-0 border-2'><p className='text-[24px] font-bold'>1000 <br /> <span className='text-[15px]'>views</span></p></div>
-                 <div className=' px-8 flex flex-col justify-end text-[18px] font-bold bg-[#f4f6f8] rounded-tr-full rounded-br-full '>
+                 <div className='flex-none basis-[35%] justify-center flex rounded-tl-full rounded-bl-full border-r-0 border-2'><p className='text-[24px] font-bold'>1000 <br /> <span className='text-[15px]'>views</span></p></div>
+                 <div className='flex-col flex-none basis-[58%] flex items-center justify-end text-[18px] font-bold bg-[#f4f6f8] rounded-tr-full rounded-br-full '>
                    <p className='text-[#000] flex gap-x-2'><span className='line-through mb-2'>$16.00</span>  <span className='text-[#ed2024]'>$10.90</span></p>
                    <p className='bg-[#ed2024] flex justify-center text-white px-2 rounded-tr-lg rounded-tl-lg'>save 32%</p>
                  </div>
                </div>
                <div className='flex w-[75%]'>
-                 <div className=' px-8  rounded-tl-full rounded-bl-full border-r-0 border-2'><p className='text-[24px] font-bold'>1000 <br /> <span className='text-[15px]'>views</span></p></div>
-                 <div className=' px-8 flex flex-col justify-end text-[18px] font-bold bg-[#f4f6f8] rounded-tr-full rounded-br-full '>
+                 <div className='flex-none basis-[35%] justify-center flex rounded-tl-full rounded-bl-full border-r-0 border-2'><p className='text-[24px] font-bold'>1000 <br /> <span className='text-[15px]'>views</span></p></div>
+                 <div className=' flex-col flex-none basis-[58%] flex items-center justify-end text-[18px] font-bold bg-[#f4f6f8] rounded-tr-full rounded-br-full '>
                    <p className='text-[#000] flex gap-x-2'><span className='line-through mb-2'>$33.00</span>  <span className='text-[#ed2024]'>$21.00</span></p>
                    <p className='bg-[#ed2024] flex justify-center text-white px-2 rounded-tr-lg rounded-tl-lg'>save 36%</p>
                  </div>
                </div>
-             </div> */}
+             </div>
            </div>
           )}
 

@@ -11,6 +11,8 @@ import FAQ from '../faq/FAQ';
 import { Newfaqs } from './Newdata';
 import Tabs from '../herotwo/Tabs';
 
+
+
 const testimonials = {
   slides: [
     {
@@ -134,6 +136,7 @@ export default function Herosectiontwo() {
 
       {/* views page  */}
     <Tabs />
+   
       {/* views-sec-tabs  */}
      
       {/* Campaign sec */}
