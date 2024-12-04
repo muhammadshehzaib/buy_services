@@ -4,9 +4,12 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import CampaignSection from "./campaignsection/CampaignSection";
-import Footer from "./Footer";
-import LineSection from "./linesection/LineSection";
+import CampaignSection from "../campaignsection/CampaignSection";
+import Footer from "../Footer";
+import LineSection from "../linesection/LineSection";
+import FAQ from '../faq/FAQ';
+import { Newfaqs } from './Newdata';
+import Tabs from '../herotwo/Tabs';
 
 const testimonials = {
   slides: [
@@ -130,43 +133,18 @@ export default function Herosectiontwo() {
     <div className='items-center justify-between max-w-[1390px] px-5 mx-auto'>
 
       {/* views page  */}
-
+    <Tabs />
       {/* views-sec-tabs  */}
-      <div className="flex flex-col max-w-[1390px] px-5 mx-auto  md:flex-row justify-center lg:pt-16 lg:pb-20 md:pt-9 md:pb-9 sm:pt-10 sm:pb-10 min-[1px]:pb-10 min-[1px]:pt-8 max-[639px]:pb-0 max-[639px]:pt-8">
-        <div className="w-full  md:mb-0 ">
-          <h1 className="font-montserrat min-[320px]:text-[30px] 2xl:w-full lg:text-6xl sm:text-4xl md:text-[2.75rem] font-bold text-gray-800 mb-4">
-            Buy YouTube Views
-          </h1>
-          <span className="font-montserrat sm:mb-4 min-[1px]:mb-4 md:mb-0 font-bold bg-[#ed2024] text-white sm:text-[1.25rem] md:text-[1.75rem] leading-[2rem] inline-block px-5 py-3 rounded-[.75rem]">
-            Instantly
-          </span>
-          <p className="font-montserrat block md:my-5 mx-0 md:py-3 sm:my-0 min-[1px]:my-0 max-[639px]:my-0 lg:w-full text-lg text-#050708">
-            Views4You is the safest way to buy YouTube Views with delivery in just a few minutes. We offer multiple packages with real users for all different needs - choose wisely!
-          </p>
-
-        </div>
-        <div className="w-full h-80 bg-slate-300 tabs-sec">
-          <div className="flex justify-between">
-            <p className='text-xl font-montserrat  font-bold text-[#ed2024]'>Regular Views</p>
-            <p className='text-xl font-montserrat  font-bold'>Ads Views</p>
-          </div>
-          <div className='h-28 flex items-center bg-slate-50'>
-            <p className='font-montserrat text-[18px]'><span className='font-bold'>Information:</span> We recommend our <span className='text-[#ed2024] font-bold'>“Ads YouTube Views”</span> packages for orders with a high number of views.</p>
-          </div>
-          <div>
-
-          </div>
-        </div>
-      </div>
+     
       {/* Campaign sec */}
       <CampaignSection
-      title="All In One YouTube Views Campaign"
-      price="$45.00"
-      description="With Views4You's all-inclusive package, you can buy YouTube subscribers, and views simultaneously. Moreover, you may order YouTube likes service and add it to the package for the best price."
-      views="5000"
-      likes="1000"
-    />
-    <LineSection />
+        title="All In One YouTube Views Campaign"
+        price="$45.00"
+        description="With Views4You's all-inclusive package, you can buy YouTube subscribers, and views simultaneously. Moreover, you may order YouTube likes service and add it to the package for the best price."
+        views="5000"
+        likes="1000"
+      />
+      <LineSection />
       {/* Views4You’s Guarantee  */}
       <div className='md:flex gap-11'>
         <div className='main md:w-2/4'>
@@ -398,8 +376,8 @@ export default function Herosectiontwo() {
         ))}
       </Swiper>
       {/* FAQ,S sec  */}
-
-      <div className="lg:flex sm:pt-36 min-[1px]:pt-24 ">
+      <FAQ faqs={Newfaqs} />
+      {/* <div className="lg:flex sm:pt-36 min-[1px]:pt-24 ">
         <div className="text-sec sm:w-full  lg:pr-32">
           <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550]">
             Frequently Asked Questions
@@ -616,7 +594,7 @@ export default function Herosectiontwo() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* reviews slider  */}
       <div className='pt-28 mb-16 flex justify-between items-center'>
         <h2 className='font-bold text-[32px] '>

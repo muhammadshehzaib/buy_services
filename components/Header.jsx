@@ -107,8 +107,8 @@ const Header = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="/TrackerTracker" className="block px-4 py-2 hover:text-red-600 font-bold">
-                        YouTube Rank Tracker
+                      <a href="/tracker" className="block px-4 py-2 hover:text-red-600 font-bold">
+                        YouTube Rank tracker
                       </a>
                     </li>
                     <li>
@@ -583,7 +583,7 @@ const Header = () => {
                         </li>
                         <li>
                           <a href="/tracker" className="block px-4 py-2 hover:text-red-600">
-                            YouTube Rank Tracker
+                            YouTube Rank tracker
                           </a>
                         </li>
                         <li>
