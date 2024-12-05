@@ -10,7 +10,7 @@ import LineSection from "../linesection/LineSection";
 import FAQ from '../faq/FAQ';
 import { Newfaqs } from './Newdata';
 import Tabs from '../herotwo/Tabs';
-
+import NewSlider from "./NewSlider";
 
 
 const testimonials = {
@@ -136,7 +136,7 @@ export default function Herosectiontwo() {
 
       {/* views page  */}
     <Tabs />
-   
+    <NewSlider />
       {/* views-sec-tabs  */}
      
       {/* Campaign sec */}

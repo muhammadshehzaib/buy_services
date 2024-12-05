@@ -10,7 +10,7 @@ const testimonials = {
     slides: [
       {
         testimonials: [
-          { image1:"Stepsection../public/images/double-quotes.png",     
+          {     
             name: "Elizabeth",
             followers: "840k",
             quote: "Well, the site is terrific!!! I got my services in a moment! They gave me more confidence to work harder and monetize my channel.",

@@ -23,21 +23,21 @@ const Header = () => {
           <nav className="w-full	flex justify-end lg:mt-1.5 xl:mt-0">
             <div className="hidden hover:bg-[#ffffff] lg:flex bg-red-200 py-1 px-1 rounded-full menu-outer">
               <Link
-                href="/views"
+                href="/Views"
                 className="text-black text-[.90rem] 2xl:text-[1rem] font-bold hover:bg-red-600 rounded-full py-2.5 px-3 hover:text-white"
                 style={{ marginLeft: 0, marginRight: 0, transition: 'all 0.3s ease-in-out' }}
               >
                 Buy YouTube Views
               </Link>
               <Link
-                href="/subscribers"
+                href="/Subscribers"
                 className="text-black text-[.90rem] 2xl:text-[1rem] font-bold hover:bg-red-600 rounded-full py-2.5 px-3 hover:text-white"
                 style={{ marginLeft: 0, marginRight: 0, transition: 'all 0.3s ease-in-out' }}
               >
                 Buy YouTube Subscribers
               </Link>
               <Link
-                href="/likes"
+                href="/Likes"
                 className="text-black text-[.90rem] 2xl:text-[1rem] font-bold hover:bg-red-600 rounded-full py-2.5 px-3 hover:text-white"
                 style={{ marginLeft: 0, marginRight: 0, transition: 'all 0.3s ease-in-out' }}
               >
@@ -59,7 +59,7 @@ const Header = () => {
             <div className="hidden lg:flex items-center py-1 px-1 space-x-8 menu-outer">
               <div className="relative group">
                 <button className="text-black font-bold focus:outline-none flex items-center pl-4 group-hover:text-red-600">
-                  <a href="/tools">
+                  <a href="/Tools">
                     <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-100 transform group-hover:translate-y-1">T</span>
                     <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-200 transform group-hover:translate-y-1">o</span>
                     <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-300 transform group-hover:translate-y-1">o</span>
@@ -82,37 +82,37 @@ const Header = () => {
                 <div className="absolute left-0 top-full hidden group-hover:block sm:z-10 w-80 mt-2 bg-white border border-gray-200 rounded-lg shadow-lg">
                   <ul className="py-2">
                     <li>
-                      <a href="/insta-story" className="block px-4 py-2 hover:text-red-600 font-bold">
+                      <a href="/Insta-story" className="block px-4 py-2 hover:text-red-600 font-bold">
                         Instagram Story Viewer
                       </a>
                     </li>
                     <li>
-                      <a href="/calculator" className="block px-4 py-2 hover:text-red-600 font-bold">
+                      <a href="/Calculator" className="block px-4 py-2 hover:text-red-600 font-bold">
                         YouTube Money Calculator
                       </a>
                     </li>
                     <li>
-                      <a href="/title" className="block px-4 py-2 hover:text-red-600 font-bold">
+                      <a href="/Title" className="block px-4 py-2 hover:text-red-600 font-bold">
                         YouTube Title Generator
                       </a>
                     </li>
                     <li>
-                      <a href="/time" className="block px-4 py-2 hover:text-red-600 font-bold">
+                      <a href="/Time" className="block px-4 py-2 hover:text-red-600 font-bold">
                         Best Time to Post on YouTube
                       </a>
                     </li>
                     <li>
-                      <a href="/analytics" className="block px-4 py-2 hover:text-red-600 font-bold">
+                      <a href="/Analytics" className="block px-4 py-2 hover:text-red-600 font-bold">
                         YouTube Video Analytics
                       </a>
                     </li>
                     <li>
-                      <a href="/tracker" className="block px-4 py-2 hover:text-red-600 font-bold">
+                      <a href="/Tracker" className="block px-4 py-2 hover:text-red-600 font-bold">
                         YouTube Rank tracker
                       </a>
                     </li>
                     <li>
-                      <a href="/tools" className="block px-4 py-2 hover:text-red-600 font-bold">
+                      <a href="/Tools" className="block px-4 py-2 hover:text-red-600 font-bold">
                         See All Tools
                       </a>
                     </li>
@@ -232,13 +232,13 @@ const Header = () => {
 
             {isMenuOpen && (
               <div className="absolute sm:w-2/5 z-10 top-14 min-[1px]:w-10/12 rounded-3xl bg-white shadow-md py-4 flex flex-col items-center space-y-4 md:flex menu-outer">
-                <Link href="/views" className="text-black font-bold hover:text-red-600">
+                <Link href="/Views" className="text-black font-bold hover:text-red-600">
                   Buy YouTube Views
                 </Link>
-                <Link href="/subscribers" className="text-black font-bold hover:text-red-600">
+                <Link href="/Subscribers" className="text-black font-bold hover:text-red-600">
                   Buy YouTube Subscribers
                 </Link>
-                <Link href="/likes" className="text-black font-bold hover:text-red-600">
+                <Link href="/Likes" className="text-black font-bold hover:text-red-600">
                   Buy YouTube Likes
                 </Link>
                 <Link href="/insta" className="text-black font-bold hover:text-red-600">
@@ -246,7 +246,7 @@ const Header = () => {
                 </Link>
                 <div className="relative group">
                   <button className="text-black font-bold focus:outline-none flex items-center pl-4 group-hover:text-red-600">
-                    <a href="/tools">
+                    <a href="/Tools">
                       Tools
                     </a>
                     <svg
@@ -265,37 +265,37 @@ const Header = () => {
                   <div className="absolute top-full sm:right-0 min-[1px]:w-48 hidden group-hover:block sm:z-10 sm:w-80 mt-2 bg-white border border-gray-200 rounded-lg shadow-lg">
                     <ul className="py-2">
                       <li>
-                        <a href="/insta-story" className="block px-4 py-2 hover:text-red-600 font-bold">
+                        <a href="/Insta-story" className="block px-4 py-2 hover:text-red-600 font-bold">
                           Instagram Story Viewer
                         </a>
                       </li>
                       <li>
-                        <a href="/calculator" className="block px-4 py-2 hover:text-red-600 font-bold">
+                        <a href="/Calculator" className="block px-4 py-2 hover:text-red-600 font-bold">
                           YouTube Money Calculator
                         </a>
                       </li>
                       <li>
-                        <a href="/title" className="block px-4 py-2 hover:text-red-600 font-bold">
+                        <a href="/Title" className="block px-4 py-2 hover:text-red-600 font-bold">
                           YouTube Title Generator
                         </a>
                       </li>
                       <li>
-                        <a href="/time" className="block px-4 py-2 hover:text-red-600 font-bold">
+                        <a href="/Time" className="block px-4 py-2 hover:text-red-600 font-bold">
                           Best Time to Post on YouTube
                         </a>
                       </li>
                       <li>
-                        <a href="/analytics" className="block px-4 py-2 hover:text-red-600 font-bold">
+                        <a href="/Analytics" className="block px-4 py-2 hover:text-red-600 font-bold">
                           YouTube Video Analytics
                         </a>
                       </li>
                       <li>
-                        <a href="/tracker" className="block px-4 py-2 hover:text-red-600 font-bold">
+                        <a href="/Tracker" className="block px-4 py-2 hover:text-red-600 font-bold">
                           YouTube Rank Tracker
                         </a>
                       </li>
                       <li>
-                        <a href="/tools" className="block px-4 py-2 hover:text-red-600 font-bold">
+                        <a href="/Tools" className="block px-4 py-2 hover:text-red-600 font-bold">
                           See All Tools
                         </a>
                       </li>
@@ -307,13 +307,13 @@ const Header = () => {
             )}
             {isLargeMenuOpen && (
               <div className="absolute sm:top-20 sm:rounded-3xl right-12 w-2/5 z-10 bg-white shadow-md py-4 flex flex-col items-center space-y-4 md:flex menu-outer">
-                <Link href="/views" className="text-black font-bold hover:text-red-600">
+                <Link href="/Views" className="text-black font-bold hover:text-red-600">
                   Buy YouTube Views
                 </Link>
-                <Link href="/subscribers" className="text-black font-bold hover:text-red-600">
+                <Link href="/Subscribers" className="text-black font-bold hover:text-red-600">
                   Buy YouTube Subscribers
                 </Link>
-                <Link href="/likes" className="text-black font-bold hover:text-red-600">
+                <Link href="/Likes" className="text-black font-bold hover:text-red-600">
                   Buy YouTube Likes
                 </Link>
                 <Link href="/insta" className="text-black font-bold hover:text-red-600">
@@ -321,7 +321,7 @@ const Header = () => {
                 </Link>
                 <div className="relative group">
                   <button className="text-black font-bold focus:outline-none flex items-center pl-4 group-hover:text-red-600">
-                    <a href="/tools">
+                    <a href="/Tools">
                       Tools
                     </a>
                     <svg
@@ -340,37 +340,37 @@ const Header = () => {
                   <div className="absolute left-0 top-full hidden group-hover:block sm:z-10 w-80 mt-2 bg-white border border-gray-200 rounded-lg shadow-lg">
                     <ul className="py-2">
                       <li>
-                        <a href="/insta-story" className="block px-4 py-2 hover:text-red-600 font-bold">
+                        <a href="/Insta-story" className="block px-4 py-2 hover:text-red-600 font-bold">
                           Instagram Story Viewer
                         </a>
                       </li>
                       <li>
-                        <a href="/calculator" className="block px-4 py-2 hover:text-red-600 font-bold">
+                        <a href="/Calculator" className="block px-4 py-2 hover:text-red-600 font-bold">
                           YouTube Money Calculator
                         </a>
                       </li>
                       <li>
-                        <a href="/title" className="block px-4 py-2 hover:text-red-600 font-bold">
+                        <a href="/Title" className="block px-4 py-2 hover:text-red-600 font-bold">
                           YouTube Title Generator
                         </a>
                       </li>
                       <li>
-                        <a href="/time" className="block px-4 py-2 hover:text-red-600 font-bold">
+                        <a href="/Time" className="block px-4 py-2 hover:text-red-600 font-bold">
                           Best Time to Post on YouTube
                         </a>
                       </li>
                       <li>
-                        <a href="/analytics" className="block px-4 py-2 hover:text-red-600 font-bold">
+                        <a href="/Analytics" className="block px-4 py-2 hover:text-red-600 font-bold">
                           YouTube Video Analytics
                         </a>
                       </li>
                       <li>
-                        <a href="/tracker" className="block px-4 py-2 hover:text-red-600 font-bold">
+                        <a href="/Tracker" className="block px-4 py-2 hover:text-red-600 font-bold">
                           YouTube Rank Tracker
                         </a>
                       </li>
                       <li>
-                        <a href="/tools" className="block px-4 py-2 hover:text-red-600 font-bold">
+                        <a href="/Tools" className="block px-4 py-2 hover:text-red-600 font-bold">
                           See All Tools
                         </a>
                       </li>
@@ -396,7 +396,7 @@ const Header = () => {
             <div className="hidden lg:flex items-center py-1 px-1 space-x-8 menu-outer">
               <div className="relative group">
                 <button className="text-black font-bold focus:outline-none flex items-center pl-4 group-hover:text-red-600">
-                  <a href="/tools">
+                  <a href="/Tools">
                     <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-100 transform group-hover:translate-y-1">T</span>
                     <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-200 transform group-hover:translate-y-1">o</span>
                     <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-300 transform group-hover:translate-y-1">o</span>
@@ -419,37 +419,37 @@ const Header = () => {
                 <div className="absolute top-9 right-10 z-10 w-80 bg-white border border-gray-200 rounded-lg shadow-lg hidden group-hover:block">
                   <ul className="py-2">
                     <li>
-                      <a href="/insta-story" className="block px-4 py-2 hover:text-red-600">
+                      <a href="/Insta-story" className="block px-4 py-2 hover:text-red-600">
                         Instagram Story Viewer
                       </a>
                     </li>
                     <li>
-                      <a href="/calculator" className="block px-4 py-2 hover:text-red-600">
+                      <a href="/Calculator" className="block px-4 py-2 hover:text-red-600">
                         YouTube Money Calculator
                       </a>
                     </li>
                     <li>
-                      <a href="/title" className="block px-4 py-2 hover:text-red-600">
+                      <a href="/Title" className="block px-4 py-2 hover:text-red-600">
                         YouTube Title Generator
                       </a>
                     </li>
                     <li>
-                      <a href="/time" className="block px-4 py-2 hover:text-red-600">
+                      <a href="/Time" className="block px-4 py-2 hover:text-red-600">
                         Best Time to Post on YouTube
                       </a>
                     </li>
                     <li>
-                      <a href="/analytics" className="block px-4 py-2 hover:text-red-600">
+                      <a href="/Analytics" className="block px-4 py-2 hover:text-red-600">
                         YouTube Video Analytics
                       </a>
                     </li>
                     <li>
-                      <a href="/tracker" className="block px-4 py-2 hover:text-red-600">
+                      <a href="/Tracker" className="block px-4 py-2 hover:text-red-600">
                         YouTube Rank Tracker
                       </a>
                     </li>
                     <li>
-                      <a href="/tools" className="block px-4 py-2 hover:text-red-600">
+                      <a href="/Tools" className="block px-4 py-2 hover:text-red-600">
                         See All Tools
                       </a>
                     </li>
@@ -526,13 +526,13 @@ const Header = () => {
               </button>
               {isLargeMenuOpen && (
                 <div className="absolute top-28 right-20 z-10 rounded-3xl lg:w-2/5 bg-white x shadow-md py-4 lg:flex flex-col items-center space-y-4 md:flex menu-outer">
-                  <Link href="/views" className="text-black font-bold hover:text-red-600">
+                  <Link href="/Views" className="text-black font-bold hover:text-red-600">
                     Buy YouTube Views
                   </Link>
-                  <Link href="/subscribers" className="text-black font-bold hover:text-red-600">
+                  <Link href="/Subscribers" className="text-black font-bold hover:text-red-600">
                     Buy YouTube Subscribers
                   </Link>
-                  <Link href="/likes" className="text-black font-bold hover:text-red-600">
+                  <Link href="/Likes" className="text-black font-bold hover:text-red-600">
                     Buy YouTube Likes
                   </Link>
                   <Link href="/insta" className="text-black font-bold hover:text-red-600">
@@ -540,7 +540,7 @@ const Header = () => {
                   </Link>
                   <div className="relative group">
                     <button className="text-black font-bold focus:outline-none flex items-center group-hover:text-red-600">
-                      <a href="/tools">Tools</a>
+                      <a href="/Tools">Tools</a>
                       <svg
                         className="-mr-1 h-5 w-5 text-black"
                         viewBox="0 0 20 20"
@@ -557,37 +557,37 @@ const Header = () => {
                     <div className="absolute top-9 right-10 z-10 w-80 bg-white border border-gray-200 rounded-lg shadow-lg hidden group-hover:block">
                       <ul className="py-2">
                         <li>
-                          <a href="/insta-story" className="block px-4 py-2 hover:text-red-600">
+                          <a href="/Insta-story" className="block px-4 py-2 hover:text-red-600">
                             Instagram Story Viewer
                           </a>
                         </li>
                         <li>
-                          <a href="/calculator" className="block px-4 py-2 hover:text-red-600">
+                          <a href="/Calculator" className="block px-4 py-2 hover:text-red-600">
                             YouTube Money Calculator
                           </a>
                         </li>
                         <li>
-                          <a href="/title" className="block px-4 py-2 hover:text-red-600">
+                          <a href="/Title" className="block px-4 py-2 hover:text-red-600">
                             YouTube Title Generator
                           </a>
                         </li>
                         <li>
-                          <a href="/time" className="block px-4 py-2 hover:text-red-600">
+                          <a href="/Time" className="block px-4 py-2 hover:text-red-600">
                             Best Time to Post on YouTube
                           </a>
                         </li>
                         <li>
-                          <a href="/analytics" className="block px-4 py-2 hover:text-red-600">
+                          <a href="/Analytics" className="block px-4 py-2 hover:text-red-600">
                             YouTube Video Analytics
                           </a>
                         </li>
                         <li>
-                          <a href="/tracker" className="block px-4 py-2 hover:text-red-600">
+                          <a href="/Tracker" className="block px-4 py-2 hover:text-red-600">
                             YouTube Rank tracker
                           </a>
                         </li>
                         <li>
-                          <a href="/tools" className="block px-4 py-2 hover:text-red-600">
+                          <a href="/Tools" className="block px-4 py-2 hover:text-red-600">
                             See All Tools
                           </a>
                         </li>
@@ -601,21 +601,21 @@ const Header = () => {
           <nav className="w-full	lg:flex lg:justify-center mr-7 lg:mt-1.5 xl:mt-0">
             <div className="hidden lg:flex bg-red-200 py-1 px-1 rounded-full menu-outer">
               <Link
-                href="/views"
+                href="/Views"
                 className="text-black text-base font-bold hover:bg-red-600 rounded-full py-2.5 px-3 hover:text-white"
                 style={{ marginLeft: 0, marginRight: 0 }}
               >
                 Buy YouTube Views
               </Link>
               <Link
-                href="/subscribers"
+                href="/Subscribers"
                 className="text-black text-base font-bold hover:bg-red-600 rounded-full py-2.5 px-3 hover:text-white"
                 style={{ marginLeft: 0, marginRight: 0 }}
               >
                 Buy YouTube Subscribers
               </Link>
               <Link
-                href="/likes"
+                href="/Likes"
                 className="text-black text-base font-bold hover:bg-red-600 rounded-full py-2.5 px-3 hover:text-white"
                 style={{ marginLeft: 0, marginRight: 0 }}
               >
