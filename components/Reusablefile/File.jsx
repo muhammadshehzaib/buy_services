@@ -6,10 +6,10 @@ const TabsFlie = ({
     minititle,
     subtitle,
     tabs,
-    pricingData,
+    // pricingData,
     features
 }) => {
-    const [activeTab, setActiveTab] = useState(tabs[0].key);
+    // const [activeTab, setActiveTab] = useState(tabs[0]?.key);
     return (
         <div className='items-center justify-between max-w-[1390px] px-5 mx-auto'>
             <div className='flex min-[1px]:flex-col xl:flex-row justify-center items-center gap-10 pt-16'>
@@ -28,7 +28,7 @@ const TabsFlie = ({
                 {/* right section  */}
                 <div className="xl:w-[50%] min-[1px]:w-[100%] lg:w-[65%] bg-white shadow-md rounded-lg">
                     {/* tabs  */}
-                    <div className="flex justify-between mx-4">
+                    {/* <div className="flex justify-between mx-4">
                         {tabs.map((tab) => (
                             <button
                                 key={tab.key}
@@ -39,17 +39,17 @@ const TabsFlie = ({
                                 {tab.label}
                             </button>
                         ))}
-                    </div>
+                    </div> */}
 
                     {/* Info Section */}
-                    {activeTabContent?.info && (
+                    {/* {activeTabContent?.info && (
                         <div className="bg-gray-100 p-4 mb-6">
                             <p className="text-sm font-medium text-gray-700">{activeTabContent.info}</p>
                         </div>
-                    )}
+                    )} */}
 
                     {/* Pricing Section */}
-                    <div className="p-10">
+                    {/* <div className="p-10">
                         {activeTabContent?.plans.map((plan, index) => (
                             <div key={index} className="sm:flex gap-8 mb-4">
                                 <div className="flex w-full">
@@ -77,13 +77,13 @@ const TabsFlie = ({
                                 </div>
                             </div>
                         ))}
-                    </div>
+                    </div> */}
                     <button className="bg-black sm:w-[90%] min-[1px]:w-4/5 mx-10 text-white text-lg font-semibold py-5 my-6 rounded-full">
                         Buy now
                     </button>
                     {/* Features Grid */}
                     <div className="grid grid-cols-2 md:grid-cols-3 px-10 mt-10 gap-4 text-gray-700 py-10 bg-[#f4f6f8]">
-                        {features?.map((feature, index) => (
+                        {features.map((feature, index) => (
                             <div key={index} className="flex items-center space-x-2">
                                 <span className="text-red-600">✔</span>
                                 <p>{feature.para}</p>

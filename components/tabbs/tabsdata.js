@@ -2,7 +2,7 @@ export const title ="Buy YouTube Views";
 export const minititle ="Instantly";
 export const subtitle ="Views4You is the safest way to buy YouTube Views with delivery in just a few minutes. We offer multiple packages with real users for all different needs - choose wisely!";
 
-const pricingData = [
+export const pricingData = [
   {
     key: 'regular',
     info: 'We recommend our “Ads YouTube Views” packages for orders with a high number of views.',
@@ -24,7 +24,7 @@ const pricingData = [
     ],
   },
 ];
-  const features = [
+  export const features = [
    {para:"Real & Organic Views"},
    {para:"High Quality"},
     {para:"Instant Start"},
