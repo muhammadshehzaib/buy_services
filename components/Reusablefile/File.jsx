@@ -6,10 +6,10 @@ const TabsFlie = ({
     minititle,
     subtitle,
     tabs,
-    // pricingData,
+    pricingData,
     features
 }) => {
-    // const [activeTab, setActiveTab] = useState(tabs[0]?.key);
+    const [activeTab, setActiveTab] = useState(tabs[0]?.key);
     return (
         <div className='items-center justify-between max-w-[1390px] px-5 mx-auto'>
             <div className='flex min-[1px]:flex-col xl:flex-row justify-center items-center gap-10 pt-16'>
@@ -28,7 +28,7 @@ const TabsFlie = ({
                 {/* right section  */}
                 <div className="xl:w-[50%] min-[1px]:w-[100%] lg:w-[65%] bg-white shadow-md rounded-lg">
                     {/* tabs  */}
-                    {/* <div className="flex justify-between mx-4">
+                    <div className="flex justify-between mx-4">
                         {tabs.map((tab) => (
                             <button
                                 key={tab.key}
@@ -39,7 +39,7 @@ const TabsFlie = ({
                                 {tab.label}
                             </button>
                         ))}
-                    </div> */}
+                    </div>
 
                     {/* Info Section */}
                     {/* {activeTabContent?.info && (

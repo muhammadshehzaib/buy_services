@@ -32,7 +32,7 @@ export default function Herosectiontwo() {
               }`}
               onClick={() => setActiveTab('regular')}
             >
-              Regular Views
+              Regular 
             </button>
             <button
               className={`py-3 px-6 font-bold ${
