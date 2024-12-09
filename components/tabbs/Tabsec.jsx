@@ -1,6 +1,6 @@
 import React from "react";
 import File from '../Reusablefile/File';
-import { title, minititle, subtitle ,pricingData,features} from './tabsdata';
+import { title, minititle, subtitle,tabsData,features} from './tabsdata';
 
 export default function tabsecs (){
     return(
@@ -9,8 +9,8 @@ export default function tabsecs (){
         title={title}
         minititle={minititle}
         subtitle={subtitle}
-      
-       pricingData={pricingData}
+        tabsData={tabsData}
+     
        features={features}
         />
         </div>
