@@ -1,5 +1,6 @@
-"use client"
+"use client";
 import React, { useState, useEffect } from "react";
+import { FaSun, FaMoon } from "react-icons/fa"; // Importing Sun and Moon icons
 import Header from "../components/Header";
 import Slider from "../components/Slider";
 import HeroSection from "../components/HeroSection";
@@ -29,11 +30,15 @@ export default function Home() {
 
   return (
     <div>
-     <button
+      <button
         onClick={toggleTheme}
-        className="fixed top-4 right-4 p-2 rounded bg-gray-700 text-white hover:bg-gray-900 clicked-btn"
+        className="fixed top-4 right-4 p-2 rounded bg-gray-700 text-white hover:bg-gray-900 flex items-center justify-center"
       >
-        Switch to {theme === "light" ? "Dark" : "Light"} Mode
+        {theme === "light" ? (
+          <FaSun className="text-yellow-500 text-2xl" /> // Sun icon for light mode
+        ) : (
+          <FaMoon className="text-blue-500 text-2xl" /> // Moon icon for dark mode
+        )}
       </button>
       <Header />
       <Slider />
@@ -45,5 +50,3 @@ export default function Home() {
     </div>
   );
 }
-
-
