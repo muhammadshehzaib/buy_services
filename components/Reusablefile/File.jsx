@@ -97,4 +97,3 @@ const TabsFlie = ({
 }
 
 export default TabsFlie;
-
