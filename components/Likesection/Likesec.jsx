@@ -5,11 +5,12 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import Footer from "./Footer";
-import LineSection from "./linesection/LineSection";
-import CampaignSection from "./campaignsection/CampaignSection"
-import { mainTitle, mainContent, reasons } from './reasons/YoutubeLikeReasons';
-import ReasonsContainer from './reasons/ReasonsContainer'; 
+import Footer from "../Footer";
+import LineSection from "../linesection/LineSection";
+import CampaignSection from "../campaignsection/CampaignSection"
+import { mainTitle, mainContent, reasons } from '../reasons/YoutubeLikeReasons';
+import ReasonsContainer from '../reasons/ReasonsContainer'; 
+import Tabs from '../Likesection/Tabs';
 
 
 const testimonials = {
@@ -136,32 +137,7 @@ export default function Likesec() {
       {/* Like page  */}
 
       {/* Like-sec-tabs  */}
-      <div className="flex flex-col max-w-[1390px] px-5 mx-auto  md:flex-row justify-center lg:pt-16 lg:pb-20 md:pt-9 md:pb-9 sm:pt-10 sm:pb-10 min-[1px]:pb-10 min-[1px]:pt-8 max-[639px]:pb-0 max-[639px]:pt-8">
-        <div className="w-full  md:mb-0 ">
-          <h1 className="font-montserrat min-[320px]:text-[30px] 2xl:w-full lg:text-6xl sm:text-4xl md:text-[2.75rem] font-bold text-gray-800 mb-4">
-            Buy YouTube Likes
-          </h1>
-          <span className="font-montserrat sm:mb-4 min-[1px]:mb-4 md:mb-0 font-bold bg-[#ed2024] text-white sm:text-[1.25rem] md:text-[1.75rem] leading-[2rem] inline-block px-5 py-3 rounded-[.75rem]">
-            Now
-          </span>
-          <p className="font-montserrat block md:my-5 mx-0 md:py-3 sm:my-0 min-[1px]:my-0 max-[639px]:my-0 lg:w-full text-lg text-#050708">
-            Give wings to your YouTube videos with high quality YouTube likes that no YouTube algorithm can suspect. Because, they are from real people! Experience the doping effect of the right audience with a reasonable price. with Views4You. Read what is written about us in the press.
-          </p>
-
-        </div>
-        <div className="w-full h-80 bg-slate-300 tabs-sec">
-          <div className="flex justify-between">
-            <p className='text-xl font-montserrat  font-bold text-[#ed2024]'>Regular Views</p>
-            <p className='text-xl font-montserrat  font-bold'>Ads Views</p>
-          </div>
-          <div className='h-28 flex items-center bg-slate-50'>
-            <p className='font-montserrat text-[18px]'><span className='font-bold'>Information:</span> We recommend our <span className='text-[#ed2024] font-bold'>“Ads YouTube Views”</span> packages for orders with a high number of views.</p>
-          </div>
-          <div>
-
-          </div>
-        </div>
-      </div>
+      <Tabs />
       {/* Campaign sec */}
      {/* Campaign sec */}
      <CampaignSection

@@ -5,10 +5,10 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import Footer from "./Footer";
-import LineSection from "./linesection/LineSection";
-import CampaignSection from "./campaignsection/CampaignSection"
-
+import Footer from "../Footer";
+import LineSection from "../linesection/LineSection";
+import CampaignSection from "../campaignsection/CampaignSection"
+import Tabs from '../herosecthree/Tabs';
 
 const testimonials = {
   slides: [
@@ -134,29 +134,7 @@ export default function Herosectionthree() {
       {/* Subscriber page  */}
 
       {/* Subscriber-sec-tabs  */}
-      <div className="flex flex-col max-w-[1390px] px-5 mx-auto  md:flex-row justify-center lg:pt-16 lg:pb-20 md:pt-9 md:pb-9 sm:pt-10 sm:pb-10 min-[1px]:pb-10 min-[1px]:pt-8 max-[639px]:pb-0 max-[639px]:pt-8">
-        <div className="w-full  md:mb-0 ">
-          <h1 className="font-montserrat min-[320px]:text-[30px] 2xl:w-full lg:text-6xl sm:text-4xl md:text-[2.75rem] font-bold text-gray-800 mb-4">
-            Buy YouTube Subscribers <span className='font-bold bg-[#ed2024] text-white p-3 rounded-2xl text-[36px]'>Fast</span>
-          </h1>
-          <p className="font-montserrat block md:my-5 mx-0 md:py-3 sm:my-0 min-[1px]:my-0 max-[639px]:my-0 lg:w-full text-lg text-#050708">
-            Views4You is the safest way to buy YouTube Views with delivery in just a few minutes. We offer multiple packages with real users for all different needs - choose wisely!
-          </p>
-
-        </div>
-        <div className="w-full h-80 bg-slate-300 tabs-sec">
-          <div className="flex justify-between">
-            <p className='text-xl font-montserrat  font-bold text-[#ed2024]'>Regular Views</p>
-            <p className='text-xl font-montserrat  font-bold'>Ads Views</p>
-          </div>
-          <div className='h-28 flex items-center bg-slate-50'>
-            <p className='font-montserrat text-[18px]'><span className='font-bold'>Information:</span> We recommend our <span className='text-[#ed2024] font-bold'>“Ads YouTube Views”</span> packages for orders with a high number of views.</p>
-          </div>
-          <div>
-
-          </div>
-        </div>
-      </div>
+      <Tabs />
       {/* Campaign sec */}
        {/* Campaign sec */}
        <CampaignSection

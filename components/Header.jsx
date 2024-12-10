@@ -24,25 +24,25 @@ const Header = () => {
             <div className="hidden hover:bg-[#ffffff] lg:flex bg-red-200 py-1 px-1 rounded-full menu-outer">
               <Link
                 href="/Views"
-                className="text-black dark:text-white text-[.90rem] 2xl:text-[1rem] font-bold hover:bg-red-600 rounded-full py-2.5 px-3 hover:text-white transition-all duration-300"
+                className=" text-[.90rem] 2xl:text-[1rem] font-bold hover:bg-red-600 rounded-full py-2.5 px-3 hover:text-white transition-all duration-300"
               >
                 Buy YouTube Views
               </Link>
               <Link
                 href="/Subscribers"
-                className="text-black dark:text-white text-[.90rem] 2xl:text-[1rem] font-bold hover:bg-red-600 rounded-full py-2.5 px-3 hover:text-white transition-all duration-300"
+                className=" text-[.90rem] 2xl:text-[1rem] font-bold hover:bg-red-600 rounded-full py-2.5 px-3 hover:text-white transition-all duration-300"
               >
                 Buy YouTube Subscribers
               </Link>
               <Link
                 href="/Likes"
-                className="text-black dark:text-white text-[.90rem] 2xl:text-[1rem] font-bold hover:bg-red-600 rounded-full py-2.5 px-3 hover:text-white transition-all duration-300"
+                className=" text-[.90rem] 2xl:text-[1rem] font-bold hover:bg-red-600 rounded-full py-2.5 px-3 hover:text-white transition-all duration-300"
               >
                 Buy YouTube Likes
               </Link>
               <Link
                 href="/insta"
-                className="text-black dark:text-white text-[.90rem] 2xl:text-[1rem] font-bold hover:bg-red-600 rounded-full py-2.5 px-3 hover:text-white transition-all duration-300"
+                className=" text-[.90rem] 2xl:text-[1rem] font-bold hover:bg-red-600 rounded-full py-2.5 px-3 hover:text-white transition-all duration-300"
               >
                 Buy Instagram Followers
               </Link>
