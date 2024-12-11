@@ -5,7 +5,7 @@ export default function YCalculator() {
     <div className="max-w-[1390px] px-5 mx-auto">
       <div className="txt sm:mt-20 min-[1px]:mt-12 flex flex-col items-center">
         <h2 className="text-3xl lg:w-[75%] uppercase sm:text-3xl min-[1px]:text-[24px] font-bold text-center sm:mb-5 min-[1px]:mb-6">
-          YouTube Money Calculator: How Much Do YouTubers Make (Updated for 2024)
+          YouTube Money Calculator: How Much Do YouTubers Make (Updated for 2025)
         </h2>
         <p className="text-center text-[18px] lg:w-3/5">
           Made by YouTubers for YouTubers ♡ Check out the YouTube money
