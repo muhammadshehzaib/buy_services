@@ -273,6 +273,13 @@ export default function Herosectiontwo() {
           </div>
         </div>
       </div>
+      <div className='flex flex-wrap justify-between pt-14'>
+        <img src="https://views4you.com/wp-content/uploads/2023/01/3-WTKR-1.png.webp" alt="" className='object-contain px-5' />
+        <img src="https://views4you.com/wp-content/uploads/2023/01/fok13.png" alt="" className='object-contain'  />
+        <img src="https://views4you.com/wp-content/uploads/2023/01/orlando.png.webp" alt="" className='object-contain'  />
+        <img src="https://views4you.com/wp-content/uploads/2023/01/ok_logo1.png.webp" alt="" className='object-contain'  />
+        <img src="https://views4you.com/wp-content/uploads/2023/01/NDTV.png.webp" alt="" className='object-contain'  />
+      </div>
     </div>
   );
 }
