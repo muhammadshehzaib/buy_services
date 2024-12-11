@@ -1,132 +1,13 @@
 'use client'
 
 import React from 'react';
-import 'swiper/css';
-import 'swiper/css/pagination';
-import { Pagination } from 'swiper/modules';
-import { Swiper, SwiperSlide } from 'swiper/react';
 import Footer from "./Footer";
 import LineSection from "./linesection/LineSection";
 import CampaignSection from "./campaignsection/CampaignSection"
 import { mainTitle, mainContent, reasons } from './reasons/YoutubeLikeReasons';
 import ReasonsContainer from './reasons/ReasonsContainer'; 
+import NewSlider from './NewSlider';
 
-
-const testimonials = {
-  slides: [
-    {
-      testimonials: [
-        {
-          image1: "Stepsection../public/images/double-quotes.png",
-          name: "Elizabeth",
-          followers: "840k",
-          quote: "Well, the site is terrific!!! I got my services in a moment! They gave me more confidence to work harder and monetize my channel.",
-          image: "https://views4you.com/wp-content/uploads/2022/08/31.png.webp",
-        },
-        {
-          name: "Lucy",
-          followers: "100k",
-          quote: "One of my friends sent the link to a video on YouTube about this site cause it has been just 1 month since I started my page. It was difficult at first but now with all these helpful videos, making them is easy!",
-          image: "https://views4you.com/wp-content/uploads/2022/08/photo-3.png.webp",
-        },
-        {
-          name: "John",
-          followers: "560k",
-          quote: "Wow! What a service. I’ve been following them for a while and was thinking if they are fake, I mean, they could be lost. But they didn’t! Thank you.",
-          image: "https://views4you.com/wp-content/uploads/2022/08/photo-16.png.webp",
-        },
-      ],
-    },
-    {
-      testimonials: [
-        {
-          name: "Elizabeth",
-          followers: "840k",
-          quote: "Well, the site is terrific!!! I got my services in a moment! They gave me more confidence to work harder and monetize my channel.",
-          image: "https://views4you.com/wp-content/uploads/2022/08/31.png.webp",
-        },
-        {
-          name: "Lucy",
-          followers: "100k",
-          quote: "One of my friends sent the link to a video on YouTube about this site cause it has been just 1 month since I started my page. It was difficult at first but now with all these helpful videos, making them is easy!",
-          image: "https://views4you.com/wp-content/uploads/2022/08/photo-3.png.webp",
-        },
-        {
-          name: "John",
-          followers: "560k",
-          quote: "Wow! What a service. I’ve been following them for a while and was thinking if they are fake, I mean, they could be lost. But they didn’t! Thank you.",
-          image: "https://views4you.com/wp-content/uploads/2022/08/photo-16.png.webp",
-        },
-      ],
-    },
-    {
-      testimonials: [
-        {
-          name: "Elizabeth",
-          followers: "840k",
-          quote: "Well, the site is terrific!!! I got my services in a moment! They gave me more confidence to work harder and monetize my channel.",
-          image: "https://views4you.com/wp-content/uploads/2022/08/31.png.webp",
-        },
-        {
-          name: "Lucy",
-          followers: "100k",
-          quote: "One of my friends sent the link to a video on YouTube about this site cause it has been just 1 month since I started my page. It was difficult at first but now with all these helpful videos, making them is easy!",
-          image: "https://views4you.com/wp-content/uploads/2022/08/photo-3.png.webp",
-        },
-        {
-          name: "John",
-          followers: "560k",
-          quote: "Wow! What a service. I’ve been following them for a while and was thinking if they are fake, I mean, they could be lost. But they didn’t! Thank you.",
-          image: "https://views4you.com/wp-content/uploads/2022/08/photo-16.png.webp",
-        },
-      ],
-    },
-    {
-      testimonials: [
-        {
-          name: "Elizabeth",
-          followers: "840k",
-          quote: "Well, the site is terrific!!! I got my services in a moment! They gave me more confidence to work harder and monetize my channel.",
-          image: "https://views4you.com/wp-content/uploads/2022/08/31.png.webp",
-        },
-        {
-          name: "Lucy",
-          followers: "100k",
-          quote: "One of my friends sent the link to a video on YouTube about this site cause it has been just 1 month since I started my page. It was difficult at first but now with all these helpful videos, making them is easy!",
-          image: "https://views4you.com/wp-content/uploads/2022/08/photo-3.png.webp",
-        },
-        {
-          name: "John",
-          followers: "560k",
-          quote: "Wow! What a service. I’ve been following them for a while and was thinking if they are fake, I mean, they could be lost. But they didn’t! Thank you.",
-          image: "https://views4you.com/wp-content/uploads/2022/08/photo-16.png.webp",
-        },
-      ],
-    },
-    {
-      testimonials: [
-        {
-          name: "Elizabeth",
-          followers: "840k",
-          quote: "Well, the site is terrific!!! I got my services in a moment! They gave me more confidence to work harder and monetize my channel.",
-          image: "https://views4you.com/wp-content/uploads/2022/08/31.png.webp",
-        },
-        {
-          name: "Lucy",
-          followers: "100k",
-          quote: "One of my friends sent the link to a video on YouTube about this site cause it has been just 1 month since I started my page. It was difficult at first but now with all these helpful videos, making them is easy!",
-          image: "https://views4you.com/wp-content/uploads/2022/08/photo-3.png.webp",
-        },
-        {
-          name: "John",
-          followers: "560k",
-          quote: "Wow! What a service. I’ve been following them for a while and was thinking if they are fake, I mean, they could be lost. But they didn’t! Thank you.",
-          image: "https://views4you.com/wp-content/uploads/2022/08/photo-16.png.webp",
-        },
-      ],
-    },
-  ],
-};
 
 
 export default function Likesec() {
@@ -134,7 +15,7 @@ export default function Likesec() {
     <div className='items-center justify-between max-w-[1390px] px-5 mx-auto'>
 
       {/* Like page  */}
-
+  
       {/* Like-sec-tabs  */}
       <div className="flex flex-col max-w-[1390px] px-5 mx-auto  md:flex-row justify-center lg:pt-16 lg:pb-20 md:pt-9 md:pb-9 sm:pt-10 sm:pb-10 min-[1px]:pb-10 min-[1px]:pt-8 max-[639px]:pb-0 max-[639px]:pt-8">
         <div className="w-full  md:mb-0 ">
@@ -181,9 +62,9 @@ export default function Likesec() {
       {/* video sec  */}
       <div className="">
         <div className='text-center flex min-[1px]:pt-20 sm:pt-24 lg:pt-36 items-center video-sec flex-col'>
-          <h2 className='text-[32px] font-bold lg:w-2/4 sm:3/4 mb-6'>Double Your Engagement with YouTube Likes!</h2>
-          <p className='text-[18px] w-3/4'>YouTube likes are, too, very important aspects of YouTube channel growth. Once you have them, they will work as a social proof for your real audience.</p>
-          <p className='flex justify-center pt-5 w-full'>
+          <h2 className='text-[32px] font-bold lg:w-2/4 sm:3/4 mb-6 dark:text-white'>Double Your Engagement with YouTube Likes!</h2>
+          <p className='text-[18px] w-3/4 dark:text-white'>YouTube likes are, too, very important aspects of YouTube channel growth. Once you have them, they will work as a social proof for your real audience.</p>
+          <p className='flex justify-center pt-5 w-full '>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/rKkT5LAEC-4?si=nmCZBvDYuSqmiH8H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </p>
         </div>
@@ -208,10 +89,10 @@ export default function Likesec() {
             />
           </div>
           <div className="text-sec sm:w-full sm:mt-32 min-[1px]:mt-32 lg:mt-0 xl:w-2/4">
-            <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550]">
+            <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550] dark:text-white">
               Why Do You Need More YouTube Likes?
             </h3>
-            <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black">
+            <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black dark:text-white">
               If you’re running an online business, you need to have a strong presence on the world’s second-largest search engine, YouTube. Reaching your target audience is not an easy feat. Making it look real is even more difficult. If you have lots of subscribers, you need likes on your content and also views! Otherwise, the subscriber count will look fake. It’s alright if you don’t know how to get them simultaneously. Here’s where Views4You offers you a solution. With this service, you will increase your channel’s visibility by growing your likes. You’re wrong if you think likes are not very important for growth. Read more about visibility tactics and being an influencer conditions on YouTube by visiting our YouTube Money Calculator tool, and other tools, including blog posts. The more likes your channel has, the more likely it is that new viewers will watch and engage with your content. YouTube’s algorithm favors channels with high-quality videos like engagement rates, as well. Likes are also very important for growth. The more likes your channel has, the more likely new viewers will watch and engage with your content. YouTube’s algorithm favors channels with high engagement rates, as well.
             </p>
           </div>
@@ -221,10 +102,10 @@ export default function Likesec() {
         {/* step two  */}
         <div className="step-two w-full md:mt-36 sm:mb-32 sm:mt-24 min-[1px]:mt-24 lg:flex lg:flex-row min-[1px]:flex min-[1px]:flex-col-reverse">
           <div className="text-sec sm:w-full xl:w-2/4">
-            <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550]">
+            <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550] dark:text-white">
               How Can I Buy YouTube Likes
             </h3>
-            <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black">
+            <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black dark:text-white">
               To get started, Views4You will need some basic information from you before you can buy YouTube likes. This includes your YouTube channel URL, your username, and your chosen package with affordable solutions. The next step is to sit back and let us do our thing. We’ll use our tried-and-true methods to help you organically grow your YouTube channel. One of the most important things about buying likes from Views4You is that we do not use your sensitive credit card information for suspicious activities. Rest assured that all the payments you make are secure. However, if you buy likes from any other place, they might steal your bank info to use later.
             </p>
           </div>
@@ -260,10 +141,10 @@ export default function Likesec() {
             />
           </div>
           <div className="text-sec sm:w-full xl:w-2/4">
-            <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550]">
+            <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550] dark:text-white">
               Gain Online Reputation and Money with Views4You
             </h3>
-            <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black">
+            <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black dark:text-white">
               What was your expectation when opening the YouTube account? If you want to get a reputation and gain more money, you are at the right social media service provider! If you have fewer subscribers, we are here for your YouTube journey. You can gain organic subscribers for your YouTube channels. Buy subscribers, as much as you wish! Don’t you want to get the reward for your efforts as soon as possible? Wouldn’t you like to announce your work to a broader subscriber base? Or do you want to earn more money? If your answer is yes to all of these questions, try Views4You, one of the YouTube subscriber packages. As a Youtube channel owners, you can be reach your targets. Creating an audience in digital media takes time. That’s why you can double or even triple your YouTube success with support from a trusted source, Views4You. You can choose one of the YouTube subscription packages and enjoy becoming famous quickly. Still uncertain? Views4You has been declared the top-rated platform for purchasing YouTube subscribers by a variety of prestigious publications, including Entrepreneur, Wtkr, and OrlandoWeekly. Don’t miss out on the opportunity to join the ranks of thousands of satisfied YouTubers who have already made the wise decision to choose Views4You. All you have to do is select the number of channel subscribers and click the buy now button!
             </p>
           </div>
@@ -271,60 +152,22 @@ export default function Likesec() {
         </div>
       </div>
       {/* reviews slider  */}
-      <div className='pt-14'>
-        <h2 className='font-bold text-[32px] mb-16'>
-          Reviews
-        </h2>
-      </div>
-      <Swiper
-        spaceBetween={50}
-        slidesPerView={1}
-        pagination={{ clickable: true }}
-        Pagination
-        modules={[Pagination]}
-      >
-
-        {testimonials.slides.map((slide, index) => (
-          <SwiperSlide key={index}>
-            <div className="grid lg:grid-cols-3 sm:grid-cols-2 gap-12 w-full">
-              {slide.testimonials.map((testimonial, idx) => (
-                <div key={idx} className="testimonial-item mb-5  xl:pr-12 sm:pr-7 border-r-2">
-                  <img
-                    src={testimonial.image1}
-                    alt=""
-                  />
-                  <blockquote className='text-left  xl:text-xl font-bold sm:h-4/6 sm:mb-0 min-[1px]:mb-12 w-auto'>{testimonial.quote}</blockquote>
-                  <div className='flex items-center gap-8'>
-                    <img
-                      src={testimonial.image}
-                      alt={testimonial.name}
-                    />
-                    <div className='text-left text-[18px]'>
-                      <h3 className='font-bold'>{testimonial.name}</h3>
-                      <p>{testimonial.followers} followers</p>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </SwiperSlide>
-        ))}
-      </Swiper>
+      <NewSlider />
       {/* FAQ,S sec  */}
 
       <div className="lg:flex sm:pt-36 min-[1px]:pt-24 ">
         <div className="text-sec sm:w-full  lg:pr-32">
-          <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550]">
+          <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550] dark:text-white">
             Frequently Asked Questions
           </h3>
-          <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black">
+          <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black dark:text-white">
             We are here to answer all of your questions, so let&apos;s get started to improve your YouTube presence!
           </p>
         </div>
         <div className='accordian w-full'>
           <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
             <input type="radio" name="my-accordion-3" defaultChecked />
-            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
+            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500 dark:text-black">
               How Long Will it Take for the YouTube Likes I Purchased to Appear on My Video?
             </div>
             <div className="collapse-content">
@@ -335,7 +178,7 @@ export default function Likesec() {
           </div>
           <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
             <input type="radio" name="my-accordion-3" defaultChecked />
-            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
+            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500 dark:text-black">
               Is it Legal to Buy Likes?
             </div>
             <div className="collapse-content">
@@ -347,7 +190,7 @@ export default function Likesec() {
 
           <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
             <input type="radio" name="my-accordion-3" defaultChecked />
-            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
+            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500 dark:text-black">
               Can YouTube Remove Likes /or Can YouTube Detect Fake Likes?
             </div>
             <div className="collapse-content">
@@ -358,7 +201,7 @@ export default function Likesec() {
           </div>
           <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
             <input type="radio" name="my-accordion-3" defaultChecked />
-            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
+            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500 dark:text-black">
               Are YouTube Likes Anonymous If You Buy Them from Views4You?
             </div>
             <div className="collapse-content">
@@ -369,7 +212,7 @@ export default function Likesec() {
           </div>
           <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
             <input type="radio" name="my-accordion-3" defaultChecked />
-            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
+            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500 dark:text-black">
               Are YouTube Likes Private and Protect Your Privacy?
             </div>
             <div className="collapse-content">
@@ -380,7 +223,7 @@ export default function Likesec() {
           </div>
           <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
             <input type="radio" name="my-accordion-3" defaultChecked />
-            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
+            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500 dark:text-black">
               What Effect Will These Likes Have on Your Video?
             </div>
             <div className="collapse-content">
@@ -391,7 +234,7 @@ export default function Likesec() {
           </div>
           <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
             <input type="radio" name="my-accordion-3" defaultChecked />
-            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
+            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500 dark:text-black">
               Does YouTube Likes Make Money /or Play a Part on Making Money on YouTube?
             </div>
             <div className="collapse-content">
@@ -402,7 +245,7 @@ export default function Likesec() {
           </div>
           <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
             <input type="radio" name="my-accordion-3" defaultChecked />
-            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
+            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500 dark:text-black">
               How Many YouTube Likes You Need to Get Paid by YouTube?
             </div>
             <div className="collapse-content">
@@ -413,7 +256,7 @@ export default function Likesec() {
           </div>
           <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
             <input type="radio" name="my-accordion-3" defaultChecked />
-            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
+            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500 dark:text-black">
               How to Increase YouTube Likes?
             </div>
             <div className="collapse-content">
@@ -435,7 +278,7 @@ export default function Likesec() {
           </div>
           <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
             <input type="radio" name="my-accordion-3" defaultChecked />
-            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
+            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500 dark:text-black">
               What Country Do the Likes Come From?
             </div>
             <div className="collapse-content">
@@ -446,7 +289,7 @@ export default function Likesec() {
           </div>
           <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
             <input type="radio" name="my-accordion-3" defaultChecked />
-            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
+            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500 dark:text-black">
               How Many YouTube Likes Can You Buy?
             </div>
             <div className="collapse-content">
@@ -457,7 +300,7 @@ export default function Likesec() {
           </div>
           <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
             <input type="radio" name="my-accordion-3" defaultChecked />
-            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
+            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500 dark:text-black">
               How Many Likes Should You Buy?
             </div>
             <div className="collapse-content">
@@ -468,7 +311,7 @@ export default function Likesec() {
           </div>
           <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
             <input type="radio" name="my-accordion-3" defaultChecked />
-            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
+            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500 dark:text-black">
               Are These Likes Real?
             </div>
             <div className="collapse-content">
@@ -479,7 +322,7 @@ export default function Likesec() {
           </div>
           <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
             <input type="radio" name="my-accordion-3" defaultChecked />
-            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
+            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500 dark:text-black">
               How to Hide YouTube Likes and Dislikes?
             </div>
             <div className="collapse-content">
@@ -490,7 +333,7 @@ export default function Likesec() {
           </div>
           <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
             <input type="radio" name="my-accordion-3" defaultChecked />
-            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
+            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500 dark:text-black">
               How to See /or Check YouTube Likes of Another YouTube Channel?
             </div>
             <div className="collapse-content">
@@ -509,45 +352,7 @@ export default function Likesec() {
         </div>
       </div>
       {/* reviews slider  */}
-      <div className='pt-28 mb-16 flex justify-between items-center'>
-        <h2 className='font-bold text-[32px] '>
-          Reviews
-        </h2>
-        <div>
-          <p>Average: <span className='font-bold'>4.9</span> / 5</p>
-        </div>
-      </div>
-      <Swiper
-        spaceBetween={50}
-        slidesPerView={1}
-        pagination={{ clickable: true }}
-        Pagination
-        modules={[Pagination]}
-      >
-
-        {testimonials.slides.map((slide, index) => (
-          <SwiperSlide key={index}>
-            <div className="grid lg:grid-cols-3 sm:grid-cols-2 gap-12 w-full">
-              {slide.testimonials.map((testimonial, idx) => (
-                <div key={idx} className="testimonial-item mb-5  xl:pr-12 sm:pr-7 border-r-2">
-                  <blockquote className='text-left  xl:text-xl font-bold sm:h-4/6 sm:mb-0 min-[1px]:mb-12 w-auto'>{testimonial.quote}</blockquote>
-                  <div className='flex items-center gap-8'>
-                    <img
-                      src={testimonial.image}
-                      alt={testimonial.name}
-                    />
-                    <div className='text-left text-[18px]'>
-                      <h3 className='font-bold'>{testimonial.name}</h3>
-                      <p>{testimonial.followers} followers</p>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </SwiperSlide>
-        ))}
-      </Swiper>
-
+      <NewSlider />
       {/* form-sec  */}
       <div className="form bg-white rounded-2xl p-8" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
         <div className="heading mb-7">

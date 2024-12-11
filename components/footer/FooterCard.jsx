@@ -9,7 +9,7 @@ export default function FooterCard({ logo, socialLinks, buttons, menuLinks, copy
       <div className='flex justify-center'>
         <img src={logo} alt="Logo" className='lg:w-[20%] w-[30%] sm:w-[30%] min-[1px]:w-[30%] my-10' />
       </div>
-      <h1 className='md:text-[3rem] sm:text-[2.75rem] text-[2rem] sm:leading-[55px] font-bold text-center mb-10'>
+      <h1 className='md:text-[3rem] sm:text-[2.75rem] text-[2rem] sm:leading-[55px] font-bold text-center mb-10 dark:text-white'>
         Connect with Views4You on <br /> social media to see all articles
       </h1>
       <div className='flex justify-center mb-20'>
@@ -32,7 +32,7 @@ export default function FooterCard({ logo, socialLinks, buttons, menuLinks, copy
         </ul>
       </div>
       <div className='flex justify-center'>
-        <p className='text-center pb-4 w-11/12'>
+        <p className='text-center pb-4 w-11/12 dark:text-white'>
           {copyright}
         </p>
       </div>

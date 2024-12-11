@@ -29,10 +29,10 @@ export default function Herosectiontwo() {
       <div className='md:flex gap-11'>
         <div className='main md:w-2/4'>
           <div className='xl:p-10 min-[1px]:p-5'>
-            <h1 className="font-montserrat 2xl:w-full sm:text-[32px] min-[1px]:text-[23px] font-bold text-gray-800 mb-4">
+            <h1 className="dark:text-white font-montserrat 2xl:w-full sm:text-[32px] min-[1px]:text-[23px] font-bold text-gray-800 mb-4">
               Views4You’s Guarantee When You Buy YouTube Views
             </h1>
-            <p className='text-[18px]'>
+            <p className='text-[18px] dark:text-white'>
               We know that you put in a lot of hours to produce amazing content on YouTube. Views4You works to give your content the popularity you deserve. With our services, your superb content is crowned with the reward of hundreds of thousands of views, just select how many you want! <br />
               To grow their YouTube subscribers and likes daily with Views4You, our customers buy YouTube views for every video they produce.
             </p>
@@ -117,8 +117,8 @@ export default function Herosectiontwo() {
       {/* video sec  */}
       <div className="">
         <div className='text-center flex min-[1px]:pt-20 sm:pt-24 lg:pt-36 items-center video-sec flex-col'>
-          <h2 className='text-[32px] font-bold lg:w-2/4 sm:3/4 mb-6'>The world&apos;s number one YouTube Views service!</h2>
-          <p className='text-[18px] w-3/4'>Why wait? Your views are sure to go up, but only if you start to buy YouTube views from us today. Increase your view count and watch them shoot up quickly and safely.</p>
+          <h2 className='text-[32px] font-bold lg:w-2/4 sm:3/4 mb-6 dark:text-white'>The world&apos;s number one YouTube Views service!</h2>
+          <p className='text-[18px] w-3/4 dark:text-white'>Why wait? Your views are sure to go up, but only if you start to buy YouTube views from us today. Increase your view count and watch them shoot up quickly and safely.</p>
           <p className='flex justify-center pt-5 w-full'>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/nC5bR-OCi90?si=4s_sU0oiqV7IfHH1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </p>
@@ -144,10 +144,10 @@ export default function Herosectiontwo() {
             />
           </div>
           <div className="text-sec sm:w-full sm:mt-32 min-[1px]:mt-32 lg:mt-0 xl:w-2/4">
-            <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550]">
+            <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550] dark:text-white">
               Why Do You Need To Buy YouTube Views?
             </h3>
-            <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black">
+            <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black dark:text-white">
               True, YouTube views may not always be a good measure of video quality or engagement. But, they remain a vital factor in the success of your video’s performance. The number of people who have watched your videos depict a sense of importance about its popularity and level of interest to your visitors! <br />
               The number of views a video has, for most visitors, automatically indicates that it is valuable and quality. Regardless of whether they eventually like the content or not, the number of views makes videos seem important, period! The more times a user watches your video, the higher your chances of engaging them and the more likely they are to consider what else you might have to offer them. If you continue to keep them interested, they’ll keep coming back, which means more subscribers and more views for your channel!
             </p>
@@ -158,10 +158,10 @@ export default function Herosectiontwo() {
         {/* step two  */}
         <div className="step-two w-full md:mt-36 sm:mb-32 sm:mt-24 min-[1px]:mt-24 lg:flex lg:flex-row min-[1px]:flex min-[1px]:flex-col-reverse">
           <div className="text-sec sm:w-full xl:w-2/4">
-            <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550]">
+            <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550] dark:text-white">
               Numbers, Engagement, and Reputation; Views4You
             </h3>
-            <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black">
+            <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black dark:text-white">
               What is your expectation? Do you just want numerical superiority? Do you want your videos to reach more viewers? Or do you want your company’s ad to look good online? What about making money from YouTube? Numbers are everything in today’s digital world. Buying views makes a quick and immediate contribution to your numerical superiority, making you seem like a legit channel for viewers to flock to. <br />
               What number of views will satisfy you? Would 100,000 views look good on a video promoting your company? Views4You can provide this for you. Thanks to the quality views we send to your videos, we’re able to activate the YouTube algorithm and make the system work for you. <br />
               With a little boost from our YouTube growth service, you naturally get the chance to reach more viewers. If you want to earn money from YouTube, Views4You gives you a chance to achieve that.
@@ -204,10 +204,10 @@ export default function Herosectiontwo() {
             />
           </div>
           <div className="text-sec sm:w-full xl:w-2/4">
-            <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550]">
+            <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550] dark:text-white">
               An Excellent Strategy To Uplift Your YouTube Channel
             </h3>
-            <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black">
+            <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black dark:text-white">
               Organic views are great, but if you’re in need, it is possible to buy YouTube views and buy <span className='font-bold text-[#ed2024]'>YouTube watch hours</span> that will provide you with just as much influence in way shorter time. <br />
               The majority of YouTube visitors never question where these numbers come from. They accept them as quality engagement without thinking too deeply about their origin or authenticity. This means the views you buy can serve as an effective support base for your channel, giving it the credibility visitors need to see to convince them to become subscribers. Whether you are trying to make the next video stand out against the large competition or want to grow your channel’s subscriber base, buying views on YouTube may be an excellent strategy.
             </p>

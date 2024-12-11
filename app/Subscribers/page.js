@@ -1,6 +1,6 @@
 import Header from "../../components/Header";
 import Slider from "../../components/Slider";
-import Herosectionthree from "../../components/Herosectionthree";
+import Herosectionthree from "../../components/herosecthree/Herosectionthree";
 
 
 export default function Subscribers () {

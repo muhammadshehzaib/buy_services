@@ -11,7 +11,7 @@ const FAQ = ({ faqs }) => {
   return (
     <div className="lg:flex sm:pt-36 min-[1px]:pt-0">
       <div className="text-sec lg:w-2/4 lg:pr-28">
-        <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550]">
+        <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550] dark:text-white">
           Frequently Asked Questions
         </h3>
       </div>
@@ -28,7 +28,7 @@ const FAQ = ({ faqs }) => {
               checked={activeIndex === index} 
               onChange={() => handleToggle(index)} 
             />
-            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
+            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500 dark:text-black text-black">
               {faq.question}
             </div>
             <div className="collapse-content">
