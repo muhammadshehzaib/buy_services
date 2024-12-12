@@ -1,11 +1,22 @@
 'use client'
 
 import React from 'react'
+<<<<<<< HEAD:components/Instasec.jsx
 import Footer from "./Footer";
 import Image from 'next/image'
 import Link from 'next/link'
 import NewSlider from "./NewSlider";
 
+=======
+import Footer from "../Footer";
+import { Swiper, SwiperSlide } from 'swiper/react'
+import 'swiper/css'
+import 'swiper/css/pagination'
+import { Pagination, Navigation } from 'swiper/modules'
+import Image from 'next/image'
+import Link from 'next/link'
+import Tabs from '../instagram/Tabs';
+>>>>>>> 513fca8b3236b4b8abe2a8ba2d80cd0988f573e6:components/instagram/Instasec.jsx
 
 
 export default function Instasec() {
@@ -15,29 +26,7 @@ export default function Instasec() {
       {/* insta page  */}
 
       {/* insta-sec-tabs  */}
-      <div className="flex flex-col max-w-[1390px] px-5 mx-auto  md:flex-row justify-center lg:pt-16 lg:pb-20 md:pt-9 md:pb-9 sm:pt-10 sm:pb-10 min-[1px]:pb-10 min-[1px]:pt-8 max-[639px]:pb-0 max-[639px]:pt-8">
-        <div className="w-full  md:mb-0 ">
-          <h1 className="font-montserrat min-[320px]:text-[30px] 2xl:w-full lg:text-6xl sm:text-4xl md:text-[2.75rem] font-bold text-gray-800 mb-4">
-            Buy Instagram Followers <span className='font-bold bg-[#ed2024] text-white p-3 rounded-2xl text-[36px]'>Fast</span>
-          </h1>
-          <p className="font-montserrat block md:my-5 mx-0 md:py-3 sm:my-0 min-[1px]:my-0 max-[639px]:my-0 lg:w-full text-lg text-#050708">
-            Give wings to your YouTube videos with high quality YouTube likes that no YouTube algorithm can suspect. Because, they are from real people! Experience the doping effect of the right audience with a reasonable price. with Views4You. Read what is written about us in the press.
-          </p>
-
-        </div>
-        <div className="w-full h-80 bg-slate-300 tabs-sec">
-          <div className="flex justify-between">
-            <p className='text-xl font-montserrat  font-bold text-[#ed2024]'>Regular Views</p>
-            <p className='text-xl font-montserrat  font-bold'>Ads Views</p>
-          </div>
-          <div className='h-28 flex items-center bg-slate-50'>
-            <p className='font-montserrat text-[18px]'><span className='font-bold'>Information:</span> We recommend our <span className='text-[#ed2024] font-bold'>“Ads YouTube Views”</span> packages for orders with a high number of views.</p>
-          </div>
-          <div>
-
-          </div>
-        </div>
-      </div>
+      <Tabs />
 
       {/* video sec  */}
       <div className="">

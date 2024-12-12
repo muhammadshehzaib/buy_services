@@ -5,13 +5,13 @@ function HeroSection() {
   return (
     <div className="flex flex-col max-w-[1390px] px-5 mx-auto md:flex-row justify-center lg:pt-16 lg:pb-20 md:pt-9 md:pb-9 sm:pt-10 sm:pb-10 min-[1px]:pb-10 min-[1px]:pt-8 max-[639px]:pb-0 max-[639px]:pt-8">
       <div className="w-full md:mb-0">
-        <h1 className="dark:text-white text-black font-montserrat min-[320px]:text-[30px] 2xl:w-full lg:text-6xl sm:text-4xl md:text-[2.75rem] font-bold mb-4">
+        <h1 className=" text-black  font-montserrat min-[320px]:text-[30px] 2xl:w-full lg:text-6xl sm:text-4xl md:text-[2.75rem] font-bold mb-4">
           Organic YouTube Growth Service
         </h1>
         <span className=" font-montserrat sm:mb-4 min-[1px]:mb-4 md:mb-0 font-bold bg-[#ed2024] text-white sm:text-[1.25rem] md:text-[1.75rem] leading-[2rem] inline-block px-5 py-3 rounded-[.75rem]">
           Views4You
         </span>
-        <p className="font-montserrat block md:my-5 mx-0 md:py-3 sm:my-0 min-[1px]:my-0 max-[639px]:my-0 lg:w-full text-lg text-black dark:text-gray-300">
+        <p className="font-montserrat block md:my-5 mx-0 md:py-3 sm:my-0 min-[1px]:my-0 max-[639px]:my-0 lg:w-full text-lg text-black ">
           Lights, camera, and action! You&apos;re live on the best social media
           channel for views—YouTube. But you may require some
           backup to quickly gain a huge amount of views in a short time.

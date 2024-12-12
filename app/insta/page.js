@@ -1,6 +1,6 @@
 import Header from "../../components/Header";
 import Slider from "../../components/Slider";
-import Instasec from "../../components/Instasec";
+import Instasec from "../../components/instagram/Instasec";
 
 
 export default function Subscribers () {
