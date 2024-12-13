@@ -11,8 +11,8 @@ function Card({
   rating 
 }) {
   return (
-    <div className="flex items-center justify-between" id="card-sec">
-      <div className="sm:pt-10 lg:py-16 sm:pb-0 max-w-[1432px] px-5 sm:w-full min-[1px]:w-full mx-auto min-[1px]:pb-0">
+    <div className="flex items-center max-w-[1390px] justify-between" id="card-sec">
+      <div className="sm:pt-10 lg:py-16 sm:pb-0  px-5 sm:w-full min-[1px]:w-full mx-auto min-[1px]:pb-0">
         <div className="bg-white rounded-lg shadow-2xl p-8">
           <div className="flex mb-5">
             <img src={icon} alt={`${title} Icon`} className="w-[7%]" />
