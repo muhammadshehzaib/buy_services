@@ -41,5 +41,4 @@ function Buy() {
         </div>
     );
 }
-
 export default Buy;
