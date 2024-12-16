@@ -1,6 +1,7 @@
 import React from "react";
-
-function Buy() {
+import { data } from "./buydata.js";
+const Buy = ({
+}) => {
     return (
         <div className="mx-auto items-center justify-center py-20 px-5 lg:flex max-w-[1390px]">
             <div className="bg-white pt-14 pb-16 px-12 lg:w-[50%] shadow-md rounded-lg">
@@ -15,10 +16,15 @@ function Buy() {
                     <input type="text" className="bg-[#f4f6f8] w-[90%] rounded-full py-4 mb-4 px-7" placeholder="YouTube Video URL" />
                     <input type="text" className="bg-[#f4f6f8] w-[90%] rounded-full py-4 mb-4 px-7" placeholder="Email address" />
                     <select type="text" className='bg-[#f4f6f8] w-[90%] rounded-full py-4 mb-4 px-7' placeholder=''>
-                        <option value="100">100 views - $0.98</option>
+                        {/* <option value="100">100 views - $0.98</option>
                         <option value="1000">1000 views - $4.70</option>
                         <option value="2500">2500 views - $10.90</option>
-                        <option value="5000">5000 views - $21.00</option>
+                        <option value="5000">5000 views - $21.00</option> */}
+                        {data.map((option, index) => (
+                            <option key={index} value={option.features}>
+                                {option.features}
+                            </option>
+                        ))}
                     </select>
                     <div className="flex justify-left w-[80%] mt-3">
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
@@ -33,10 +39,10 @@ function Buy() {
             </div>
 
             <div className="lg:ml-14 min-[1px]:pt-10 lg:pt-0 lg:w-[50%]">
-                <img src="https://views4you.com/wp-content/themes/views4you_theme/img/icon-quote-red.svg" alt="" className="mb-7"/>
+                <img src="https://views4you.com/wp-content/themes/views4you_theme/img/icon-quote-red.svg" alt="" className="mb-7" />
                 <h2 className="font-bold text-[24px] mb-7">Thank you Views4You Support team, I refounded the loss subscribers that I got from somewhere else, then bought some likes too!</h2>
                 <h2 className="font-bold text-[24px] ">John Deere</h2>
-                <img src="https://views4you.com/wp-content/uploads/2022/08/Trustpilot-Stars.svg" alt="" className="w-[180px]"/>
+                <img src="https://views4you.com/wp-content/uploads/2022/08/Trustpilot-Stars.svg" alt="" className="w-[180px]" />
             </div>
         </div>
     );

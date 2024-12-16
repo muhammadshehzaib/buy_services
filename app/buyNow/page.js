@@ -1,6 +1,6 @@
 import Header from "../../components/Header";
 import Slider from "../../components/Slider";
-import Buy from "../../components/buy";
+import Buy from "../../components/buySec/buy";
 
 export default function BuySec() {
   return (
