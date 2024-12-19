@@ -4,10 +4,10 @@ export default function YCalculator() {
   return (
     <div className="max-w-[1390px] px-5 mx-auto">
       <div className="txt sm:mt-20 min-[1px]:mt-12 flex flex-col items-center">
-        <h2 className="text-3xl lg:w-[75%] uppercase sm:text-3xl min-[1px]:text-[24px] font-bold text-center sm:mb-5 min-[1px]:mb-6 dark:text-white">
+        <h2 className="text-3xl lg:w-[75%] uppercase sm:text-3xl min-[1px]:text-[24px] font-bold text-center sm:mb-5 min-[1px]:mb-6 ">
           YouTube Money Calculator: How Much Do YouTubers Make (Updated for 2024)
         </h2>
-        <p className="text-center text-[18px] lg:w-3/5 dark:text-white">
+        <p className="text-center text-[18px] lg:w-3/5 ">
           Made by YouTubers for YouTubers ♡ Check out the YouTube money
           calculator, an easy-to-use online tool that will tell creators how
           much money their channel can make.
@@ -30,99 +30,99 @@ export default function YCalculator() {
       {/* ifo-sec  */}
       <div className="main mt-28 lg:flex pb-24">
         <div className="fst-sec lg:border-r-2 lg:border-[#E6E6E6] lg:pr-16 lg:w-full">
-          <p className='mb-5 text-[18px] dark:text-white'>
+          <p className='mb-5 text-[18px] '>
             Test to measure the worth of your YouTube channel or other YouTubers’ million-dollar channels with our free YouTube Money Calculator tool. Then, wait no longer to start your breathtaking journey, too because the platform provides unique opportunities for those who want to be the richest YouTuber ever and reach financial success. You can utilize a YouTube money calculator to assess your total subscriber count and observe how it impacts your video views, thereby increasing your total income from your YouTube channel. The more subscribers you have, the more views your videos tend to receive. The reason why we recommend buying YouTube subscribers is to boost the overall performance of your YouTube channel. Learn how to calculate the estimated earnings of your channel with our user-friendly and free YouTube revenue calculator tool.
           </p>
-          <h2 className='text-[32px] font-bold sm:mb-16 min-[1px]:mb-8 min-[1px]:leading-9 sm:leading-normal dark:text-white'>YouTube Money Calculator by Views4You
+          <h2 className='text-[32px] font-bold sm:mb-16 min-[1px]:mb-8 min-[1px]:leading-9 sm:leading-normal '>YouTube Money Calculator by Views4You
           </h2>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/bJkYNIIHEuY?si=XSn6x8fgdmu4IvT6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen className='w-full'></iframe>
-          <p className='pt-10 dark:text-white'>This tool allows users to calculate their potential revenue by simply pasting the URL for their channel into the search column. The calculator measures things like video view count/time spent watching etc., which gives more accurate numbers than simply guessing. Using the calculator, will give you a good idea of yearly YouTube earnings and also shows you whether it would be worth starting up and creating videos for certain niches that may interest you! The money calculator tool can help you easily calculate your earnings from the videos. To come up with an accurate figure that may surprise people, the calculations are based on the video size, engagement rate, and other factors such as the number of views. That’s why to buy YouTube views is a brilliant strategy to boost your channel’s revenue by increasing your view count. Check out the free YouTube money calculator, an easy-to-use online tool that will tell creators how much money their channel can make from video content.</p>
+          <p className='pt-10 '>This tool allows users to calculate their potential revenue by simply pasting the URL for their channel into the search column. The calculator measures things like video view count/time spent watching etc., which gives more accurate numbers than simply guessing. Using the calculator, will give you a good idea of yearly YouTube earnings and also shows you whether it would be worth starting up and creating videos for certain niches that may interest you! The money calculator tool can help you easily calculate your earnings from the videos. To come up with an accurate figure that may surprise people, the calculations are based on the video size, engagement rate, and other factors such as the number of views. That’s why to buy YouTube views is a brilliant strategy to boost your channel’s revenue by increasing your view count. Check out the free YouTube money calculator, an easy-to-use online tool that will tell creators how much money their channel can make from video content.</p>
           <img src="https://views4you.com/wp-content/uploads/2022/09/youtube-money-calculator-screenshot-by-views4you.jpg.webp" alt="" className='w-full py-5' />
-          <p className='pt-10 dark:text-white'>The YouTube monthly income calculator is quite straightforward. It’s a simple process of entering some information about the videos and the number of views, then watching as it does all the other work for you. With just a few steps, you can have your revenue calculated by YouTube money calculator, showing you how much money your channel could be making. The process is simple and easy — all it takes to use the YouTube wage calculator is three steps:</p>
+          <p className='pt-10 '>The YouTube monthly income calculator is quite straightforward. It’s a simple process of entering some information about the videos and the number of views, then watching as it does all the other work for you. With just a few steps, you can have your revenue calculated by YouTube money calculator, showing you how much money your channel could be making. The process is simple and easy — all it takes to use the YouTube wage calculator is three steps:</p>
           <ul className='list-decimal my-8 text-[18px]'>
-            <li className='dark:text-white'>Drag the calculator bar backward or forward, depending on how high or low your daily video views are on average for a YouTube video</li>
-            <li className='dark:text-white'>Set estimated CTR based on historic performance history from previous campaigns (think about those times where ads performed best) </li>
-            <li className='dark:text-white'>View total earnings potential over time by weekdays alone as well as monthly earnings at any given moment!</li>
+            <li className=''>Drag the calculator bar backward or forward, depending on how high or low your daily video views are on average for a YouTube video</li>
+            <li className=''>Set estimated CTR based on historic performance history from previous campaigns (think about those times where ads performed best) </li>
+            <li className=''>View total earnings potential over time by weekdays alone as well as monthly earnings at any given moment!</li>
           </ul>
-          <h2 className='text-[32px] font-bold sm:mt-16 min-[1px]:mt-8 dark:text-white'>How Do We Calculate a YouTube Channel’s Estimated Revenue?</h2>
-          <p className='pt-10 dark:text-white'>
+          <h2 className='text-[32px] font-bold sm:mt-16 min-[1px]:mt-8 '>How Do We Calculate a YouTube Channel’s Estimated Revenue?</h2>
+          <p className='pt-10 '>
             There is a quite working algorithm going on here.
           </p>
           <ul className='list-decimal my-8 text-[18px]'>
-            <li className='dark:text-white'>Once you copy the YouTube channel URL to paste YouTube money calculator search, the sytem locates the country of the channel first;</li>
-            <li className='dark:text-white'>Then, the system confirms the channels total view count; </li>
-            <li className='dark:text-white'>Next, it finds out the channel’s establishment date, and time – how many months have passed from that date;</li>
-            <li className='dark:text-white'>The system drops out 18 months from the total activation date to find out validness of the channel;</li>
-            <li className='dark:text-white'>Now, total view count is divided to 1000 to calculate CPM;</li>
-            <li className='dark:text-white'>Finally, the CPM divided to the valid active time, it is for to calculate YouTube channel’s revenue.</li>
+            <li className=''>Once you copy the YouTube channel URL to paste YouTube money calculator search, the sytem locates the country of the channel first;</li>
+            <li className=''>Then, the system confirms the channels total view count; </li>
+            <li className=''>Next, it finds out the channel’s establishment date, and time – how many months have passed from that date;</li>
+            <li className=''>The system drops out 18 months from the total activation date to find out validness of the channel;</li>
+            <li className=''>Now, total view count is divided to 1000 to calculate CPM;</li>
+            <li className=''>Finally, the CPM divided to the valid active time, it is for to calculate YouTube channel’s revenue.</li>
           </ul>
-          <p className='dark:text-white'>
+          <p className=''>
             That’s all! Now, you can learn your total estimated earnings and strategize your YouTube account yearly according to the given data to obtain more subscribers, money, and engagement.
           </p>
-          <h2 className='text-[32px] font-bold sm:mt-16 min-[1px]:mt-8 dark:text-white'>Which Data Can I Monitor After Calculating my Overall Estimated Earnings?</h2>
-          <p className='pt-10 dark:text-white'>Thanks to our advanced YouTube Money Calculator tool, you can take information about the following. After you copy&paste your URL;</p>
+          <h2 className='text-[32px] font-bold sm:mt-16 min-[1px]:mt-8 '>Which Data Can I Monitor After Calculating my Overall Estimated Earnings?</h2>
+          <p className='pt-10 '>Thanks to our advanced YouTube Money Calculator tool, you can take information about the following. After you copy&paste your URL;</p>
           <ul className='list-disc my-8 text-[18px]'>
-            <li className='dark:text-white'>Total subscribers</li>
-            <li className='dark:text-white'>Estimated Monthly YouTube Partner Program earnings</li>
-            <li className='dark:text-white'>NEstimated Sponsorships price for each video content</li>
-            <li className='dark:text-white'>Total YouTube views</li>
-            <li className='dark:text-white'>Channel’s name, creation date and country</li>
+            <li className=''>Total subscribers</li>
+            <li className=''>Estimated Monthly YouTube Partner Program earnings</li>
+            <li className=''>NEstimated Sponsorships price for each video content</li>
+            <li className=''>Total YouTube views</li>
+            <li className=''>Channel’s name, creation date and country</li>
           </ul>
-          <p className='pt-10 dark:text-white'>When you drag the slider of daily video views,</p>
+          <p className='pt-10 '>When you drag the slider of daily video views,</p>
           <ul className='list-disc my-8 text-[18px]'>
-            <li className='dark:text-white'>Views per month</li>
-            <li className='dark:text-white'>Views per year</li>
-            <li className='dark:text-white'>Estimated daily earnings</li>
-            <li className='dark:text-white'>Estimated monthly earnings</li>
-            <li className='dark:text-white'>Projected yearly earnings</li>
+            <li className=''>Views per month</li>
+            <li className=''>Views per year</li>
+            <li className=''>Estimated daily earnings</li>
+            <li className=''>Estimated monthly earnings</li>
+            <li className=''>Projected yearly earnings</li>
           </ul>
-          <p className='pt-10 dark:text-white'>YouTube creators can learn all the necessary information about their actual earnings with just a few clicks.</p>
-          <h2 className='text-[32px] font-bold sm:mt-16 min-[1px]:mt-8 dark:text-white'>Top 10 Countries in 2024 with the Highest YouTube Cost (aka CPM) Per 1,000 Views</h2>
+          <p className='pt-10 '>YouTube creators can learn all the necessary information about their actual earnings with just a few clicks.</p>
+          <h2 className='text-[32px] font-bold sm:mt-16 min-[1px]:mt-8 '>Top 10 Countries in 2024 with the Highest YouTube Cost (aka CPM) Per 1,000 Views</h2>
           <table class="table">
             <tbody>
               <tr>
-                <th className='font-bold text-[18px] dark:text-white'>Country</th>
-                <th className='font-bold text-[18px] dark:text-white'>Price</th>
+                <th className='font-bold text-[18px] '>Country</th>
+                <th className='font-bold text-[18px] '>Price</th>
               </tr>
               <tr>
-                <td className='dark:text-white'>NORWAY</td>
-                <td className='dark:text-white'>$43.15</td>
+                <td className=''>NORWAY</td>
+                <td className=''>$43.15</td>
               </tr>
               <tr>
-                <td className='dark:text-white'>GERMANY</td>
-                <td className='dark:text-white'>$38.85</td>
+                <td className=''>GERMANY</td>
+                <td className=''>$38.85</td>
               </tr>
               <tr>
-                <td className='dark:text-white'>MOLDOVA</td>
-                <td className='dark:text-white'>$29.50</td>
+                <td className=''>MOLDOVA</td>
+                <td className=''>$29.50</td>
               </tr>
               <tr>
-                <td className='dark:text-white'>ALGERIA</td>
-                <td className='dark:text-white'>$24.50</td>
+                <td className=''>ALGERIA</td>
+                <td className=''>$24.50</td>
               </tr>
               <tr>
-                <td className='dark:text-white'>SWEDEN</td>
-                <td className='dark:text-white'>$18.18</td>
+                <td className=''>SWEDEN</td>
+                <td className=''>$18.18</td>
               </tr>
               <tr>
-                <td className='dark:text-white'>SOUTH KOREA</td>
-                <td className='dark:text-white'>$17.00</td>
+                <td className=''>SOUTH KOREA</td>
+                <td className=''>$17.00</td>
               </tr>
               <tr>
-                <td className='dark:text-white'>FINLAND</td>
-                <td className='dark:text-white'>$14.90</td>
+                <td className=''>FINLAND</td>
+                <td className=''>$14.90</td>
               </tr>
               <tr>
-                <td className='dark:text-white'>U.K</td>
-                <td className='dark:text-white'>$13.75</td>
+                <td className=''>U.K</td>
+                <td className=''>$13.75</td>
               </tr>
               <tr>
-                <td className='dark:text-white'>CANADA</td>
-                <td className='dark:text-white'>$13.50</td>
+                <td className=''>CANADA</td>
+                <td className=''>$13.50</td>
               </tr>
               <tr>
-                <td className='dark:text-white'>USA</td>
-                <td className='dark:text-white'>$13.00</td>
+                <td className=''>USA</td>
+                <td className=''>$13.00</td>
               </tr>
             </tbody>
           </table>
@@ -160,7 +160,7 @@ export default function YCalculator() {
       {/* faqs  */}
       <div className="lg:flex sm:pt-36 min-[1px]:pt-24 ">
         <div className="text-sec  w-2/4  lg:pr-28">
-          <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550] dark:text-white">
+          <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550] ">
             Frequently Asked Questions
           </h3>
         </div>

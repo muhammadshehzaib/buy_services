@@ -1,134 +1,11 @@
 'use client'
 import React from 'react';
-
-import Footer from "../Footer";
-import LineSection from "../linesection/LineSection";
-import CampaignSection from "../campaignsection/CampaignSection"
 import NewSlider from "../herosecthree/NewSlider";
-import 'swiper/css';
-import 'swiper/css/pagination';
-import { Pagination } from 'swiper/modules';
-import { Swiper, SwiperSlide } from 'swiper/react';
 import Footer from "../Footer";
 import LineSection from "../linesection/LineSection";
 import CampaignSection from "../campaignsection/CampaignSection"
 import Tabs from '../herosecthree/Tabs';
 
-const testimonials = {
-  slides: [
-    {
-      testimonials: [
-        {
-          image1: "Stepsection../public/images/double-quotes.png",
-          name: "Elizabeth",
-          followers: "840k",
-          quote: "Well, the site is terrific!!! I got my services in a moment! They gave me more confidence to work harder and monetize my channel.",
-          image: "https://views4you.com/wp-content/uploads/2022/08/31.png.webp",
-        },
-        {
-          name: "Lucy",
-          followers: "100k",
-          quote: "One of my friends sent the link to a video on YouTube about this site cause it has been just 1 month since I started my page. It was difficult at first but now with all these helpful videos, making them is easy!",
-          image: "https://views4you.com/wp-content/uploads/2022/08/photo-3.png.webp",
-        },
-        {
-          name: "John",
-          followers: "560k",
-          quote: "Wow! What a service. I’ve been following them for a while and was thinking if they are fake, I mean, they could be lost. But they didn’t! Thank you.",
-          image: "https://views4you.com/wp-content/uploads/2022/08/photo-16.png.webp",
-        },
-      ],
-    },
-    {
-      testimonials: [
-        {
-          name: "Elizabeth",
-          followers: "840k",
-          quote: "Well, the site is terrific!!! I got my services in a moment! They gave me more confidence to work harder and monetize my channel.",
-          image: "https://views4you.com/wp-content/uploads/2022/08/31.png.webp",
-        },
-        {
-          name: "Lucy",
-          followers: "100k",
-          quote: "One of my friends sent the link to a video on YouTube about this site cause it has been just 1 month since I started my page. It was difficult at first but now with all these helpful videos, making them is easy!",
-          image: "https://views4you.com/wp-content/uploads/2022/08/photo-3.png.webp",
-        },
-        {
-          name: "John",
-          followers: "560k",
-          quote: "Wow! What a service. I’ve been following them for a while and was thinking if they are fake, I mean, they could be lost. But they didn’t! Thank you.",
-          image: "https://views4you.com/wp-content/uploads/2022/08/photo-16.png.webp",
-        },
-      ],
-    },
-    {
-      testimonials: [
-        {
-          name: "Elizabeth",
-          followers: "840k",
-          quote: "Well, the site is terrific!!! I got my services in a moment! They gave me more confidence to work harder and monetize my channel.",
-          image: "https://views4you.com/wp-content/uploads/2022/08/31.png.webp",
-        },
-        {
-          name: "Lucy",
-          followers: "100k",
-          quote: "One of my friends sent the link to a video on YouTube about this site cause it has been just 1 month since I started my page. It was difficult at first but now with all these helpful videos, making them is easy!",
-          image: "https://views4you.com/wp-content/uploads/2022/08/photo-3.png.webp",
-        },
-        {
-          name: "John",
-          followers: "560k",
-          quote: "Wow! What a service. I’ve been following them for a while and was thinking if they are fake, I mean, they could be lost. But they didn’t! Thank you.",
-          image: "https://views4you.com/wp-content/uploads/2022/08/photo-16.png.webp",
-        },
-      ],
-    },
-    {
-      testimonials: [
-        {
-          name: "Elizabeth",
-          followers: "840k",
-          quote: "Well, the site is terrific!!! I got my services in a moment! They gave me more confidence to work harder and monetize my channel.",
-          image: "https://views4you.com/wp-content/uploads/2022/08/31.png.webp",
-        },
-        {
-          name: "Lucy",
-          followers: "100k",
-          quote: "One of my friends sent the link to a video on YouTube about this site cause it has been just 1 month since I started my page. It was difficult at first but now with all these helpful videos, making them is easy!",
-          image: "https://views4you.com/wp-content/uploads/2022/08/photo-3.png.webp",
-        },
-        {
-          name: "John",
-          followers: "560k",
-          quote: "Wow! What a service. I’ve been following them for a while and was thinking if they are fake, I mean, they could be lost. But they didn’t! Thank you.",
-          image: "https://views4you.com/wp-content/uploads/2022/08/photo-16.png.webp",
-        },
-      ],
-    },
-    {
-      testimonials: [
-        {
-          name: "Elizabeth",
-          followers: "840k",
-          quote: "Well, the site is terrific!!! I got my services in a moment! They gave me more confidence to work harder and monetize my channel.",
-          image: "https://views4you.com/wp-content/uploads/2022/08/31.png.webp",
-        },
-        {
-          name: "Lucy",
-          followers: "100k",
-          quote: "One of my friends sent the link to a video on YouTube about this site cause it has been just 1 month since I started my page. It was difficult at first but now with all these helpful videos, making them is easy!",
-          image: "https://views4you.com/wp-content/uploads/2022/08/photo-3.png.webp",
-        },
-        {
-          name: "John",
-          followers: "560k",
-          quote: "Wow! What a service. I’ve been following them for a while and was thinking if they are fake, I mean, they could be lost. But they didn’t! Thank you.",
-          image: "https://views4you.com/wp-content/uploads/2022/08/photo-16.png.webp",
-        },
-      ],
-    },
-  ],
-};
 
 
 
@@ -154,8 +31,8 @@ export default function Herosectionthree() {
       {/* video sec  */}
       <div className="">
         <div className='text-center flex items-center video-sec flex-col'>
-          <h2 className='text-[32px] font-bold lg:w-2/4 sm:3/4 mb-6 dark:text-white'>The Best YouTube Subscribers Service in the World!</h2>
-          <p className='text-[18px] w-3/4 dark:text-white'>Just click to buy YouTube subscribers. If you start buying YouTube subscribers from us right now, your active users will surely increase. Once you get them, they will serve as social proof for your audience.</p>
+          <h2 className='text-[32px] font-bold lg:w-2/4 sm:3/4 mb-6 '>The Best YouTube Subscribers Service in the World!</h2>
+          <p className='text-[18px] w-3/4 '>Just click to buy YouTube subscribers. If you start buying YouTube subscribers from us right now, your active users will surely increase. Once you get them, they will serve as social proof for your audience.</p>
           <p className='flex justify-center pt-5 w-full'>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/3bdcvn7NfhI?si=KsbLNGvy7oDdx1Ul" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </p>
@@ -181,10 +58,10 @@ export default function Herosectionthree() {
             />
           </div>
           <div className="text-sec sm:w-full sm:mt-32 min-[1px]:mt-32 lg:mt-0 xl:w-2/4">
-            <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550] dark:text-white">
+            <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550] ">
               Why Risk your Money on an Unknown Service when we Guarantee the Quality?
             </h3>
-            <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black dark:text-white">
+            <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black ">
               To make your channel stand out on YouTube, you need active subscribers. If you are new to this platform, it is so natural that you have fewer subscribers at first. But you can buy organic YouTube subscribers safely and quickly. Thanks to active YouTube subscribers, the number of likes and views will increase soon. Therefore, maybe a thousand subscribers can watch each YouTube video. If you shoot high quality videos and share these from other social media accounts, you can gain organic subscribers. If you have been on the YouTube platform for a long time and your number of subscribers is staying the same, you can get support from Views4You. Your YouTube channel will be visible again in a short time. You can continue to be successful thanks to purchased YouTube subscribers or add more success to your channel by buying YouTube watch hours service for your videos. You need more active YouTube subscribers to grow their channel and make money. Therefore, if you are one of them, you can buy as many subscribers as you want.
             </p>
           </div>
@@ -194,10 +71,10 @@ export default function Herosectionthree() {
         {/* step two  */}
         <div className="step-two w-full md:mt-36 sm:mb-32 sm:mt-24 min-[1px]:mt-24 lg:flex lg:flex-row min-[1px]:flex min-[1px]:flex-col-reverse">
           <div className="text-sec sm:w-full xl:w-2/4">
-            <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550] dark:text-white">
+            <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550] ">
               Do My Activities on YouTube Cause My Account to Be Suspended?
             </h3>
-            <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black dark:text-white">
+            <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black ">
               Buying subscribers from Views4You is one of the best ways to grow your channel. We send you the real subscribers you buy within days. There is a reason we do this. The YouTube algorithm may detect organic users who suddenly start following your page as fake subscribers. Thanks to Views4You, popular video sharing platform will not detect any unusual movement, and your YouTube channel will not be banned. As long as you buy YouTube subscribers packages from us, you will not encounter such a problem.
             </p>
           </div>
@@ -216,10 +93,10 @@ export default function Herosectionthree() {
             <div className='sm:flex sm:justify-center xl:justify-center'><p className='paras-one-text bg-[#ED2024] h-[.150rem] sm:w-[11.4rem] min-[1px]:w-[7.4rem] bottom-[120px] left-20 relative' style={{ transform: "matrix(1, -.58, 0, .89, 0, 0)" }}></p></div>
           </div>
           <div className="text-sec sm:w-full xl:w-2/4">
-            <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550] dark:text-white">
+            <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550] ">
               Gain Online Reputation and Money with Views4You
             </h3>
-            <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black dark:text-white">
+            <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black ">
               What was your expectation when opening the YouTube account? If you want to get a reputation and gain more money, you are at the right social media service provider! If you have fewer subscribers, we are here for your YouTube journey. You can gain organic subscribers for your YouTube channels. Buy subscribers, as much as you wish! Don’t you want to get the reward for your efforts as soon as possible? Wouldn’t you like to announce your work to a broader subscriber base? Or do you want to earn more money? If your answer is yes to all of these questions, try Views4You, one of the YouTube subscriber packages. As a Youtube channel owners, you can be reach your targets. Creating an audience in digital media takes time. That’s why you can double or even triple your YouTube success with support from a trusted source, Views4You. You can choose one of the YouTube subscription packages and enjoy becoming famous quickly. Still uncertain? Views4You has been declared the top-rated platform for purchasing YouTube subscribers by a variety of prestigious publications, including Entrepreneur, Wtkr, and OrlandoWeekly. Don’t miss out on the opportunity to join the ranks of thousands of satisfied YouTubers who have already made the wise decision to choose Views4You. All you have to do is select the number of channel subscribers and click the buy now button!
             </p>
           </div>
@@ -232,10 +109,10 @@ export default function Herosectionthree() {
 
       <div className="lg:flex sm:pt-36 min-[1px]:pt-24 ">
         <div className="text-sec sm:w-full  lg:pr-32">
-          <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550] dark:text-white">
+          <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550] ">
             Frequently Asked Questions
           </h3>
-          <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black dark:text-white">
+          <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black ">
             Got some questions about our services? We are here to answer all of them, so grab a seat and let&apos;s get started!
           </p>
         </div>

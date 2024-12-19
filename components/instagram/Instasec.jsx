@@ -1,22 +1,11 @@
 'use client'
 
 import React from 'react'
-<<<<<<< HEAD:components/Instasec.jsx
-import Footer from "./Footer";
-import Image from 'next/image'
-import Link from 'next/link'
-import NewSlider from "./NewSlider";
+import NewSlider from "../herosecthree/NewSlider";
 
-=======
 import Footer from "../Footer";
-import { Swiper, SwiperSlide } from 'swiper/react'
-import 'swiper/css'
-import 'swiper/css/pagination'
-import { Pagination, Navigation } from 'swiper/modules'
-import Image from 'next/image'
-import Link from 'next/link'
 import Tabs from '../instagram/Tabs';
->>>>>>> 513fca8b3236b4b8abe2a8ba2d80cd0988f573e6:components/instagram/Instasec.jsx
+
 
 
 export default function Instasec() {
@@ -31,8 +20,8 @@ export default function Instasec() {
       {/* video sec  */}
       <div className="">
         <div className='text-center flex min-[1px]:pt-20 sm:pt-24 lg:pt-36 items-center video-sec flex-col'>
-          <h2 className='text-[32px] font-bold lg:w-2/4 sm:3/4 mb-6 dark:text-white'>Buy Instagram Followers - Real, Instant & Cheap Delivery</h2>
-          <p className='text-[18px] w-3/4 dark:text-white'>Your real followers are just a few clicks away! Buy Instagram followers from Views4You to reach the target audience you deserve. Sit back and watch how your new followers serve as social proof of your being an influencer.</p>
+          <h2 className='text-[32px] font-bold lg:w-2/4 sm:3/4 mb-6 '>Buy Instagram Followers - Real, Instant & Cheap Delivery</h2>
+          <p className='text-[18px] w-3/4 '>Your real followers are just a few clicks away! Buy Instagram followers from Views4You to reach the target audience you deserve. Sit back and watch how your new followers serve as social proof of your being an influencer.</p>
           <p className='flex justify-center pt-5 w-full'>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/476knXrOF7E?si=qnaehgPgQlpnJBit" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </p>
@@ -58,10 +47,10 @@ export default function Instasec() {
             />
           </div>
           <div className="text-sec sm:w-full sm:mt-32 min-[1px]:mt-32 lg:mt-0 xl:w-2/4">
-            <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550] dark:text-white">
+            <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550] ">
               Why Do You Need to Buy More Instagram Followers?
             </h3>
-            <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black dark:text-white">
+            <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black ">
               If you want to become one of the famous Instagram influencers, you should have strong followers following your profile who like, view, and comment on your content. This is the rule of being visible on social media. But where to find them? You need to make your voice heard around the ever-changing world. Especially if you are a newbie, it can take a tremendous effort to make yourself a place on the platform because everyone has found what they want so far while you’re still trying out ways to build your community. Even if you are an experienced Instagram user, you may need a little boost to increase your followers. Lucky for you, you’ve got Views4You from now on! Thanks to our authentic followers, your Instagram profile’s engagement rate and visibility will increase as soon as you buy Instagram likes. Also, you can boost your Instagram views on your posts to get seen on the Explore Page.
             </p>
           </div>
@@ -71,10 +60,10 @@ export default function Instasec() {
         {/* step two  */}
         <div className="step-two w-full md:mt-36 sm:mb-32 sm:mt-24 min-[1px]:mt-24 lg:flex lg:flex-row min-[1px]:flex min-[1px]:flex-col-reverse">
           <div className="text-sec sm:w-full xl:w-2/4">
-            <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550] dark:text-white">
+            <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550] ">
               Can the Instagram Algorithm Detect My Activity?
             </h3>
-            <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black dark:text-white">
+            <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black ">
               The Instagram algorithm is highly developed to detect unknown activities such as sudden fake Instagram followers on accounts. Guess what? Views4You delivers only real Instagram followers within the natural flow which no algorithm detects as fake followers. Thanks to personalized and professional techniques, the way in which we use your account, it won’t be suspected or banned. We always maintain the authenticity and integrity of your Instagram account.
             </p>
           </div>
@@ -109,11 +98,11 @@ export default function Instasec() {
             />
           </div>
           <div className="text-sec sm:w-full xl:w-2/4">
-            <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550] dark:text-white">
+            <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550] ">
 
               User Friendly Interface to Buy Instagram Followers
             </h3>
-            <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black dark:text-white">
+            <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black ">
               You can buy Instagram followers from Views4You with a few clicks. All you have to do is provide your Instagram ID URL and active email account. No password or sensitive information needed. Yes, you read that right!After you choose from View4You’s affordable Instagram followers packages, we’ll send you a verified e-mail to inform you about your purchase details and the delivery time. That’s it. You don’t have to fill out long pages to purchase Instagram followers. It is so easy-peasy with Views4You.
             </p>
           </div>
@@ -126,10 +115,10 @@ export default function Instasec() {
 
       <div className="lg:flex sm:pt-36 min-[1px]:pt-24 ">
         <div className="text-sec sm:w-full  lg:pr-32">
-          <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550] dark:text-white">
+          <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550] ">
             Frequently Asked Questions
           </h3>
-          <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black dark:text-white" >
+          <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black " >
             Do you still have questions about buying Instagram followers? We have all the answers. So, find yourself a seat, and let&apos;s dive in! Also, reach us anytime to ask more via contact@views4you.com
           </p>
         </div>

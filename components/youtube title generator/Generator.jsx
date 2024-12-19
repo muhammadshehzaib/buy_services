@@ -6,15 +6,15 @@ export default function Generator() {
   return (
     <div className="max-w-[1390px] px-5 mx-auto">
       <div className="txt sm:mt-20 min-[1px]:mt-12 flex flex-col items-center">
-        <h2 className="md:text-[32px] lg:w-[75%] uppercase sm:text-3xl min-[1px]:text-[24px] font-bold text-center sm:mb-5 min-[1px]:mb-6 dark:text-white">
+        <h2 className="md:text-[32px] lg:w-[75%] uppercase sm:text-3xl min-[1px]:text-[24px] font-bold text-center sm:mb-5 min-[1px]:mb-6 ">
           YouTube Title Generator (AI-powered for Free)
         </h2>
-        <p className="text-center text-[18px] lg:w-3/5 dark:text-white">
+        <p className="text-center text-[18px] lg:w-3/5 ">
           Views4You YouTube Title Generator is the only tool you need if you are searching for a quick and simple way to generate titles for your YouTube videos. Using artificial intelligence and all of our hearts, we developed this tool to come up with hundreds of possible titles for your content. Don’t forget, this AI-powered title generator tool is completely free!
         </p>
         <div className="sm:flex justify-between mt-5 full input-sec w-3/4">
           <div className="sm:w-[47%] min-[1px]:mb-5 sm:mb-0">
-            <label htmlFor="Keyword" className="font-bold text-[18px] dark:text-white">Keyword</label>
+            <label htmlFor="Keyword" className="font-bold text-[18px] ">Keyword</label>
             <input
               id="Keyword"
               type="text"
@@ -23,7 +23,7 @@ export default function Generator() {
             />
           </div>
           <div className="sm:w-[47%]">
-            <label htmlFor="Tone" className="font-bold text-[18px] dark:text-white">Tone</label>
+            <label htmlFor="Tone" className="font-bold text-[18px] ">Tone</label>
             <select id="Tone" className="bg-transparent py-5 pl-8 w-full border-2 border-black dark:border-white rounded-full pr-32">
               <option value="" disabled selected>
                 Creative
@@ -35,7 +35,7 @@ export default function Generator() {
           </div>
         </div>
         <div className="w-3/4 mt-5">
-          <label htmlFor="Des" className="font-bold text-[18px] dark:text-white">Detailed Description</label>
+          <label htmlFor="Des" className="font-bold text-[18px] ">Detailed Description</label>
           <textarea name="" id="Des" className="bg-transparent py-5 pl-8 w-full border-2 border-black dark:border-white rounded-2xl pr-32 h-36" placeholder="Easy Ways to Make"></textarea>
         </div>
         <a
@@ -55,29 +55,29 @@ export default function Generator() {
               Instagram Story Viewer is a free tool that you can view stories of active accounts anonymously. It allows you to view any accounts’ stories privately by just entering the name of that person or page without showing your personal information. If you are curious about a person and you want to check their stories without letting them know, this Instagram story tool is perfect for you!  Additionally, if you’re looking to make your own stories more visible or enhance your profile’s appeal, you might want to consider the option to buy Instagram likes.
             </p>
           </div>
-          <h2 className='text-[32px] font-bold sm:mb-8 min-[1px]:mb-8 min-[1px]:leading-9 sm:leading-normal dark:text-white'>How to Utilize AI-powered Free YouTube Video Title Generator of Views4You?</h2>
-          <p className="mb-5 dark:text-white">This free title generator tool for YouTube videos allows flexible usage. You can benefit from this online generator for all of your content. It is possible to adjust your needs with an AI-powered tool. You can use the tool for searching options to find specific terms or look through other categories for unique ideas. Further, the Title Generator is perfect for crafting remarkable titles for your short-form videos. Thus, you can ensure that even your YouTube Shorts stand out on the platform and attract the attention of viewers with the proper words. Now, it is time to learn how to create the ideal title for your content on YouTube.</p>
+          <h2 className='text-[32px] font-bold sm:mb-8 min-[1px]:mb-8 min-[1px]:leading-9 sm:leading-normal '>How to Utilize AI-powered Free YouTube Video Title Generator of Views4You?</h2>
+          <p className="mb-5 ">This free title generator tool for YouTube videos allows flexible usage. You can benefit from this online generator for all of your content. It is possible to adjust your needs with an AI-powered tool. You can use the tool for searching options to find specific terms or look through other categories for unique ideas. Further, the Title Generator is perfect for crafting remarkable titles for your short-form videos. Thus, you can ensure that even your YouTube Shorts stand out on the platform and attract the attention of viewers with the proper words. Now, it is time to learn how to create the ideal title for your content on YouTube.</p>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/GFw4LdApC9k?si=nXmzWMjbdIolwXe-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen className="w-full"></iframe>
-          <h2 className='text-[32px] mt-8 font-bold sm:mb-8 min-[1px]:mb-8 min-[1px]:leading-9 sm:leading-normal dark:text-white'>Enter Your Main Keyword to Get the Flawless Title</h2>
-          <p className='mb-5 text-[18px] dark:text-white'>You can start by deciding what is your main keyword. After specifying your keyword, you can use it to find the perfect title for your video content. According to SEO guidelines, your primary keyword should be in the title. Selecting a title that is optimized for search engines is essential. Therefore, you can guarantee that your video reaches its target audience and appears highly in search results. Your video can rank higher in search results if you choose relevant keywords carefully, as we’ll demonstrate with Views4You’s free Title Generator for YouTube. Your keyword will be automatically included in the title options since improving Google’s ranking with keywords is a fundamental SEO technique. I’ll use an example to show you how to use our title generator for a YouTube video. </p>
+          <h2 className='text-[32px] mt-8 font-bold sm:mb-8 min-[1px]:mb-8 min-[1px]:leading-9 sm:leading-normal '>Enter Your Main Keyword to Get the Flawless Title</h2>
+          <p className='mb-5 text-[18px] '>You can start by deciding what is your main keyword. After specifying your keyword, you can use it to find the perfect title for your video content. According to SEO guidelines, your primary keyword should be in the title. Selecting a title that is optimized for search engines is essential. Therefore, you can guarantee that your video reaches its target audience and appears highly in search results. Your video can rank higher in search results if you choose relevant keywords carefully, as we’ll demonstrate with Views4You’s free Title Generator for YouTube. Your keyword will be automatically included in the title options since improving Google’s ranking with keywords is a fundamental SEO technique. I’ll use an example to show you how to use our title generator for a YouTube video. </p>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/6T7K0hPncZw?si=2sV16fJd4a9h26wB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen className="w-full"></iframe>
-          <p className="pt-5 dark:text-white">Assume that “travel blog” is our selected keyword.</p>
-          <h2 className='text-[32px] font-bold min-[1px]:mt-8 min-[1px]:leading-9 sm:leading-normal dark:text-white'>Select a Tone that Will Work Best for Your Audience</h2>
-          <p className='mb-5 text-[18px] dark:text-white'>Choosing a tone that fits with our YouTube niche comes next as soon as we’ve determined our keyword. We’ll choose “encouraging” from the nine different tones since it matches the style and energy of our content. This choice will enable us to better craft our title so that it will appeal to our target audience. Taking into consideration our video content, which is in the travel blog niche, an “excited” tone can also come up with better title results. It can give our title energy and excitement that draws viewers and excites them. It is possible to pique the users’ interest and increase their desire to engage with our content by choosing this tone.</p>
-          <h2 className='text-[32px] font-bold  min-[1px]:mt-8 min-[1px]:leading-9 sm:leading-normal dark:text-white'>Give an Eye-catching Description for Your Video Content</h2>
-          <p className='dark:text-white'>
+          <p className="pt-5 ">Assume that “travel blog” is our selected keyword.</p>
+          <h2 className='text-[32px] font-bold min-[1px]:mt-8 min-[1px]:leading-9 sm:leading-normal '>Select a Tone that Will Work Best for Your Audience</h2>
+          <p className='mb-5 text-[18px] '>Choosing a tone that fits with our YouTube niche comes next as soon as we’ve determined our keyword. We’ll choose “encouraging” from the nine different tones since it matches the style and energy of our content. This choice will enable us to better craft our title so that it will appeal to our target audience. Taking into consideration our video content, which is in the travel blog niche, an “excited” tone can also come up with better title results. It can give our title energy and excitement that draws viewers and excites them. It is possible to pique the users’ interest and increase their desire to engage with our content by choosing this tone.</p>
+          <h2 className='text-[32px] font-bold  min-[1px]:mt-8 min-[1px]:leading-9 sm:leading-normal '>Give an Eye-catching Description for Your Video Content</h2>
+          <p className=''>
             After selecting your tone, you need to write your video description. I’ll write two different descriptions to demonstrate the difference between them.
           </p> <br />
-          <p className='dark:text-white'>
+          <p className=''>
             <span className='font-bold text-[18px]'>First, let’s write a shorter description:</span> <br />Today, we will experience vibrant flamenco, and enjoy delightful tapas in Barcelona. Yet, the length of your video description can vary according to the content and your preferences.
           </p> <br />
-          <p className='dark:text-white'>
+          <p className=''>
             <span className='font-bold text-[18px]'>Here is a long example: </span> <br /> I changed the tone to “excited” and wrote a detailed description: In today’s vlog, we wander Shibuya’s lively streets. We wanted to share our funny culinary adventure. We visit Asakusa’s medieval streets, experiencing street foods and discovering old temples. We finished our tour in Akihabara, which is known for games and anime.
           </p> <br />
-          <p className='dark:text-white'>
+          <p className=''>
             <span className='font-bold text-[18px]'>Click “Create” and Get Your Splendid Title</span> <br /> You are now ready to move on after writing all of the essential information, which are your keyword, tone, and short or long description of the related video content. At this point, simply click the “create” button to generate several YouTube video titles. This allows you to experiment with numerous title combinations and styles. As a result, you can discover the most appropriate and appealing headings for your content.
           </p> <br />
-          <p className='dark:text-white'>
+          <p className=''>
             <span className='font-bold text-[18px]'>Choose the Perfect Title for Your Video Content on YouTube</span> <br /> After you click the “create” button on the YouTube title generator, you will see a variety of generated results. This is your opportunity to examine and choose the best title for your video. Each option will be a unique blend of your ideas, suited to your target audience. Take your time deciding which title best expresses the essence of your content. Once you’ve selected a title you desire, click on it and copy the code to the related box on YouTube. Make sure to provide a link to Views4You’s AI-powered free YouTube Title Generator website so that others can easily find and use it! If you have any questions or want to give feedback, please contact us.
           </p>
         </div>
