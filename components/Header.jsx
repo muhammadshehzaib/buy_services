@@ -24,25 +24,41 @@ const Header = () => {
             <div className="hidden hover:bg-[#ffffff] lg:flex bg-red-200 py-1 px-1 rounded-full menu-outer">
               <Link
                 href="/Views"
+<<<<<<< HEAD
+                className="text-blacks text-[.90rem] 2xl:text-[1rem] font-bold hover:bg-red-600 rounded-full py-2.5 px-3 hover:text-white transition-all duration-300"
+=======
                 className=" text-[.90rem] 2xl:text-[1rem] font-bold hover:bg-red-600 rounded-full py-2.5 px-3 hover:text-white transition-all duration-300"
+>>>>>>> 513fca8b3236b4b8abe2a8ba2d80cd0988f573e6
               >
                 Buy YouTube Views
               </Link>
               <Link
                 href="/Subscribers"
+<<<<<<< HEAD
+                className="text-blacks text-[.90rem] 2xl:text-[1rem] font-bold hover:bg-red-600 rounded-full py-2.5 px-3 hover:text-white transition-all duration-300"
+=======
                 className=" text-[.90rem] 2xl:text-[1rem] font-bold hover:bg-red-600 rounded-full py-2.5 px-3 hover:text-white transition-all duration-300"
+>>>>>>> 513fca8b3236b4b8abe2a8ba2d80cd0988f573e6
               >
                 Buy YouTube Subscribers
               </Link>
               <Link
                 href="/Likes"
+<<<<<<< HEAD
+                className="text-blacks text-[.90rem] 2xl:text-[1rem] font-bold hover:bg-red-600 rounded-full py-2.5 px-3 hover:text-white transition-all duration-300"
+=======
                 className=" text-[.90rem] 2xl:text-[1rem] font-bold hover:bg-red-600 rounded-full py-2.5 px-3 hover:text-white transition-all duration-300"
+>>>>>>> 513fca8b3236b4b8abe2a8ba2d80cd0988f573e6
               >
                 Buy YouTube Likes
               </Link>
               <Link
                 href="/insta"
+<<<<<<< HEAD
+                className="text-blacks text-[.90rem] 2xl:text-[1rem] font-bold hover:bg-red-600 rounded-full py-2.5 px-3 hover:text-white transition-all duration-300"
+=======
                 className=" text-[.90rem] 2xl:text-[1rem] font-bold hover:bg-red-600 rounded-full py-2.5 px-3 hover:text-white transition-all duration-300"
+>>>>>>> 513fca8b3236b4b8abe2a8ba2d80cd0988f573e6
               >
                 Buy Instagram Followers
               </Link>
@@ -56,7 +72,7 @@ const Header = () => {
             <div className="hidden lg:flex items-center py-1 px-1 space-x-8 menu-outer">
               <div className="relative group">
                 <button className="text-black font-bold focus:outline-none flex items-center pl-4 group-hover:text-red-600">
-                  <a href="/Tools">
+                  <a href="/Tools" className='dark:text-white'>
                     <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-100 transform group-hover:translate-y-1">T</span>
                     <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-200 transform group-hover:translate-y-1">o</span>
                     <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-300 transform group-hover:translate-y-1">o</span>
@@ -64,7 +80,7 @@ const Header = () => {
                     <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-400 transform group-hover:translate-y-1">s</span>
                   </a>
                   <svg
-                    className="-mr-1 h-5 w-5 text-black"
+                    className="-mr-1 h-5 w-5 text-black dark:text-white"
                     viewBox="0 0 20 20"
                     fill="currentColor"
                     aria-hidden="true"
@@ -120,14 +136,14 @@ const Header = () => {
 
               <div className="relative group">
                 <button className="text-black font-bold focus:outline-none flex items-center group-hover:text-red-600">
-                  <a href="/bots">
+                  <a href="/bots" className='dark:text-white'>
                     <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-100 transform group-hover:translate-y-1">B</span>
                     <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-200 transform group-hover:translate-y-1">o</span>
                     <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-300 transform group-hover:translate-y-1">t</span>
                     <span className="inline-block hover:transition-transform duration-300 ease-in-out delay-400 transform group-hover:translate-y-1">s</span>
                   </a>
                   <svg
-                    className="-mr-1 h-5 w-5 text-black"
+                    className="-mr-1 h-5 w-5 text-black dark:text-white"
                     viewBox="0 0 20 20"
                     fill="currentColor"
                     aria-hidden="true"
@@ -200,7 +216,7 @@ const Header = () => {
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
-                  className="inline-block h-11 w-11 ml-2.5 rounded-lg stroke-current bg-neutral-100 p-2.5"
+                  className="inline-block h-11 w-11 ml-2.5 rounded-lg stroke-current bg-neutral-100 p-2.5 dark:bg-white dark:text-black"
                 >
                   <path
                     strokeLinecap="round"
@@ -215,7 +231,7 @@ const Header = () => {
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
-                  className="inline-block h-11 w-11 ml-2.5 rounded-lg stroke-current bg-neutral-100 p-2.5"
+                  className="inline-block h-11 w-11 ml-2.5 rounded-lg stroke-current bg-neutral-100 p-2.5 dark:bg-white dark:text-black"
                 >
                   <path
                     strokeLinecap="round"

@@ -132,7 +132,7 @@ export default function Stepsection() {
     <div className="items-center justify-between">
       <div className="mx-auto max-w-[1390px] lg:pt-28 sm:pt-20 min-[1px]:pt-8 px-5 pb-8">
         <div className="mb-[6.8rem]  w-full">
-          <h1 className="text-center text-[2rem] font-[750]">How Views4You Work?</h1>
+          <h1 className="text-center text-[2rem] font-[750] dark:text-white">How Views4You Work?</h1>
         </div>
         <div className="step-sec lg:pb-32 sm:pb-16">
           {/* Step One */}
@@ -160,34 +160,34 @@ export default function Stepsection() {
               </div>
             </div>
             <div className="text-sec md:w-full">
-              <h3 className="text-[1.5rem] pb-4 font-[550]">
+              <h3 className="text-[1.5rem] pb-4 font-[550] dark:text-white">
                 Start by Choosing | What Do You Need as YouTube Growth Service
               </h3>
               <ul className='list-none'>
               <li className='text-[18px] mb-5 flex'>
                 <span className='sm:w-3 mt-2 mr-2 h-2 min-[1px]:w-6 bg-red-500 rounded-full  '></span>
-                <p><span className='font-bold'>Strict it Rich |</span> YouTube Subscribers In this package, subscribers will be directed to your account immediately after you make a purchase.</p>
+                <p className='dark:text-white'><span className='font-bold dark:text-white'>Strict it Rich |</span> YouTube Subscribers In this package, subscribers will be directed to your account immediately after you make a purchase.</p>
                 </li>
                 <li className='text-[18px] mb-5 flex'>
                 <span className='sm:w-3 mt-2 mr-2 h-2 min-[1px]:w-6 bg-red-500 rounded-full  '></span>
-                <p><span className='font-bold'>Better Late Than Never |</span> YouTube Subscribers This package will gradually direct subscribers to your YouTube account, instead of all at once.</p>
+                <p className='dark:text-white'><span className='font-bold dark:text-white'>Better Late Than Never |</span> YouTube Subscribers This package will gradually direct subscribers to your YouTube account, instead of all at once.</p>
                 </li>
                 <li className='text-[18px] mb-5 flex'>
                 <span className='sm:w-2 mt-2 mr-2 h-2 min-[1px]:w-6 bg-red-500 rounded-full  '></span>
-                <p><span className='font-bold'>Turbo Likes</span> These are the immediate likes for your chosen video content.</p>
+                <p className='dark:text-white'><span className='font-bold dark:text-white'>Turbo Likes</span> These are the immediate likes for your chosen video content.</p>
                 </li>
                 <li className='text-[18px] mb-5 flex'>
                 <span className='sm:w-2 mt-2 mr-2 h-2 min-[1px]:w-6 bg-red-500 rounded-full  '></span>
-                <p><span className='font-bold'>Spreading Likes </span> These are the gradually provided likes for your perfectly designed content.
+                <p className='dark:text-white'><span className='font-bold dark:text-white'>Spreading Likes </span> These are the gradually provided likes for your perfectly designed content.
                 </p>
                 </li>
                 <li className='text-[18px] mb-5 flex'>
                 <span className='sm:w-2 mt-2 mr-2 h-2 min-[1px]:w-6 bg-red-500 rounded-full  '></span>
-                <p><span className='font-bold'>% 100 Genuinely Fast Views</span> Get the most valued views as fastest and safest as you can.</p>
+                <p className='dark:text-white'><span className='font-bold dark:text-white'>% 100 Genuinely Fast Views</span> Get the most valued views as fastest and safest as you can.</p>
                 </li>
                 <li className='text-[18px] mb-5 flex'>
-                <span className='sm:w-2 mt-2 mr-2 h-2 min-[1px]:w-6 bg-red-500 rounded-full  '></span>
-                <p><span className='font-bold'>% 100 Genuinely Slow Views </span> Sometimes it’s best to get them one by one.</p>
+                <span className='sm:w-2 mt-2 mr-2 h-2 min-[1px]:w-6 bg-red-500 rounded-full '></span>
+                <p className='dark:text-white'><span className='font-bold dark:text-white'>% 100 Genuinely Slow Views </span> Sometimes it’s best to get them one by one.</p>
                 </li>
               </ul>
             </div>
@@ -196,8 +196,8 @@ export default function Stepsection() {
           {/* Step Two */}
           <div className="step-two w-full md:mt-32 sm:mt-24 min-[1px]:mt-24 sm:flex-col-reverse min-[1px]:flex-col-reverse md:flex-row flex">
             <div className="text-sec md:w-full">
-              <h3 className="text-[1.5rem] pb-4 font-[550]">Hint Your Targeted Followers for Growth Services</h3>
-              <p className="text-[18px] leading-9 text-black">
+              <h3 className="text-[1.5rem] pb-4 font-[550] dark:text-white">Hint Your Targeted Followers for Growth Services</h3>
+              <p className="text-[18px] leading-9 text-black dark:text-white">
                 We offer a variety of packages to fit your needs and budget. Now it is time to decide how many
                 subscribers, likes or views you need. You can buy as few as <span className="font-bold">500</span>{' '}
                 subscribers or up to <span className="font-bold">50.000</span> views and{' '}
@@ -255,8 +255,8 @@ export default function Stepsection() {
               </div>
             </div>
             <div className="text-sec md:w-2/4 min-[1px]:mt-8 md:mt-0">
-              <h3 className="text-[1.5rem] pb-4 font-[550]">Wait for the Magic Happens</h3>
-              <p className="text-[18px] leading-9 text-black">
+              <h3 className="text-[1.5rem] pb-4 font-[550] dark:text-white">Wait for the Magic Happens</h3>
+              <p className="text-[18px] leading-9 text-black dark:text-white">
                 No worries, Views4You offers a money-back guarantee if you&apos;re not satisfied with the service. Also,
                 we have a flexible delivery time – you can choose to get your subscribers delivered gradually or all at
                 once. Well, it depends on what do you prefer!
@@ -268,7 +268,7 @@ export default function Stepsection() {
         {/* Article Section */}
         <div>
           <div>
-            <h2 className="sm:text-[48px] min-[320px]:text-[3rem] font-bold text-center mb-14">
+            <h2 className="sm:text-[48px] min-[320px]:text-[3rem] font-bold text-center mb-14 dark:text-white">
               Latest articles
             </h2>
           </div>
@@ -315,12 +315,12 @@ export default function Stepsection() {
                     height={24}
                     className="rounded-full"
                   />
-                  <p className="text-[18px] font-bold ml-2">Beatriz Sirena</p>
+                  <p className="text-[18px] font-bold ml-2 dark:text-white">Beatriz Sirena</p>
                 </div>
-                <h3 className="md:text-2xl min-h-10 sm:text-[20px] min-[1px]:text-[18px] font-bold mt-2 mb-4 heading">
+                <h3 className="md:text-2xl min-h-10 sm:text-[20px] min-[1px]:text-[18px] font-bold mt-2 mb-4 heading dark:text-white">
                   {post.title}
                 </h3>
-                <p className="text-[18px] text-[#4b4b4b] mb-5">{post.excerpt}</p>
+                <p className="text-[18px] text-[#4b4b4b] mb-5 dark:text-white">{post.excerpt}</p>
                 <div className="flex link-sec mt-auto">
                   <Link href="#" className="text-red-500 font-[900] underline mr-7">
                     Continue Reading
@@ -369,7 +369,7 @@ export default function Stepsection() {
 
         {/* Reviews Slider */}
         <div className='pt-16'>
-          <h2 className='font-bold text-[32px] mb-16'>
+          <h2 className='font-bold text-[32px] mb-16 dark:text-white'>
             Reviews
           </h2>
         </div>
