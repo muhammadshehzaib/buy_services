@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Link from "next/link";
 
 
 export default function Herosectiontwo() {
@@ -163,8 +164,10 @@ export default function Herosectiontwo() {
           )}
 
           {/* Buy Now Button */}
-          <button className="bg-black sm:w-[90%] min-[1px]:w-4/5 mx-10 text-white text-lg font-semibold py-5 my-6 rounded-full">
+          <button className='sm:w-[90%] min-[1px]:w-4/5 mx-10 py-5 my-6 rounded-full bg-black text-center'>
+          <Link  href="/buyNow" className=" text-white text-lg font-semibold " >
             Buy now
+          </Link>
           </button>
 
           {/* Features Section */}
