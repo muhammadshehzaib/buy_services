@@ -13,7 +13,7 @@ const Reviews = () => {
       </span>
       k
     </div>
-        <p className="h6 mt-2 text-lg font-medium">Customers</p>
+        <p className="h6 mt-2 text-lg font-medium dark:text-white">Customers</p>
       </div>
     </div>
 
@@ -25,7 +25,7 @@ const Reviews = () => {
           </span>
           k
         </div>
-        <p className="h6 mt-2 text-lg font-medium">Orders Sold</p>
+        <p className="h6 mt-2 text-lg font-medium dark:text-white">Orders Sold</p>
       </div>
     </div>
 
@@ -37,7 +37,7 @@ const Reviews = () => {
           </span>
           M
         </div>
-        <p className="h6 mt-2 text-lg font-medium">Subscribers Sold</p>
+        <p className="h6 mt-2 text-lg font-medium dark:text-white">Subscribers Sold</p>
       </div>
     </div>
 
@@ -49,7 +49,7 @@ const Reviews = () => {
           </span>
           k
         </div>
-        <p className="h6 mt-2 text-lg font-medium">Likes Sold</p>
+        <p className="h6 mt-2 text-lg font-medium dark:text-white">Likes Sold</p>
       </div>
     </div>
 
@@ -61,7 +61,7 @@ const Reviews = () => {
           </span>
           M
         </div>
-        <p className="h6 mt-2 text-lg font-medium">Views Sold</p>
+        <p className="h6 mt-2 text-lg font-medium dark:text-white">Views Sold</p>
       </div>
     </div>
   </div>

@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Link from "next/link";
 
 
 export default function Herosectiontwo() {
@@ -11,13 +12,13 @@ export default function Herosectiontwo() {
       {/* Views Section */}
       <div className="flex min-[1px]:flex-col xl:flex-row justify-center items-center gap-10 pt-16">
         <div className="xl:w-[45%] min-[1px]:w-full flex flex-col xl:justify-center xl:items-center sm:mb-10 xl:mb-0 ">
-          <h1 className="font-montserrat min-[320px]:text-[30px] 2xl:w-full lg:text-6xl sm:text-4xl md:text-[2.75rem] font-bold text-gray-800 mb-4">
+          <h1 className="font-montserrat min-[320px]:text-[30px] 2xl:w-full lg:text-6xl sm:text-4xl md:text-[2.75rem] font-bold dark:text-white mb-4">
             Buy YouTube Views
             <span className="font-montserrat sm:mb-4 min-[1px]:mb-4 md:mb-0 font-bold bg-[#ed2024] text-white sm:text-[1.25rem] md:text-[1.75rem] leading-[2rem] inline-block px-5 py-3 rounded-[.75rem]">
               Instantly
             </span>
           </h1>
-          <p className="font-montserrat lg:w-[45%] min-[1px]:[75%] xl:w-full block md:my-5 mx-0 md:py-3 sm:my-0 min-[1px]:my-0 max-[639px]:my-0 text-lg text-#050708">
+          <p className="dark:text-white font-montserrat lg:w-[45%] min-[1px]:[75%] xl:w-full block md:my-5 mx-0 md:py-3 sm:my-0 min-[1px]:my-0 max-[639px]:my-0 text-lg text-#050708">
             Views4You is the safest way to buy YouTube Views with delivery in just a few minutes. We offer multiple packages with real users for all different needs - choose wisely!
           </p>
         </div>
@@ -163,8 +164,10 @@ export default function Herosectiontwo() {
           )}
 
           {/* Buy Now Button */}
-          <button className="bg-black sm:w-[90%] min-[1px]:w-4/5 mx-10 text-white text-lg font-semibold py-5 my-6 rounded-full">
+          <button className='sm:w-[90%] min-[1px]:w-4/5 mx-10 py-5 my-6 rounded-full bg-black text-center'>
+          <Link  href="/buyNow" className=" text-white text-lg font-semibold " >
             Buy now
+          </Link>
           </button>
 
           {/* Features Section */}

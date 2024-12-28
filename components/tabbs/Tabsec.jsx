@@ -10,7 +10,6 @@ export default function tabsecs (){
         minititle={minititle}
         subtitle={subtitle}
         tabsData={tabsData}
-     
        features={features}
         />
         </div>

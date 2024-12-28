@@ -12,7 +12,7 @@ const ReasonSection = ({ title, content, isMainSection = false, className = '' }
           className="w-28 h-28"
         />
       )}
-      <h1 className="font-montserrat 2xl:w-full sm:text-[32px] min-[1px]:text-[23px] font-bold text-gray-800 mb-4">
+      <h1 className="font-montserrat 2xl:w-full sm:text-[32px] min-[1px]:text-[23px] font-bold text-gray-800 mb-4 ">
         {title}
       </h1>
       <p className='text-[18px]'>{content}</p>

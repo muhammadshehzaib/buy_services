@@ -15,7 +15,7 @@ const List = () => {
           24 reasons to choose Views4You
         </h2>
     </div>
-    <div className="w-full text lg:justify-end flex sm:justify-start min-[1px]:justify-start">
+    <div className="w-full text lg:justify-end flex sm:justify-start min-[1px]:justify-start ">
     <p class="w-3/4 text-black-800 text-lg">
           Views4You is the perfect solution for you! Indeed, hundreds of thousands of people already get what they expect from a YouTube growth service, although we have provided these services since the beginning of 2022.
         </p>
@@ -28,7 +28,7 @@ const List = () => {
             <span class="font-bold text-black">grow your YouTube channel</span>
           </li>
           <li class="flex text-lg mb-4 pr-8 pl-6 md:w-[50%] lg:w-4/12 xl:w-3/12  items-center">
-            <span class="w-2 h-2 bg-red-500 rounded-full mr-2"></span>
+            <span class="w-2 h-2 bg-red-500 rounded-full mr-2 "></span>
             <span class="font-bold text-black">have video ads traffic</span>
           </li>
           <li class="flex text-lg mb-4 pr-8 pl-6 md:w-[50%] lg:w-4/12 xl:w-3/12  items-center">
@@ -129,14 +129,14 @@ const List = () => {
       But don&apos;t know how? <span className='text-[#ED2024]'>Views4You provides all in one!</span>
     </h2>
             <div class="flex justify-center space-x-3 sm:flex min-[1px]:flex-col sm:flex-row gap-4 ">
-                <a href='/Likes' class="bg-black text-white font-semibold py-5 lg:px-12 sm:px-12 min-[1px]:px-20  sm:mb-0 lg:text-[15px] xl:px-20 rounded-full hover:bg-gray-800 transition">
+                <a href='/Likes' class="bg-black dark:bg-white dark:text-black text-white font-semibold py-5 lg:px-12 sm:px-12 min-[1px]:px-20  sm:mb-0 lg:text-[15px] xl:px-20 rounded-full hover:bg-gray-800 transition">
                     Buy YouTube Likes
                 </a >
-                <a href='/Views' class="bg-black text-white font-semibold py-5 lg:px-12 sm:px-12 min-[1px]:px-20 ml:0 lg:text-[15px] xl:px-20 rounded-full hover:bg-gray-800 transition">
+                <a href='/Views' class="bg-black dark:bg-white dark:text-black text-white font-semibold py-5 lg:px-12 sm:px-12 min-[1px]:px-20 ml:0 lg:text-[15px] xl:px-20 rounded-full hover:bg-gray-800 transition">
                 Buy YouTube Views
                 </a >
             </div>
-            <a href='/Subscribers' class="bg-black  text-white font-semibold text-center py-5 px-20 sm:px-16 min-[1px]:px-16 rounded-full hover:bg-gray-800 transition">
+            <a href='/Subscribers' class="bg-black dark:bg-white dark:text-black text-white font-semibold text-center py-5 px-20 sm:px-16 min-[1px]:px-16 rounded-full hover:bg-gray-800 transition">
                 Buy YouTube Subscribers
             </a >
         </div>

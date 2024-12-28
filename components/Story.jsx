@@ -39,10 +39,10 @@ export default function story() {
   return (
     <div className='max-w-[1390px] px-5 mx-auto'>
       <div className="txt sm:mt-28 sm:mb-20 min-[1px]:my-6 flex flex-col items-center">
-        <h2 className="text-3xl md:w-[65%] uppercase sm:text-3xl min-[1px]:text-[24px] font-bold text-center sm:mb-16 min-[1px]:mb-6">
+        <h2 className="text-3xl md:w-[65%] uppercase sm:text-3xl min-[1px]:text-[24px] font-bold text-center sm:mb-16 min-[1px]:mb-6 ">
           Instagram Story Viewer – Explore Profiles  Without a Trace
         </h2>
-        <p className='text-center'>Discover the freedom of viewing Instagram stories anonymously with our Instagram Story Viewer. This tool helps you to view content from any public account without compromising your privacy your identity.</p>
+        <p className='text-center '>Discover the freedom of viewing Instagram stories anonymously with our Instagram Story Viewer. This tool helps you to view content from any public account without compromising your privacy your identity.</p>
       </div>
       <div className="bg-white p-10 rounded-xl mb-16" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
         <input type="text" placeholder='Instagram User Name' className='w-full p-5 bg-[#F4F6F8] rounded-full mb-4' />
@@ -56,42 +56,42 @@ export default function story() {
       {/* story-info-sec  */}
       <div className="main lg:flex pb-24">
         <div className="fst-sec lg:border-r-2 lg:border-[#E6E6E6] lg:pr-16 lg:w-full">
-          <h2 className='text-[32px]  sm:mb-10 min-[1px]:mb-5 font-bold'>What is Instagram Story Viewer?</h2>
-          <p className='mb-5 text-[18px]'>
+          <h2 className='text-[32px]  sm:mb-10 min-[1px]:mb-5 font-bold '>What is Instagram Story Viewer?</h2>
+          <p className='mb-5 text-[18px] '>
             Instagram Story Viewer is a free tool that you can view stories of active accounts anonymously. It allows you to view any accounts’ stories privately by just entering the name of that person or page without showing your personal information. If you are curious about a person and you want to check their stories without letting them know, this Instagram story tool is perfect for you!  Additionally, if you’re looking to make your own stories more visible or enhance your profile’s appeal, you might want to consider the option to buy Instagram likes.
           </p>
-          <h2 className='text-[32px] font-bold sm:mb-16 min-[1px]:mb-8 min-[1px]:leading-9 sm:leading-normal'>How to Use Views4You Instagram Story Viewer</h2>
+          <h2 className='text-[32px] font-bold sm:mb-16 min-[1px]:mb-8 min-[1px]:leading-9 sm:leading-normal '>How to Use Views4You Instagram Story Viewer</h2>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/nr9Ynd3Ztms?si=OQCc8h5sgU0ZI0uX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen className='mb-10 w-full'></iframe>
-          <p className='mb-5 text-[18px]'>Instagram story viewer is easy to use. </p>
-          <ul className='list-disc mb-8 text-[18px]'>
-            <li>Write the username or the Instagram account’s URL on the given box. </li>
-            <li>Press the ‘search’ button. </li>
-            <li>You can now view the stories.</li>
+          <p className='mb-5 text-[18px] '>Instagram story viewer is easy to use. </p>
+          <ul className='list-disc mb-8 text-[18px] '>
+            <li className=''>Write the username or the Instagram account’s URL on the given box. </li>
+            <li className=''>Press the ‘search’ button. </li>
+            <li className=''>You can now view the stories.</li>
           </ul>
-          <p>You can also use our tool as ‘Instagram Story Downloader’ to download the Instagram story of the user. However, one thing to know is that the account you want to view must be public. If you try to view any private account, it will not be allowed by Instagram’s terms of service. In the pursuit of maximizing your reach and ensuring your stories garner significant attention, you may also want to <span className='text-[#ed2024]'><a href="/insta">buy Instagram followers</a></span> to grow your audience base effectively.</p>
-          <h2 className='text-[32px] font-bold sm:mt-16 min-[1px]:mt-8'>Instagram Story Viewer Features</h2>
-          <p className='mb-5 text-[18px]'>Enormous features that you can benefit from:</p>
+          <p className=''>You can also use our tool as ‘Instagram Story Downloader’ to download the Instagram story of the user. However, one thing to know is that the account you want to view must be public. If you try to view any private account, it will not be allowed by Instagram’s terms of service. In the pursuit of maximizing your reach and ensuring your stories garner significant attention, you may also want to <span className='text-[#ed2024]'><a href="/insta" className=''>buy Instagram followers</a></span> to grow your audience base effectively.</p>
+          <h2 className='text-[32px] font-bold sm:mt-16 min-[1px]:mt-8 '>Instagram Story Viewer Features</h2>
+          <p className='mb-5 text-[18px] '>Enormous features that you can benefit from:</p>
           <ul className='list-disc mb-8 text-[18px]'>
-            <li><span className='font-bold'>View Instagram Story Anonymously: </span>You can keep your privacy safe while viewing Instagram stories. Your name and details will be hidden and you don’t need to have an Instagram account to do that. </li>
-            <li><span className='font-bold'>No Membership & No Identification Details: </span> The tool is very easy and user-friendly. You can simply view stories without signing up on the page.  </li>
-            <li><span className='font-bold'>Completely Free: </span>The tool is absolutely free and you can use it anytime and anywhere.  </li>
-            <li><span className='font-bold'>No Proof! No Sign: </span> You can view an Instagram story anonymously without leaving any name details to the user.</li>
-            <li><span className='font-bold'>HQ Downloader: </span>It allows you to download Instagram stories in high-quality fast and easy with this tool. Simply click on download and save stories fast. </li>
+            <li className=''><span className='font-bold '>View Instagram Story Anonymously: </span>You can keep your privacy safe while viewing Instagram stories. Your name and details will be hidden and you don’t need to have an Instagram account to do that. </li>
+            <li className=''><span className='font-bold '>No Membership & No Identification Details: </span> The tool is very easy and user-friendly. You can simply view stories without signing up on the page.  </li>
+            <li className=''> <span className='font-bold '>Completely Free: </span>The tool is absolutely free and you can use it anytime and anywhere.  </li>
+            <li className=''><span className='font-bold '>No Proof! No Sign: </span> You can view an Instagram story anonymously without leaving any name details to the user.</li>
+            <li className=''><span className='font-bold '>HQ Downloader: </span>It allows you to download Instagram stories in high-quality fast and easy with this tool. Simply click on download and save stories fast. </li>
           </ul>
-          <h2 className='text-[32px] font-bold sm:mt-16 min-[1px]:mt-8'>Benefits of Using Our Instagram Viewer Tool</h2>
-          <p>
+          <h2 className='text-[32px] font-bold sm:mt-16 min-[1px]:mt-8 '>Benefits of Using Our Instagram Viewer Tool</h2>
+          <p className=''>
             Our Instagram Viewer Anonymously Tool offers you an enjoying journey while you use it. Feel free to take advantage of our tool’s benefits when you view Instagram story anonymously.
           </p> <br />
-          <p>
+          <p className=''>
             <span className='font-bold text-[18px]'>Secret Browsing</span> <br />You can watch Instagram stories without your identity by using our “view Instagram story anonymously” function. It’s ideal for viewing Instagram secretly, allowing users to keep their privacy.
           </p> <br />
-          <p>
+          <p className=''>
             <span className='font-bold text-[18px]'>Access to the Whole</span> <br /> You don’t have an Instagram account, or Instagram is banned in your region? Not to worry! Access the stories of your favorite Instagram accounts with just one click by using our Instagram story viewer!
           </p> <br />
-          <p>
+          <p className=''>
             <span className='font-bold text-[18px]'>Privacy is Respected</span> <br /> You may be sure that the anonymous watcher will keep no record of your Instagram user information. This is particularly useful when viewing stories from personal accounts. You can browse in peace knowing that we don’t jeopardize your Instagram data.
           </p> <br />
-          <p>
+          <p className=''>
             <span className='font-bold text-[18px]'>Easy Ways to Share</span> <br /> Save your favorite stories before they expire so you may watch them later or share them with loved ones. Numerous gadgets, including Android and iOS phones and Mac laptops, are totally compatible with our service.
           </p>
         </div>
@@ -150,17 +150,17 @@ export default function story() {
       {/* faqs  */}
       <div className="lg:flex sm:pt-36 min-[1px]:pt-24 ">
         <div className="text-sec  w-[42%]  lg:pr-28">
-          <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550]">
+          <h3 className="text-[32px] sm:text-[36px] md:text-[40px] pb-4 font-[550] ">
             FAQs
           </h3>
-          <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black">
+          <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-7 sm:leading-9 text-black ">
             Here you can see frequently asked questions commonly.
           </p>
         </div>
         <div className='accordian w-full'>
           <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
             <input type="radio" name="my-accordion-3" defaultChecked />
-            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
+            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500 dark:text-black ">
               How to view stories of private Instagram accounts ?
             </div>
             <div className="collapse-content">
@@ -171,7 +171,7 @@ export default function story() {
           </div>
           <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
             <input type="radio" name="my-accordion-3" defaultChecked />
-            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
+            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500 dark:text-black">
               How to view someone&apos;s Instagram story anonymously?
             </div>
             <div className="collapse-content">
@@ -183,7 +183,7 @@ export default function story() {
 
           <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
             <input type="radio" name="my-accordion-3" defaultChecked />
-            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
+            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500 dark:text-black">
               How to view an Instagram story without opening it?
             </div>
             <div className="collapse-content">
@@ -194,7 +194,7 @@ export default function story() {
           </div>
           <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
             <input type="radio" name="my-accordion-3" defaultChecked />
-            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
+            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500 dark:text-black">
               Can I view Instagram stories on smart devices?
             </div>
             <div className="collapse-content">
@@ -205,7 +205,7 @@ export default function story() {
           </div>
           <div className="collapse collapse-plus mb-5 p-8 bg-white group" style={{ boxShadow: '0px 20px 40px rgba(0, 0, 0, 0.1)' }}>
             <input type="radio" name="my-accordion-3" defaultChecked />
-            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500">
+            <div className="collapse-title sm:text-[24px] min-[1px]:text-[18px] font-bold group-hover:text-red-500 dark:text-black">
               Do I pay to use ‘Instagram Story Viewer’ tool?
             </div>
             <div className="collapse-content">
@@ -235,10 +235,6 @@ export default function story() {
             <div className="grid lg:grid-cols-3 sm:grid-cols-2 gap-12 w-full">
               {slide.testimonials.map((testimonial, idx) => (
                 <div key={idx} className="testimonial-item mb-5  xl:pr-12 sm:pr-7 border-r-2">
-                  <img
-                    src={testimonial.image1}
-                    alt=""
-                  />
                   <blockquote className='text-left  xl:text-xl font-bold sm:h-4/6 sm:mb-0 min-[1px]:mb-12 w-auto'>{testimonial.quote}</blockquote>
                   <div className='flex items-center gap-8'>
                     <img

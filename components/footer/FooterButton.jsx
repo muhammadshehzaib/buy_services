@@ -7,10 +7,10 @@ const FooterButton = ({ link, text, price, rating, reviews }) => (
         {text}
       </a>
     </div>
-    <p className='text-[18px] text-center pt-5'>
+    <p className='text-[18px] text-center pt-5 '>
       Starting at <span className='font-bold'>${price}</span>
     </p>
-    <p className='text-[18px] text-center'>
+    <p className='text-[18px] text-center '>
       <span className='font-bold text-[#ed2024]'>{rating} / 5 </span>— based on {reviews} reviews
     </p>
   </div>

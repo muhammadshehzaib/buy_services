@@ -21,7 +21,7 @@ function HeroSection() {
         <div className="flex min-[1px]:my-5 sm:my-0 items-center">
           <a
             href="#card-sec"
-            className="font-montserrat bg-black dark:bg-white dark:text-black text-white text-lg font-bold py-6 mr-10 px-16 rounded-full hover:bg-gray-800 dark:hover:bg-gray-300 transition"
+            className="font-montserrat bg-black  text-white text-lg font-bold py-6 mr-10 px-16 rounded-full hover:bg-gray-800 dark:hover:bg-gray-300 transition"
           >
             Offers
           </a>
